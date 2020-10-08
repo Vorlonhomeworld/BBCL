@@ -41,4 +41,22 @@ and developed a standard version of Common Lisp, anyone using it could code Lisp
 run just fine on another.  That didn't mean the end of the other Lisps, however, some are still very much 
 alive and in use, for example, Emacs Lisp is still very much the defacto Lisp of Emacs!
 
-## Okay , now we know what it is, what can it do for me!
+Okay, now we know what it is, what can it do for me!
+
+Pretty much anything you want it to do!  Seriously!   Common Lisp can:
+
+* Write a webserver
+* Allow a webpage on that same webserver to be viewable in HTML.
+* Make calls back and forth from a database you designed in Common Lisp
+* Handle all calls to for usernames and passwords to that same database
+
+You can also:
+
+* Write a window manager (Stumpwm is great example of a window manager written in Common Lisp)
+* Write a game (graphic or not!)
+* Write system scripts
+* Write a shell 
+
+That's just the tip of the iceberg! There's literally nothing Common Lisp *can't* do!  On top of that, it can be run either compiled *or* as a script!
+
+Let's get started and learn!
