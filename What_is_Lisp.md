@@ -64,10 +64,10 @@ differences between an integer, a character, a float, a long float and a decimal
 
 For example, in C, if I were to write code for a program that used integrs, I'd have to declare them and tell C to include the standard input-output system first:
 
-      ```
+   ```
    #include <stdio.h>
    Def Int(balance) 
-      ```
+   ```
    
    Before I could even code what I wanted the program to do, in Common Lisp, those two lines are totally unecessary, Common Lisp already knows what 
    standard input and output is and integers can be coded on the fly if need be!
