@@ -19,5 +19,5 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 | \*Lisp              |   X   |             |      ?       | This is an inactive distribution.        |   F,X  |
 | ABCL                |   X   |             | 21,  14      | Runs in the Java Virtual Machine         |   F,A  |
 | ACL                 |   X   |       X     | 45,36,16,17  | There is a free **AND** a commmerical    | F,$,A  |
-                                              9,29           version available                                 
+|                     |       |             |  9,29        |  version available                       |        | 
 | AKCL                |       |        X    |37,36,11      | Commercial License only                  |   $,C  |                                           
