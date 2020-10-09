@@ -14,10 +14,11 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 
 **Legend:**   $ - Commercial  A - Active  F - Free    C - Caution  X - Inactive
 
-| Implementation Name | Free  |  Commercial | Architecture |   Notes                                  | Legend |
-|---------------------|-------|-------------|--------------|---------------------------------------------------|
-| \*Lisp              |   X   |             |      ?       | This is an inactive distribution.        |   F,X  |
-| ABCL                |   X   |             | 21,  14      | Runs in the Java Virtual Machine         |   F,A  |
-| ACL                 |   X   |       X     | 45,36,16,17  | There is a free **AND** a commmerical    | F,$,A  |
-|                     |       |             |  9,29        |  version available                       |        | 
-| AKCL                |       |        X    |37,36,11      | Commercial License only                  |   $,C  |                                           
+| Implementation Name | Free  |  Commercial | Architecture      |   Notes                                                   | Legend |
+|---------------------|-------|-------------|-------------------|-----------------------------------------------------------|--------|
+| \*Lisp              |   X   |             |      ?            | This is an inactive distribution.                         |   F,X  |
+| ABCL                |   X   |             | 21,  14           | Runs in the Java Virtual Machine                          |   F,A  |
+| ACL                 |   X   |       X     | 45,36,16,17,9,29  | There is a free **AND** a commmerical version available   | F,$,A  |
+| AKCL                |       |        X    |37,36,11           | Commercial License only                                   |   $,C  |
+| Allegro CL          |       |       X     |22,43,13,35,36     | Current Commercial Implementation                         |   $,A  |
+
