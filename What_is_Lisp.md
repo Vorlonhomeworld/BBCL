@@ -70,4 +70,9 @@ For example, in C, if I were to write code for a program that used integrs, I'd 
    ```
    
    Before I could even code what I wanted the program to do, in Common Lisp, those two lines are totally unecessary, Common Lisp already knows what 
-   standard input and output is and integers can be coded on the fly if need be!
+   standard input and output is and integers can be coded on the fly if need be! Further, Common Lisp can be used to make calls to the processor directly.
+   It's also extremely expandable, in fact [there are a ton of libraries](https://www.quicklisp.org/beta/releases.html) listed on this page that expand out
+   the capabilities of Common Lisp greatly. It's almost as if Common Lisp were the programming language equivalent of Emacs - everyhthings there, and if you 
+   can't find what your looking for, you can code it in and add it!
+   
+   With that in mind, let's keep on learning!
