@@ -110,3 +110,11 @@ implementation that is geared only for powerusers. It can be used by the casual 
 NetBSD, OpenBSD, DragonFly BSD, DebianGnu BSD and Windows. It's latest update is 9/27/2020.
 
 
+## We're almost ready to go!!!
+
+Now that we know distributions to look at, we can make our choice. First, we have to decide what we're going to be using it for. A good rule of thumb is, if we have no
+specific project in mind, we need to avoid any Common Lisp implementation specifically designed with specific projects in mind, like ABCL, CLASP & ECL. The next step is 
+to determine if we want to buy it (which in most cases means we get paid support) or not.  If we don't want to buy it, that rules out Allegro. 
+
+Next, we want to determine if we intend to ever share this code with anyone. If we do, we want a distribution that's as close to being ANSI Standard compliant as possible.
+ANSI 
