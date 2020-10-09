@@ -57,6 +57,17 @@ You can also:
 * Write system scripts
 * Write a shell 
 
-That's just the tip of the iceberg! There's literally nothing Common Lisp *can't* do!  On top of that, it can be run either compiled *or* as a script!
+**Common Lisp**, itself is a general purpose language and an Artificial intelligence language, that's why McCarthy designed it so many years ago. However,
+it's more than that. It's object oriented, all code is reusable and portable, meaning it can be coded on a Linux machine, and run on a Window or Linux machine with no change 
+to the code itself (one caveat - as long as it's a script this is true, compiling it changes this!). It can be run either as a script or compiled. It understands the
+differences between an integer, a character, a float, a long float and a decimal with no assistance from the programmer needed.
 
-Let's get started and learn!
+For example, in C, if I were to write code for a program that used integrs, I'd have to declare them and tell C to include the standard input-output system first:
+
+      ```
+   #include <stdio.h>
+   Def Int(balance) 
+      ```
+   
+   Before I could even code what I wanted the program to do, in Common Lisp, those two lines are totally unecessary, Common Lisp already knows what 
+   standard input and output is and integers can be coded on the fly if need be!
