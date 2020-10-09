@@ -54,13 +54,13 @@ implementations emphasize a different facet of Common Lisp, just like different 
 beginners are told to "just get (a particular version)" and that's it. Rather than just leave it there, I'm going to explain the differences between these versions
 and allow **you** to make an informed decision.
 
-[ABCL](https://common-lisp.net/project/armedbear/) - ABCL is Armed Bear Common Lisp implementation that's meant to run inside the JVM (Java Virtual Machine)
+[ABCL](https://common-lisp.net/project/armedbear/) - ABCL is Armed Bear Common Lisp, a Common Lisp implementation that's meant to run inside the JVM (Java Virtual Machine)
 so this is going to be more useful if you're looking to extend Java's capability. You need to have Java to use this as the downloaded file for this is a .jar file 
 ABCL features a compiler and an interpreter - but no debugger. **IMPORTANT** This implementation of Common Lisp does **NOT** conform to current Common Lisp Ansi 
 standards, so this code would not be portable, in some cases with another Common Lisp implementation. This implemenatation has been updated as of 7/18/2020.
 
 
-[Allegro](https://franz.com/products/allegro-common-lisp/) - Allegro Common Lisp is as commercial Common Lisp implentation. It's meant to be run in an "Enterprise Server" 
+[Allegro](https://franz.com/products/allegro-common-lisp/) - Allegro Common Lisp is a commercial Common Lisp implentation. It's meant to be run in an "Enterprise Server" 
 situation where large development in Common Lisp solutions are occuring. It **does** have a debugger, along with an interpreter and a compiler. It can also create
 Common Lisp instruction from Java. It does come with a built in database and prolog and other GUI tools for usage. **IMPORTANT** This implementation does **not**
 conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This was most recently updated 8/20/2019.
@@ -91,19 +91,22 @@ The docs are extensive but harder to search for as opposed to CLIP. No updates h
 
 
 [ECL](https://common-lisp.net/project/ecl/main.html) - ECL or Embedable Common Lisp is a Lisp implemetation designed for,as the name implies, Embedded Lisp applications. 
-It features a byte-code compiler and an interpreter. It works by producing libraries that can be accessed by the C programs. It states that it's fully compliant with current
-Common Lisp ANSI standards, so it's most certainly portable from one computer to another. It's hosted on Gitlab, and the updates range everywhere from 12 years (for the 
-configuration file) to 3 weeks ago.).
+It's more for those working with Embedded devices in Common Lisp, or those needing quick easy access to C programs via libraries. It features a byte-code compiler and an
+interpreter. It works by producing libraries that can be accessed by the C programs. It states that it's fully compliant with current Common Lisp ANSI standards, so it's 
+most certainly portable from one computer to another. It's hosted on Gitlab, and the updates range everywhere from 12 years (for the configuration file) to 3 weeks ago.).
 
 
 [Lispworks](http://www.lispworks.com/products/lispworks.html) - Lispworks is a commercial Lisp implementation with various platform variations from Professional
-to Hobbyist. It offers many features, depending on which platform you use including a full GUI evelopment environment. It can also be used to create apps for Android as well.
-It states that it's fully ANSI Compliant, meaning the code would be compatible from one Ansi Standard Complaint implementation. to another Ansi Stant Complaint implementation.
-This runs on multiple platforms including ARM processors, Android and iOS.  The last update for this was 11/13/2017.
+to Hobbyist. It aims to be a fully commercial, fully GUI version of Common Lisp, and it also aims to reach out to the widest possible audience, from Professionals, 
+embeddeded device user, to the home Common Lisper. It offers many features, depending on which platform you use including a full GUI evelopment environment. It can 
+also be used to create apps for Android as well. It states that it's fully ANSI Compliant, meaning the code would be compatible from one Ansi Standard Complaint 
+implementation. to another Ansi Stantstf Compliant implementation. This runs on multiple platforms including ARM processors, Android and iOS.  The last update for this 
+was 11/13/2017.
 
 
 [SBCL](http://www.sbcl.org/) - SBCL or  Steel Bank Common Lisp is a free implementation of Common Lisp. It describes it self as a high performance Common Lisp Compiler.
-It features a Compiler, a debugger and an interpreter. It is "mostly conforming" to the ANSI Common Lisp Standard. It has versions for Linux, MacOS X, Solaris, FreeBSD
+It features a Compiler, a debugger and an interpreter. It is "mostly conforming" to the ANSI Common Lisp Standard. This can be used by power users, but it's not an
+implementation that is geared only for powerusers. It can be used by the casual home user as easily as the poweruser. It has versions for Linux, MacOS X, Solaris, FreeBSD
 NetBSD, OpenBSD, DragonFly BSD, DebianGnu BSD and Windows. It's latest update is 9/27/2020.
 
 
