@@ -43,6 +43,7 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 |[CLASP](https://github.com/clasp-developers/clasp)                 |  X   |            |
 |[CLISP](https://clisp.sourceforge.io/)                             |  X   |            |
 |[Clozure CL](https://ccl.clozure.com/)                             |  X   |            |
+|[CMU CL](https://www.cons.org/cmucl/)                              |  X   |      X     |
 |[ECL](https://common-lisp.net/project/ecl/main.html)               |  X   |            |
 |[LispWorks](http://www.lispworks.com/products/lispworks.html)      |      |      X     |
 |[SBCL](http://www.sbcl.org/)                                       |  X   |            |
@@ -65,4 +66,28 @@ Common Lisp instruction from Java. It does come with a built in database and pro
 conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This was most recently updated 8/20/2019.
 
 
+[Clasp](https://github.com/clasp-developers/clasp) - Clasp  is a free Common Lisp implementation geared for those *really* using C++ but wanting to also add a bit of Common
+Lisp into the mix. It uses the [LLVM](https://llvm.org/) compiler, which allows compilation of multiple computer languages. It features a compiler only. **IMPORTANT** This 
+implementation does **not** conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine.
+As this is hosted on Github, various portions of this were updated as late as 2 days ago and as far back as 6 years ago.
 
+
+[CLISP](https://clisp.sourceforge.io/) - CLISP is a free Common Lisp implementation. It contains an interpreter, a compiler and a debugger. This is written for the 
+professional Lisper in mind, so no Java Machines or LLVM compilers. This is just Common Lisp. It also features an extensive help menu online. CLISP conforms "mostly" to 
+ANSI standards. The cases where it doesn't are documented openly in their documentation. The implementors admit that CLISP is slower than other implementations of  
+Common Lisp (in particular, they state is slower than CMU CL). **BE AWARE** CLISP hasn't been updated since 2010!
+
+
+[Clozure CL](https://ccl.clozure.com/) - Clozure CL is a free common Lisp that *also* offers paid support for it as well. It contains a compiler and a debugger, *for MacOS* it 
+*does have* a graphic UI, but only for MacOS. All other operatings system will have the standard text interface. It claims to conform to ANSI Standards of Common Lisp
+which means code from this Lisp should be fully transportable to any ANSI Conforming version of the Common Lisp compiler / interpreter. It's hosted on Github, some portions
+of it were updated as far back as 5 years ago, other portions were updated as recently as 2 days ago.
+
+
+[CMU CL](https://www.cons.org/cmucl/) - CMU CL is a free Common Lisp implementation that has a compiler, and interpreter and a debugger. The debugger can be run
+as a GUI - but it uses Motif as the graphics so you would need to install that. It also comes with an Emacs-like (Hemlock) editor. The implementors claim to "mostly"
+conform to the ANSI Standard for Common Lisp and they do document where they don't in their online docs. The docs are extensive but harder to search for as opposed to CLIP
+No updates have occured since 12/08/2018.
+
+
+[ECL](https://common-lisp.net/project/ecl/main.html)
