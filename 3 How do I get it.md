@@ -4,4 +4,7 @@
 a single leader, like , say Python, so there's not just one source for it. This means that there are different implementations of Common Lisp available,
 each with their own purpose.  Just to give you an idea - I'll show you the different versions, then I'll pare the list down considerably:
 
-![#FF0000 (https://placehold.it/15/FF0000/000000?text=)
+**Legend:   $ - Commercial  F - Free    C - Caution  X - Inactive**
+
+| Implementation Name | Free  |  Commercial | Architecture | License | Notes                                  | Legend |
+|----------------------------------------------------------------------------------------------------------------------|
