@@ -117,4 +117,26 @@ specific project in mind, we need to avoid any Common Lisp implementation specif
 to determine if we want to buy it (which in most cases means we get paid support) or not.  If we don't want to buy it, that rules out Allegro. 
 
 Next, we want to determine if we intend to ever share this code with anyone. If we do, we want a distribution that's as close to being ANSI Standard compliant as possible.
-ANSI 
+ANSI is the **A**merican **N**ational **S**tandards **I**nstitute. They don't set standards, rather they oversee the development of voluntary standards for the United States
+further they represent us to the ISO which is the International Standards Organization. The point of ANSI is to oversee standards that are recognized throughout the United
+States and hopefully the word, for example, if the weight of 1 pound wasn't standardized everyone could have their own version of what 1 pound equals. With standardization, 
+we know that one pound equals sixteen ounces. 
+
+Where Common Lisp is concerned having the code be ANSI compliant means that the code that works on one computer (even if it's a different operating system) will work
+on another system without the need to change it to fit that particular system. Remember, prior to 1984 Lisp wasn't standardized so there were multiple dialects
+of Lisp in operation from the late 1960's onward!  With Common Lisp becoming the standard in 1984, we now know that any code written in Common Lisp using an Ansi complaint
+implementation will work with no problems on any other computer!
+
+Since we've weeded out four other distributions, we have five remaining distributions to choose from:
+
+| Distribution             | ANSI Compliant Status     |   Last Updated                           |
+|--------------------------|---------------------------|------------------------------------------|
+|      CLISP               | Mostly Conforms           |    07/08/2010                            |
+|      Clozure CL          | Conforms                  |    2015 to 2 days ago                    |
+|      CMU  CL             | Mostly Conforms           |    12/08/2018                            |
+|      LISPWORKS           | Fully Compliant           |    02/2020 (Windows Personal Edition)    |
+|      SBCL                | Mostly Conforms           |    09/27/2020                            |
+
+Now, Clozure CL states that it conforms to the ANSI Compliant Status, however, it's got a rather complex installation proceedure and it's got a large amount of eye
+candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Granted, not all files need to be updated, however
+
