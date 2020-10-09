@@ -32,4 +32,37 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 | Clozure CL          |   X   |             |25,22,13,35,47     | Current Free Implementation of Common Lisp                |   A    |
 
 .... and this isn't even the **whole** list. The actual list is 48 lines long!!  Fortunately, we're not going to list them all. There's really only
-8 we need to really look at!
+8 we need to really look at, and they are:
+
+
+
+| Implementation Name                                               | Free |  Commercial|
+|-------------------------------------------------------------------|------|------------|
+|[ABCL](https://common-lisp.net/project/armedbear/)                 |  X   |            |
+|[Allegro](https://franz.com/products/allegro-common-lisp/)         |      |      X     |
+|[CLASP](https://github.com/clasp-developers/clasp)                 |  X   |            |
+|[CLISP](https://clisp.sourceforge.io/)                             |  X   |            |
+|[Clozure CL](https://ccl.clozure.com/)                             |  X   |            |
+|[ECL](https://common-lisp.net/project/ecl/main.html)               |  X   |            |
+|[LispWorks](http://www.lispworks.com/products/lispworks.html)      |      |      X     |
+|[SBCL](http://www.sbcl.org/)                                       |  X   |            |
+
+
+The rest of the implementations are either inactive, only work for older mainframes or are just not in existence anymore. Each of the remaining Common Lisp 
+implementations emphasize a different facet of Common Lisp, just like different versions of Linux emphasize a different facet of Linux. Most of the time, 
+beginners are told to "just get (a particular version)" and that's it. Rather than just leave it there, I'm going to explain the differences between these versions
+and allow **you** to make an informed decision.
+
+[ABCL](https://common-lisp.net/project/armedbear/) - ABCL is Armed Bear Common Lisp implementation that's meant to run inside the JVM (Java Virtual Machine)
+so this is going to be more useful if you're looking to extend Java's capability. You need to have Java to use this as the downloaded file for this is a .jar file 
+ABCL features a compiler and an interpreter - but no debugger. **IMPORTANT** This implementation of Common Lisp does **NOT** conform to current Common Lisp Ansi 
+standards, so this code would not be portable, in some cases with another Common Lisp implementation. This implemenatation has been updated as of 7/18/2020.
+
+
+[Allegro](https://franz.com/products/allegro-common-lisp/) - Allegro Common Lisp is as commercial Common Lisp implentation. It's meant to be run in an "Enterprise Server" 
+situation where developing complex (their words) solutions are occuring. It **does** have a debugger, along with an interpreter and a compiler. It can also create
+Common Lisp instruction from Java. It does come with a built in database and prolog and other GUI tools for usage. **IMPORTANT** This implementation does **not**
+conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This was most recently updated 8/20/2019.
+
+
+
