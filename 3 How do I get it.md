@@ -61,15 +61,15 @@ standards, so this code would not be portable, in some cases with another Common
 
 
 [Allegro](https://franz.com/products/allegro-common-lisp/) - Allegro Common Lisp is as commercial Common Lisp implentation. It's meant to be run in an "Enterprise Server" 
-situation where developing complex (their words) solutions are occuring. It **does** have a debugger, along with an interpreter and a compiler. It can also create
+situation where large development in Common Lisp solutions are occuring. It **does** have a debugger, along with an interpreter and a compiler. It can also create
 Common Lisp instruction from Java. It does come with a built in database and prolog and other GUI tools for usage. **IMPORTANT** This implementation does **not**
 conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This was most recently updated 8/20/2019.
 
 
 [Clasp](https://github.com/clasp-developers/clasp) - Clasp  is a free Common Lisp implementation geared for those *really* using C++ but wanting to also add a bit of Common
 Lisp into the mix. It uses the [LLVM](https://llvm.org/) compiler, which allows compilation of multiple computer languages. It features a compiler only. **IMPORTANT** This 
-implementation does **not** conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine.
-As this is hosted on Github, various portions of this were updated as late as 2 days ago and as far back as 6 years ago.
+implementation does **not** conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This is hosted on 
+Github, various portions of this were updated as late as 2 days ago and as far back as 6 years ago.
 
 
 [CLISP](https://clisp.sourceforge.io/) - CLISP is a free Common Lisp implementation. It contains an interpreter, a compiler and a debugger. This is written for the 
@@ -78,7 +78,7 @@ ANSI standards. The cases where it doesn't are documented openly in their docume
 Common Lisp (in particular, they state is slower than CMU CL). **BE AWARE** CLISP hasn't been updated since 2010!
 
 
-[Clozure CL](https://ccl.clozure.com/) - Clozure CL is a free common Lisp that *also* offers paid support for it as well. It contains a compiler and a debugger, *for MacOS* it 
+[Clozure CL](https://ccl.clozure.com/) - Clozure CL is a free Common Lisp that *also* offers paid support for it as well. It contains a compiler and a debugger, *for MacOS* it 
 *does have* a graphic UI, but only for MacOS. All other operatings system will have the standard text interface. It claims to conform to ANSI Standards of Common Lisp
 which means code from this Lisp should be fully transportable to any ANSI Conforming version of the Common Lisp compiler / interpreter. It's hosted on Github, some portions
 of it were updated as far back as 5 years ago, other portions were updated as recently as 2 days ago.
