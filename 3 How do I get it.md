@@ -102,7 +102,7 @@ It states that it's fully ANSI Compliant, meaning the code would be compatible f
 This runs on multiple platforms including ARM processors, Android and iOS.  The last update for this was 11/13/2017.
 
 
-[SBCL](http://www.sbcl.org/) SBCL - Steel Bank Common Lisp is a free implementation of Common Lisp. It describes it self as a high performance Common Lisp Compiler.
+[SBCL](http://www.sbcl.org/) - SBCL or  Steel Bank Common Lisp is a free implementation of Common Lisp. It describes it self as a high performance Common Lisp Compiler.
 It features a Compiler, a debugger and an interpreter. It is "mostly conforming" to the ANSI Common Lisp Standard. It has versions for Linux, MacOS X, Solaris, FreeBSD
 NetBSD, OpenBSD, DragonFly BSD, DebianGnu BSD and Windows. It's latest update is 9/27/2020.
 
