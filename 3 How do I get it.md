@@ -55,7 +55,7 @@ beginners are told to "just get (a particular version)" and that's it. Rather th
 and allow **you** to make an informed decision.
 
 [ABCL](https://common-lisp.net/project/armedbear/) - ABCL is Armed Bear Common Lisp, a Common Lisp implementation that's meant to run inside the JVM (Java Virtual Machine)
-so this is going to be more useful if you're looking to extend Java's capability. You need to have Java to use this as the downloaded file for this is a .jar file 
+so this is going to be more useful if you're looking to extend Java's capability. You need to have Java to use this as the downloaded file for this is a .jar file. 
 ABCL features a compiler and an interpreter - but no debugger. **IMPORTANT** This implementation of Common Lisp does **NOT** conform to current Common Lisp Ansi 
 standards, so this code would not be portable, in some cases with another Common Lisp implementation. This implemenatation has been updated as of 7/18/2020.
 
