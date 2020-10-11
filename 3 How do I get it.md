@@ -144,17 +144,17 @@ need to be fixed by updating the code, and this code hasn't been updated since 2
 available to me.
 
 Now, Clozure CL states that it conforms to the ANSI Compliant Status, however, it's got a rather complex installation proceedure and it's got a large amount of eye
-candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Once again, the Ansi standard was set up in 1994 so the code won't 
+candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Once again, the ANSI standard was set up in 1994 so the code won't 
 neccessarily be out of date or anything. Just as with CLISP with the updates being all over the map, I would be less inclined to want to run that 
 implementation of Common Lisp.
 
-CMU CL states that it "mostly conforms" to the Ansi Standard. CMU CL's installation process is a bit akward. It the only installation where you **must** have 
+CMU CL states that it "mostly conforms" to the ANSI Standard. CMU CL's installation process is a bit akward. It the only installation where you **must** have 
 a binary of CMU CL already on your system for this to work. They *do* provide one, but no other installation makes that request. That being said, it's free 
 and has a ton of features no other Common Lisp implentation offers, like a graphic interface (Hemlock) as part of the package. However, their most recent
 update is in 2018. Again, because the ANSI standard was set in 1994, it's going to conform, however, people are still reporting bugs with the 
 implemenation and since bugs need to be fixed via updating the code, I would be hesitant to use this one either.
 
-LispWorks can either be a personal or a commercial distribution. They state they're fully compliant with the Ansi Standard and show a very recent update
+LispWorks can either be a personal or a commercial distribution. They state they're fully compliant with the ANSI Standard and show a very recent update
 of February 2020. So far so good. However, the personal edition has many missing features including the ability to create a runtime, secondly, a lot of 
 purchased software will allow you to upgrade it if you purchase the license, the personal version will not allow this. Thirdly, the licensing is very
 proprietary and is not fully described prior to downloading. As a hobbyist, I wouldn't download this. If I were running a company using Common Lisp 
