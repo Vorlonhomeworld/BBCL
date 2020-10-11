@@ -1,22 +1,33 @@
 # What is Lisp? 
 *(and why should we care)*
 
-**L**isp foundations were laid in the Summer of 1956 (yes, 1956!) in a Darthmouth Summer Research project on AI. During
+**Lisp** is a portmanteau (a blending of two words) that described it's primary function **LIS**t **P**rocessing. It's founder,
+John McCarthy was an AI (artifical intelligence) researcher and he discovered that the programming languages available at that 
+time just weren't powerful enough to solve complex issues like [Automated Theorm Proving](https://en.wikipedia.org/wiki/Automated_theorem_proving), 
+[Computer Vision](https://en.wikipedia.org/wiki/Computer_vision) and other logic operations. Bear in mind, the computers in that
+day were different, for example, John McCarthy started working with a [JOHNNIAC](https://en.wikipedia.org/wiki/JOHNNIAC) computer which
+filled up a whole room, had vacuum tube [Selectron tubes](https://en.wikipedia.org/wiki/Selectron_tube) for memory, each one was capable
+of holding only 32 bytes (256 bits) of memory each, so space was tight, to say the least!  So the language needed had to be compact and
+had to be capable of running on 32 bytes of memory and had to be able to perform powerful calculations.
+
+
+Lisp foundations were laid in the Summer of 1956 (yes, 1956!) in a Darthmouth Summer Research project on AI. During
 this meeting, Newell, John & Simon described a language called IPL2 which was a list proccessing language for the 
 Rand Corporation's JOHNIAC computer. There were two problems with this language, the first one was that it was based on
 a JOHNIAC loader they happen to have for that computer. If no one else had the loader, they couldn't use the language.
 The second one was that Fortran was more widely available and was thought to be a better choice for list processing.
 
 However, as they went along developing the language, which was intended to be used for Artificial intelligence, questions
-started arising as to whether or not Fortran could really do the job that they wanted it to do conveninetly. At first, 
-an attempt was made to develop a list processing language within Fortan. It seemed to them, to be easier, since they 
+started arising as to whether or not Fortran, which is the language they were using at that time, could really do the job that they 
+wanted it to do conveninetly. At first, an attempt was made to develop a list processing language within Fortan. It seemed to them, to be easier, since they 
 believed that writing a new compiler would take too long. By the end of 1956 they thought they'd achieved what they 
 needed with FPLP *(Fortran List Processing Language)*.  However, problems started to pop up in that language, for example
-the "IF" statements in Fortan 1 and Fortran 2 were akward to use, that lead to the introduction of a new Fortan function 
+the "IF" statements in Fortan 1 and Fortran 2 were akward to use, that lead to the introduction of a new Fortran function 
 to make it easier to use "IF" statements.
 
 In the summer of 1956, John McCarthy, the father of Lisp, spent time upgrading FLPL for greater use, introducing
-the maplist function and lambda notation, based on the work of Church in 1941. By the fall of 1958, John McCarthy
+the maplist function and [lambda notation](https://en.wikipedia.org/wiki/Lambda_calculus), based on the work of [Alonzo Church](https://en.wikipedia.org/wiki/Alonzo_Church)
+in 1941. By the fall of 1958, John McCarthy
 began working on a Lisp Compiler as he no longer felt Fortran was a worthwhile language for what he needed. Lisp also became one of the first 
 programming language to have it's own interpreter with the implementation of the "eval" command! From that point on, 
 Lisp was programming language on its own!
