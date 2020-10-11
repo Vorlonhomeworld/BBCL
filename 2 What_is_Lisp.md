@@ -5,7 +5,7 @@
 John McCarthy was an AI (artifical intelligence) researcher and he discovered that the programming languages available at that 
 time just weren't powerful enough to solve complex issues like [Automated Theorm Proving](https://en.wikipedia.org/wiki/Automated_theorem_proving), 
 [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision) and other logic operations. Bear in mind, the computers in that
-day were different, for example, John McCarthy started working with a [JOHNNIAC](https://en.wikipedia.org/wiki/JOHNNIAC) computer which
+day were different then they are now, for example, John McCarthy started working with a [JOHNNIAC](https://en.wikipedia.org/wiki/JOHNNIAC) computer which
 filled up a whole room, had vacuum tube [Selectron tubes](https://en.wikipedia.org/wiki/Selectron_tube) for memory, each one was capable
 of holding only 32 bytes (256 bits) of memory each, so space was tight, to say the least!  So the language needed had to be compact and
 had to be capable of running on 32 bytes of memory and had to be able to perform powerful calculations.
