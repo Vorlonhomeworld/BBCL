@@ -137,6 +137,32 @@ Since we've weeded out four other distributions, we have five remaining distribu
 |      LISPWORKS           | Fully Compliant           |    02/2020 (Windows Personal Edition)    |
 |      SBCL                | Mostly Conforms           |    09/27/2020                            |
 
-Now, Clozure CL states that it conforms to the ANSI Compliant Status, however, it's got a rather complex installation proceedure and it's got a large amount of eye
-candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Granted, not all files need to be updated, however
+CLISP - which "mostly conforms" to ANSI standsards, looks to be ok. It's a general use Common Lisp implementation, it's free to use, has an extensive
+help menu. **However** it hasn't been updated since 2010! Now, Common Lisps ANSI standard were set in 1994 and haven't been updated, so it's not 
+likely that this implementation would be out of date with the standard, however, any programs made by humans are going to have bugs, and since bugs
+need to be fixed by updating the code, and this code hasn't been updated since 2010, I would be hesitant to use this even though it's 
+availalbe to me.
 
+Now, Clozure CL states that it conforms to the ANSI Compliant Status, however, it's got a rather complex installation proceedure and it's got a large amount of eye
+candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Once again, the Ansi standard was set up in 1994 so the code won't 
+neccessarily be out of date or anything. Just as with CLISP with the updates being all over the map, I would be less inclined to want to run that 
+implementation of Common Lisp.
+
+CMU CL states that it "mostly conforms" to the Ansi Standard. CMU CL's installation process is a bit akward. It the only installation where you **must** have 
+a binary of CMU CL already on your system for this to work. They *do* provide one, but no other installation makes that request. That being said, it's free 
+and has a ton of features no other Common Lisp implentation offers, like a graphic interface (Hemlock) as part of the package. However, their most recent
+update is in 2018. Again, because the ANSI standard was set in 1994, it's going to conform, however, people are still reporting bugs with the 
+implemenation and since bugs need to be fixed via updating the code, I would be hesitant to use this one either.
+
+LispWorks can either be a personal or a commercial distribution. They state they're fully compliant with the Ansi Standard and show a very recent update
+of February 2020. So far so good. However, the personal edition has many missing features including the ability to create a runtime, secondly, a lot of 
+purchased software will allow you to upgrade it if you purchase the license, the personal version will not allow this. Thirdly, the licensing is very
+proprietary and is not fully described prior to downloading. As a hobbyist, I wouldn't download this. If I were running a company using Common Lisp 
+coding, I might,maybe.
+
+SBCL is a free version of Common Lisp, they state they "mostly conform" to ANSI Standards, it's important to note that SBCL is an fork from CMU-CL (from their
+COPYING file within the implementation), which has been in [development since the early 1980's](https://www.cons.org/cmucl/credits.html). Further SBCL shows 
+updating as current as 9/27/2020. This shows that the implementors pay attention and update to take care of any existing bugs. Further, their documentation
+is easily found and accessible via hyperlinks and the search function. Support is offered via mailing lists. They have a good amount of links that reference
+their project on their page as well. They show their improvements on their news page which is easy to find. They also have a seperate manual (geared to
+programmers) talking about internal calls. **This** is a verison I'd be comfortable installing and running!
