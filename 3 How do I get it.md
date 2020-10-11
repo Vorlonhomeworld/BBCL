@@ -87,7 +87,7 @@ interpreter. It's hosted on Github, some portions of it were updated as far back
 [CMU CL](https://www.cons.org/cmucl/) - CMU CL is a free Common Lisp implementation that has a compiler, and interpreter and a debugger. The debugger can be run
 as a GUI - but it uses Motif as the graphics so you would need to install that. This is a distribution for power users as well. It also comes with an Emacs-like 
 (Hemlock) editor. The implementors claim to "mostly" conform to the ANSI Standard for Common Lisp and they do document where they don't in their online docs. 
-The docs are extensive but harder to search for as opposed to CLIP. No updates have occured since 12/08/2018.
+The docs are extensive but harder to search for as opposed to CLISP. No updates have occured since 12/08/2018.
 
 
 [ECL](https://common-lisp.net/project/ecl/main.html) - ECL or Embedable Common Lisp is a Lisp implemetation designed for,as the name implies, Embedded Lisp applications. 
