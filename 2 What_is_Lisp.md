@@ -56,7 +56,7 @@ Okay, now we know what it is, what can it do for me!
 
 Pretty much anything you want it to do! Seriously! Common Lisp can:
 
-* Write a [webserver])http://edicl.github.io/hunchentoot/), here's [another webserver](http://8arrow.org/caveman/)
+* Write a [webserver](http://edicl.github.io/hunchentoot/), here's [another webserver](http://8arrow.org/caveman/)
 * Allow a webpage on that same webserver to be viewable in HTML.
 * Make calls back and forth from a database you designed in Common Lisp
 * Handle all calls to for usernames and passwords to that same database
