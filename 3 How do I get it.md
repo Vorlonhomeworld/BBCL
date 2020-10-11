@@ -100,7 +100,7 @@ most certainly portable from one computer to another. It's hosted on Gitlab, and
 to Hobbyist. It aims to be a fully commercial, fully GUI version of Common Lisp, and it also aims to reach out to the widest possible audience, from Professionals, 
 embeddeded device user, to the home Common Lisper. It offers many features, depending on which platform you use including a full GUI evelopment environment. It can 
 also be used to create apps for Android as well. It states that it's fully ANSI Compliant, meaning the code would be compatible from one Ansi Standard Complaint 
-implementation. to another Ansi Standard Compliant implementation. This runs on multiple platforms including ARM processors, Android and iOS.  The last update for this 
+implementation to another Ansi Standard Compliant implementation. This runs on multiple platforms including ARM processors, Android and iOS.  The last update for this 
 was 11/13/2017.
 
 
