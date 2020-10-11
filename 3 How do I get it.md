@@ -160,9 +160,11 @@ purchased software will allow you to upgrade it if you purchase the license, the
 proprietary and is not fully described prior to downloading. As a hobbyist, I wouldn't download this. If I were running a company using Common Lisp 
 coding, I might,maybe.
 
-SBCL is a free version of Common Lisp, they state they "mostly conform" to ANSI Standards, it's important to note that SBCL is an fork from CMU-CL (from their
+SBCL is a free version of Common Lisp, they state they "mostly conform" to ANSI Standards, it's important to note that SBCL is a fork from CMU-CL (from their
 COPYING file within the implementation), which has been in [development since the early 1980's](https://www.cons.org/cmucl/credits.html). Further SBCL shows 
 updating as current as 9/27/2020. This shows that the implementors pay attention and update to take care of any existing bugs. Further, their documentation
 is easily found and accessible via hyperlinks and the search function. Support is offered via mailing lists. They have a good amount of links that reference
 their project on their page as well. They show their improvements on their news page which is easy to find. They also have a seperate manual (geared to
 programmers) talking about internal calls. **This** is a verison I'd be comfortable installing and running!
+
+With that in mind, let's get started with **SBCL** !
