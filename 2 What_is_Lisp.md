@@ -50,23 +50,25 @@ Despite it's now wide useage, there was a problem, all of the lisps were not the
 wasn't guaranteed to run on another machine running a different Lisp. ANSI *(American Nation Standards Institute)* stepped in in 1984
 and assisted in the development of a standard version of Common Lisp, anyone using it could code Lisp on one machine and that code would
 run just fine on another.  That didn't mean the end of the other Lisps, however, some are still very much alive and in use, for example, 
-Emacs Lisp is still very much the defacto Lisp of Emacs!
+Emacs Lisp (which is based on MacLisp) is still very much the defacto Lisp of Emacs!
 
 Okay, now we know what it is, what can it do for me!
 
-Pretty much anything you want it to do!  Seriously!   Common Lisp can:
+Pretty much anything you want it to do! Seriously! Common Lisp can:
 
-* Write a webserver
+* Write a [webserver])http://edicl.github.io/hunchentoot/), here's [another webserver](http://8arrow.org/caveman/)
 * Allow a webpage on that same webserver to be viewable in HTML.
 * Make calls back and forth from a database you designed in Common Lisp
 * Handle all calls to for usernames and passwords to that same database
 
 You can also:
 
-* Write a window manager (Stumpwm is great example of a window manager written in Common Lisp)
-* Write a game (graphic or not!)
-* Write system scripts
+* Write a window manager ([Stumpwm](http://stumpwm.github.io/) is great example of a window manager written in Common Lisp)
+* [Write a game](https://www.cliki.net/Game) (graphic or not!)
+* [Write system scripts](https://github.com/fare/fare-scripts)
 * Write a shell 
+
+There's really no limit to what you can do with Common Lisp, just as example of what's been done [look at this web page](https://www.cliki.net/)!
 
 **Common Lisp**, itself is a general purpose language and an Artificial intelligence language, that's why McCarthy designed it so many years ago. However,
 it's more than that. It's object oriented, all code is reusable and portable, meaning it can be coded on a Linux machine, and run on a Window or Linux machine with no change 
