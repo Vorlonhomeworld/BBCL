@@ -93,7 +93,7 @@ The docs are extensive but harder to search for as opposed to CLISP. No updates 
 [ECL](https://common-lisp.net/project/ecl/main.html) - ECL or Embedable Common Lisp is a Lisp implemetation designed for,as the name implies, Embedded Lisp applications. 
 It's more for those working with Embedded devices in Common Lisp, or those needing quick easy access to C programs via libraries. It features a byte-code compiler and an
 interpreter. It works by producing libraries that can be accessed by the C programs. It states that it's fully compliant with current Common Lisp ANSI standards, so it's 
-most certainly portable from one computer to another. It's hosted on Gitlab, and the updates range everywhere from 12 years (for the configuration file) to 3 weeks ago.).
+most certainly portable from one computer to another. It's hosted on Gitlab, and the updates range everywhere from 12 years (for the configuration file) to 3 weeks ago..
 
 
 [Lispworks](http://www.lispworks.com/products/lispworks.html) - Lispworks is a commercial Lisp implementation with various platform variations from Professional
