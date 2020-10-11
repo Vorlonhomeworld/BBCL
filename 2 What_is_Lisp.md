@@ -10,7 +10,7 @@ The second one was that Fortran was more widely available and was thought to be 
 However, as they went along developing the language, which was intended to be used for Artificial intelligence, questions
 started arising as to whether or not Fortran could really do the job that they wanted it to do conveninetly. At first, 
 an attempt was made to develop a list processing language within Fortan. It seemed to them, to be easier, since they 
-believed that writing a new compiler would take too long. By the end of 1956 they though they'd achieved what they 
+believed that writing a new compiler would take too long. By the end of 1956 they thought they'd achieved what they 
 needed with FPLP *(Fortran List Processing Language)*.  However, problems started to pop up in that language, for example
 the "IF" statements in Fortan 1 and Fortran 2 were akward to use, that lead to the introduction of a new Fortan function 
 to make it easier to use "IF" statements.
@@ -18,8 +18,8 @@ to make it easier to use "IF" statements.
 In the summer of 1956, John McCarthy, the father of Lisp, spent time upgrading FLPL for greater use, introducing
 the maplist function and lambda notation, based on the work of Church in 1941. By the fall of 1958, John McCarthy
 began working on a Lisp Compiler as he no longer felt Fortran was a worthwhile language for what he needed. Lisp also became one of the first 
-programming language to have it's own interpreter with the implemantation of the "eval" command! From that point on, 
-Lisp was programming language!
+programming language to have it's own interpreter with the implementation of the "eval" command! From that point on, 
+Lisp was programming language on its own!
 
 Lisp began growing and spreading out, and spawning many different dialects:
 
@@ -36,10 +36,10 @@ Lisp began growing and spreading out, and spawning many different dialects:
 This isn't even a full list of **ALL** of the Lisps available, just a small list.
 
 Despite it's now wide useage, there was a problem, all of the lisps were not the same, and a lisp written with one kind of lisp
-wasn't guaranteed to run on another machine runningn a different Lisp. ANSI *(American Nation Standards Institute)* stepped in in 1984
-and developed a standard version of Common Lisp, anyone using it could code Lisp on one machine and that code would
-run just fine on another.  That didn't mean the end of the other Lisps, however, some are still very much 
-alive and in use, for example, Emacs Lisp is still very much the defacto Lisp of Emacs!
+wasn't guaranteed to run on another machine running a different Lisp. ANSI *(American Nation Standards Institute)* stepped in in 1984
+and assisted in the development of a standard version of Common Lisp, anyone using it could code Lisp on one machine and that code would
+run just fine on another.  That didn't mean the end of the other Lisps, however, some are still very much alive and in use, for example, 
+Emacs Lisp is still very much the defacto Lisp of Emacs!
 
 Okay, now we know what it is, what can it do for me!
 
@@ -74,5 +74,14 @@ For example, in C, if I were to write code for a program that used integrs, I'd 
    It's also extremely expandable, in fact [there are a ton of libraries](https://www.quicklisp.org/beta/releases.html) listed on this page that expand out
    the capabilities of Common Lisp greatly. It's almost as if Common Lisp were the programming language equivalent of Emacs - everyhthings there, and if you 
    can't find what your looking for, you can code it in and add it!
-   
+
+## So do people still use it? ##
+
+As a matter of fact, yes!  Common Lisp is still being used today, by both hobbyists and professionals. On the Hobbyists side, [StupmWm](http://stumpwm.github.io/)
+is a complete window mannager written completly in Common Lisp, [Climacs](https://common-lisp.net/project/climacs/) is an implementation
+of Emacs in Common Lisp, as are [Hemlock](https://github.com/bluelisp/hemlock) and [Clocc](http://clocc.sourceforge.net/). On the companies side,
+there's actually a fairly large list [available here](https://common-lisp.net/lisp-companies), this list includes Grammarly!  This isn't the only list either,
+[there's this one](http://pchristensen.com/blog/lisp-companies/) and you can always do a google search on Lisp jobs anytime!
+
+
    With that in mind, let's keep on learning!
