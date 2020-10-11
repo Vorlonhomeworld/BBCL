@@ -1,7 +1,7 @@
 # What is Lisp? 
 *(and why should we care)*
 
-**Lisp** is a portmanteau (a blending of two words) that described it's primary function **LIS**t **P**rocessing. It's founder,
+**Lisp** is a portmanteau (a blending of two words) that describes it's primary function **LIS**t **P**rocessing. It's founder,
 John McCarthy was an AI (artifical intelligence) researcher and he discovered that the programming languages available at that 
 time just weren't powerful enough to solve complex issues like [Automated Theorm Proving](https://en.wikipedia.org/wiki/Automated_theorem_proving), 
 [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision) and other logic operations. Bear in mind, the computers in that
