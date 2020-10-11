@@ -119,7 +119,7 @@ to determine if we want to buy it (which in most cases means we get paid support
 Next, we want to determine if we intend to ever share this code with anyone. If we do, we want a distribution that's as close to being ANSI Standard compliant as possible.
 ANSI is the **A**merican **N**ational **S**tandards **I**nstitute. They don't set standards, rather they oversee the development of voluntary standards for the United States
 further they represent us to the ISO which is the International Standards Organization. The point of ANSI is to oversee standards that are recognized throughout the United
-States and hopefully the word, for example, if the weight of 1 pound wasn't standardized everyone could have their own version of what 1 pound equals. With standardization, 
+States and hopefully the world, for example, if the weight of 1 pound wasn't standardized everyone could have their own version of what 1 pound equals. With standardization, 
 we know that one pound equals sixteen ounces. 
 
 Where Common Lisp is concerned having the code be ANSI compliant means that the code that works on one computer (even if it's a different operating system) will work
