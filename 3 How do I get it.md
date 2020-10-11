@@ -141,7 +141,7 @@ CLISP which "mostly conforms" to ANSI standsards, looks to be ok. It's a general
 help menu. **However** it hasn't been updated since 2010! Now, Common Lisps ANSI standard were set in 1994 and haven't been updated, so it's not 
 likely that this implementation would be out of date with the standard, however, any programs made by humans are going to have bugs, and since bugs
 need to be fixed by updating the code, and this code hasn't been updated since 2010, I would be hesitant to use this even though it's 
-availalbe to me.
+available to me.
 
 Now, Clozure CL states that it conforms to the ANSI Compliant Status, however, it's got a rather complex installation proceedure and it's got a large amount of eye
 candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Once again, the Ansi standard was set up in 1994 so the code won't 
