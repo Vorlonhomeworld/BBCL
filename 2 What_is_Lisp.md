@@ -30,7 +30,7 @@ the maplist function and [lambda notation](https://en.wikipedia.org/wiki/Lambda_
 in 1941. By the fall of 1958, John McCarthy
 began working on a Lisp Compiler as he no longer felt Fortran was a worthwhile language for what he needed. Lisp also became one of the first 
 programming language to have it's own interpreter with the implementation of the "eval" command! From that point on, 
-Lisp was programming language on its own!
+Lisp was programming language all its own!
 
 Lisp began growing and spreading out, and spawning many different dialects:
 
