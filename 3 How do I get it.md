@@ -137,7 +137,7 @@ Since we've weeded out four other distributions, we have five remaining distribu
 |      LISPWORKS           | Fully Compliant           |    02/2020 (Windows Personal Edition)    |
 |      SBCL                | Mostly Conforms           |    09/27/2020                            |
 
-CLISP - which "mostly conforms" to ANSI standsards, looks to be ok. It's a general use Common Lisp implementation, it's free to use, has an extensive
+CLISP which "mostly conforms" to ANSI standsards, looks to be ok. It's a general use Common Lisp implementation, it's free to use, has an extensive
 help menu. **However** it hasn't been updated since 2010! Now, Common Lisps ANSI standard were set in 1994 and haven't been updated, so it's not 
 likely that this implementation would be out of date with the standard, however, any programs made by humans are going to have bugs, and since bugs
 need to be fixed by updating the code, and this code hasn't been updated since 2010, I would be hesitant to use this even though it's 
