@@ -52,21 +52,21 @@ and assisted in the development of a standard version of Common Lisp, anyone usi
 run just fine on another.  That didn't mean the end of the other Lisps, however, some are still very much alive and in use, for example, 
 Emacs Lisp (which is based on MacLisp) is still very much the defacto Lisp of Emacs!
 
-Okay, now we know what it is, what can it do for me!
+Okay, now we know what it is, what can it do for me?
 
 Pretty much anything you want it to do! Seriously! Common Lisp can:
 
 * Write a [webserver](http://edicl.github.io/hunchentoot/), here's [another webserver](http://8arrow.org/caveman/)
 * Allow a webpage on that same webserver to be viewable in HTML.
-* Make calls back and forth from a database you designed in Common Lisp
-* Handle all calls to for usernames and passwords to that same database
+* Make calls back and forth from a database you designed in Common Lisp.
+* Handle all calls to for usernames and passwords to that same database.
 
 You can also:
 
-* Write a window manager ([Stumpwm](http://stumpwm.github.io/) is great example of a window manager written in Common Lisp)
+* Write a window manager. ([Stumpwm](http://stumpwm.github.io/) is great example of a window manager written in Common Lisp.)
 * [Write a game](https://www.cliki.net/Game) (graphic or not!)
-* [Write system scripts](https://github.com/fare/fare-scripts)
-* Write a shell 
+* [Write system scripts].(https://github.com/fare/fare-scripts)
+* Write a shell. 
 
 There's really no limit to what you can do with Common Lisp, just as example of what's been done [look at this web page](https://www.cliki.net/)!
 
@@ -95,6 +95,21 @@ is a complete window mannager written completly in Common Lisp, [Climacs](https:
 of Emacs in Common Lisp, as are [Hemlock](https://github.com/bluelisp/hemlock) and [Clocc](http://clocc.sourceforge.net/). On the companies side,
 there's actually a fairly large list [available here](https://common-lisp.net/lisp-companies), this list includes Grammarly!  This isn't the only list either,
 [there's this one](http://pchristensen.com/blog/lisp-companies/) and you can always do a google search on Lisp jobs anytime!
+
+That's not all either!  Have you ever written an Excel formula?  You ever notice that the formula had to be enclosed in paraentheses? That's a Common Lisp influence, as common 
+Lisp uses parentheses all the time. How about the syntax of the formula, for example, I have a budget on Excel/Libre Office and the formula for part of it is:
+
+```
+=IF(A38=1,0.2004,IF(A38=2,0.21,IF(A38=3,0.227,IF(A38=4,0.24,IF(A38=5,0.032,IF(A38=6,0.067,IF(A38=7,0.118,IF(A38=8,0.064,IF(A38=9,0.152,IF(A38=10,0.19,IF(A38=11,0.212,IF(A38=12,0.225,IF(A38=13,0.247,IF(A38=14,0.3,IF(A38=15,0.033,IF(A38=16,0.123,IF(A38=17,0.158,IF(A38=18,0.182,IF(A38=19,0.199,IF(A38=20,24.6,IF(A38=21,0.275,IF(A38=22,0.023,IF(A38=23,0.096,IF(A38=24,0.105,IF(A38=25,0.138,IF(A38=26,0.161,IF(A38=27,0.148,IF(A38=28,0.172,IF(A38=29,0.188,IF(A38=30,0.235,IF(A38=31,2.63)))))))))))))))))))))))))))))))
+
+```
+
+Notice the word **if** exists, but the words **then** and **else** don't show up? They're asssumed within the formula. It's exactly that same way in Common Lisp. Also, note 
+that there are parenthese inside parenethese and they all close at the end. Common Lisp is exactly that same way, it's possible to have lists *(we'll get into what a list is
+exactly a bit later on!)* inside of lists.  As you can see, Common Lisp's influence is still with us, as is the language. 
+
+Further, Common Lisp is very much a mature language with tons of uses, additional libraries, on top of which, you can add you own functions into Common Lisp if they don't
+already exist!
 
 
    With that in mind, let's keep on learning!
