@@ -27,3 +27,17 @@ and hit enter, and you should see:
 
 <a href="rel"><img src="/Repl3.jpg"></a>
 
+Recall that Lisp is for **li**st **p**roccessing, well in Common Lisp, any list is defined as commands that exist between parentheses, so every
+Common Lisp command has to have parentheses:
+
+**(** format t "Hello, World!" **)**
+
+The **format** command [formats](http://jtra.cz/stuff/lisp/sclr/format.html) your text for you, now it's not the *only* way to print text, but it'll be the one we 
+use for now. 
+
+The **t** tells the format command that we want to send our text to the terminal
+
+Finally **"Hello, World!"** is the text we're sending to the terminal.
+
+Go ahead, give it a try, but this time, change **"Hello, World"** to **"My name is** *(insert  your name here)* **"**)!
+
