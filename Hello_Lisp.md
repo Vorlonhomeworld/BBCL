@@ -39,7 +39,7 @@ The **t** tells the format command that we want to send our text to the terminal
 
 Finally **"Hello, World!"** is the text we're sending to the terminal.
 
-Go ahead, give it a try, but this time, change **"Hello, World"** to **"My name is** *(insert  your name here)* **"**)!
+Go ahead, give it a try, but this time, change **"Hello, World"** to **"My name is** *(insert  your name here)* **"**!
 
 ## Debugger ##
 
