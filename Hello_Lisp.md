@@ -64,7 +64,7 @@ The line right underneath that tells us that we're in the debugger amd what opti
 At the bottom, it tells us what line our error's in. Granted, we have just one line, but if we had more, it would highlight only the line where the error is occuring.
 
 Now, we can get the debuger to tell us a bit more plainly what's happening if we use the command **RETURN**.  We'd need to type RETURN then hit enter, we'd then be prompted 
-enter the line with the error on it and hit enter, Common Lisp would then tell us plainly what the error is:
+enter the code with the error on it and hit enter, Common Lisp would then tell us plainly what the error is:
 
 <a href="rel"><img src="/Repl_Debug.jpg"></a>
 
