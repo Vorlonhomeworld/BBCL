@@ -52,3 +52,26 @@ Common Lisp is happier with that and responds:
 NIL
 
 ```
+
+The **~** lets the format command know we're adding directives to the command.
+The **v** lets Common Lisp know that we're going to be adding an argument to whatever it is we want it to print, so it needs to parse that too
+The **$** lets Common Lisp know that we want the format to be decimal. This is important because Common Lisp can print, natively in Hex and Octal too!
+
+Yes, we **can** enter the previous command to print pi as (format t "~$" pi) and it will still print out 3.14 , however it we leave out the "v" and try
+
+``` 
+
+(format t "~$" 3 pi)
+
+```
+
+We're going to get 3.00 because we didn't let Common Lisp know that we're going to add an extra argument to pi. In order for this to print
+correctly, we'll need to enter the command as:
+
+```
+
+(format t "~v$" 3 pi)
+
+```
+
+Which will give us what we *really* wanted in the first place, 3.142!
