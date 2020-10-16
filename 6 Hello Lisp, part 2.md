@@ -36,7 +36,7 @@ clariying what we want it to do, like say, print pi with a certain amount of dec
 the computer and our eyes it we tell it how many decimals places we want it to go. It will ignore anything after those places and give us an easier to read number!
 
 What we'll do it let Common Lisp know that we want to add a few optional directive in. We have to start that process by inserting a tilde "~" first. That
-lets Common Lisp know that we're adding optional directive into the print statment.  We'll tell pi to print out it's value to 2 digits only by entering in:
+lets Common Lisp know that we're adding optional directive into the print statment.  We'll tell pi to print out its value to 2 digits only by entering in:
 
 ```
 
