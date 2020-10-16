@@ -4,7 +4,7 @@ In the last chapter, we wrote our first program. As I believe repetition is esse
 we're going to add a bit more to them. The format statement actually has [a lot of prefix parameters avaiable](https://www.hexstreamsoft.com/articles/common-lisp-format-reference/clhs-summary/#subsections-summary-table) for your usage. Don't worry, we won't go through all of them in this chapter, just a few!  
 
 As I mentioned in the last chapter, (format t "Hello World") is how we get Common Lisp to print out "Hello World". Now, what if we wanted to print out a number, let say, 
-*pi*?  Common Lisp knows what pi is we we could literally enter the following statement
+*pi*?  Common Lisp knows what pi is, we we could literally enter the following statement
 
 ```
 (format t pi)
