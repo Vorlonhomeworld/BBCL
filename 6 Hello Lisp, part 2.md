@@ -75,3 +75,25 @@ correctly, we'll need to enter the command as:
 ```
 
 Which will give us what we *really* wanted in the first place, 3.142!
+
+Your turn!  Go ahead and tell Common Lisp that you want to print pi to , say 5 digits and then after that, 7 digits!
+
+### Another way of doing the same thing ###
+
+Common Lisp, if nothing else, has different ways of doing the same thing, for example, I just showed you that we can print pi to 3 digits with (format t "~v$" 3 pi),
+that's not the only way to do that! We'll still use a directive, but this time we'll write it like this:
+
+```
+
+(format t "~,5f" pi)
+
+```
+
+which will give us:
+
+```
+* (format t "~,5f" pi)
+3.14159
+NIL
+
+```
