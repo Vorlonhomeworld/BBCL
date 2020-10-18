@@ -106,7 +106,7 @@ Lisp uses parentheses all the time. How about the syntax of the formula, for exa
 ```
 
 Notice the word **if** exists, but the words **then** and **else** don't show up? They're asssumed within the formula. It's exactly that same way in Common Lisp. Also, note 
-that there are parenthese inside parenethese and they all close at the end. Common Lisp is exactly that same way, it's possible to have lists *(we'll get into what a list is
+that there are parentheses inside parentheses and they all close at the end. Common Lisp is exactly that same way, it's possible to have lists *(we'll get into what a list is
 exactly a bit later on!)* inside of lists.  As you can see, Common Lisp's influence is still with us, as is the language. 
 
 Further, Common Lisp is very much a mature language with tons of uses, additional libraries, on top of which, you can add you own functions into Common Lisp if they don't
