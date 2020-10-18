@@ -65,7 +65,7 @@ You can also:
 
 * Write a window manager. ([Stumpwm](http://stumpwm.github.io/) is great example of a window manager written in Common Lisp.)
 * [Write a game](https://www.cliki.net/Game) (graphic or not!)
-* [Write system scripts].(https://github.com/fare/fare-scripts)
+* [Write system scripts](https://github.com/fare/fare-scripts)
 * Write a shell. 
 
 There's really no limit to what you can do with Common Lisp, just as example of what's been done [look at this web page](https://www.cliki.net/)!
