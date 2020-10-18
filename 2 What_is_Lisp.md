@@ -21,7 +21,7 @@ However, as they went along developing the language, which was intended to be us
 started arising as to whether or not Fortran, which is the language they were using at that time, could really do the job that they 
 wanted it to do conveninetly. At first, an attempt was made to develop a list processing language within Fortan. It seemed to them, to be easier, since they 
 believed that writing a new compiler would take too long. By the end of 1956 they thought they'd achieved what they 
-needed with FPLP *(Fortran List Processing Language)*.  However, problems started to pop up in that language, for example
+needed with [FPLP](https://www.informatimago.com/articles/flpl/flpl.pdf) *(Fortran List Processing Language)*.  However, problems started to pop up in that language, for example
 the "IF" statements in Fortan 1 and Fortran 2 were akward to use, that lead to the introduction of a new Fortran function 
 to make it easier to use "IF" statements.
 
