@@ -12,7 +12,7 @@ had to be capable of running on 32 bytes of memory and had to be able to perform
 
 
 Lisp foundations were laid in the Summer of 1956 (yes, 1956!) in a Darthmouth Summer Research project on AI. During
-this meeting, Newell, John & Simon described a language called IPL2 which was a list proccessing language for the 
+this meeting, Allen Newell, Cliff Shaw & Herbert Simon described a language called [IPL2](https://en.wikipedia.org/wiki/Information_Processing_Language) which was a list proccessing language for the 
 Rand Corporation's JOHNIAC computer. There were two problems with this language, the first one was that it was based on
 a JOHNIAC loader they happen to have for that computer. If no one else had the loader, they couldn't use the language.
 The second one was that Fortran was more widely available and was thought to be a better choice for list processing.
