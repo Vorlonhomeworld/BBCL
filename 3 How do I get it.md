@@ -8,7 +8,7 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 10 - Dec Alpha, 11 - Dec (Ultrix), 12 - DOS, 13 - FreeBSD,  14 - Google App Engine,  15 - I.B.M 9000,  16 - IBM RS/600,  17 - HP700,
 18 - HP-PA, 19 - HP-UX,  20 - iOS,  21 - JVM,  22 - Linux,  23 - MacOS,  24 - MacOS 7.5 or later,  25 - MacOS (Catalina / Mojave) , 26 - MIPS
 27 - MIT Lisp machine, 28 - NetBSD,  29 - NeXT, 30 - NeXT Step,  31 - OpenBSD,  32 - OS/2,  33 - SGI,  34 - Silicon Graphics,  35 - Solaris,
-36 - Sparc,  37 - Sun3,  38 - Sun4, 39 - Sun DEC Stations,  40 - SunOS,  41 - SVR4,  42 - Unix,  43 - Windows,  44 - Windows 95
+36 - Sparc,  37 - Sun3,  38 - Sun4, 39 - Sun DEC Stations,  40 - SunOS,  41 - SVR4,  42 - Unix,  43 - Windows,  44 - Windows 95,
 45 - Windows 98,  46 - Windows NT,  47 - Windows XP,  48 - Xerox 1186
 
 
