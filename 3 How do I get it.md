@@ -4,7 +4,7 @@
 a single leader, like , say Python, so there's not just one source for it. This means that there are different implementations of Common Lisp available,
 each with their own purpose.  Just to give you an idea - I'll show you the different versions, then I'll pare the list down considerably:
 
-**Architecture:**  1 - 64-bit Dec,  2 - Acron RISC, 3- Alpha, 4 - Amiga 500 - 4000, 5 - Android, 6 - AIX, 7 - Apollo, 8- Butteryfly Machine, 9 - Dec
+**Architecture:**  1 - 64-bit Dec,  2 - Acorn RISC, 3- Alpha, 4 - Amiga 500 - 4000, 5 - Android, 6 - AIX, 7 - Apollo, 8- Butteryfly Machine, 9 - Dec
 10 - Dec Alpha, 11 - Dec (Ultrix), 12 - DOS, 13 - FreeBSD,  14 - Google App Engine,  15 - I.B.M 9000,  16 - IBM RS/600,  17 - HP700
 18 - HP-PA, 19 - HP-UX,  20 - iOS,  21 - JVM,  22 - Linux,  23 - MacOS,  24 - MacOS 7.5 or later,  25 - MacOS (Catalina / Mojave) , 26 - MIPS
 27 - MIT Lisp machine, 28 - NetBSD,  29 - NeXT, 30 - NeXT Step,  31 - OpenBSD,  32 - OS/2,  33 - SGI,  34 - Silicon Graphics,  35 - Solaris
