@@ -35,7 +35,7 @@ REPL are going to throw up their hands and give up, which is just what happened 
 clariying what we want it to do, like say, print pi with a certain amount of decimal places only! We can print this out more sanely, and a bit more humanely for the REPL, 
 the computer and our eyes it we tell it how many decimals places we want it to go. It will ignore anything after those places and give us an easier to read number!
 
-What we'll do it let Common Lisp know that we want to add a few optional directives in. We have to start that process by inserting a tilde "~" first. That
+What we'll do is let Common Lisp know that we want to add a few optional directives in. We have to start that process by inserting a tilde "~" first. That
 lets Common Lisp know that we're adding optional directive into the print statment.  We'll tell pi to print out its value to 2 digits only by entering in:
 
 ```
@@ -97,3 +97,65 @@ which will give us:
 NIL
 
 ```
+
+We're still using **format t** as before, and we're still adding in the directive **~**. However, we're changing this slightly to allow
+seperate arguments to be used one after the other by using the comma. The comma allows us to chain items together. In this case, 
+we're asking for the number *pi* to print to 5 decimal points (format t "~,**5**f" pi). We're also asking that the number be printed as a [floating point](https://floating-point-gui.de/formats/fp/) number. Rather than, say, an integer or a ratio (format t "~,5**f**" pi).  
+
+Go ahead - you try it, get pi to print to 4 digits, and then 9 digits!
+
+
+### Other directives for formats
+
+That's not the only directive that Common Lisp has for printing statements either!  Common Lisp is happy to print in 10-based (decimal), all we have
+to do is ask for it:
+
+```
+
+(format t "~d" 2020)
+
+```
+
+Gives us "2020", just like the year, but what  if we wanted to have Common Lisp *not* print the year, but rather a number that included a comma?  Easy enough,
+just add another directive to the same format statement above and it's done!
+
+```
+
+(format t "~:d" 2020)
+
+```
+
+Gives us 2,020 instead. Remember me saying that Common Lisp could print in Octal as well? It can not only do that, it can print in Hexdecimal and binary just
+by changing the directive. It already knows how to convert over for us!
+
+Let's say we wanted to print the year (2020), but lets say we had to have it in hex, no problem just enter:
+
+```
+
+(format t "~x" 2020)
+
+```
+and we get the year in Hexdecimal,7E4  (the **x** in our directive is what's telling Common Lisp to print our number in he**x**.) Now, let's say we needed that same number
+in Octal (8-based number system), all we would have to do is change the directive once again:
+
+```
+
+(format t "~o" 2020)
+
+```
+
+gives us the date, 2020 , in octal, 3744.  The **o** (that the letter, not a number) is what tells Common Lisp to print our number in **o**ctal.  Now, if you *really* need to 
+go old school and have the date in Binary (2 based number system), just change the directive yet again:
+
+```
+
+(format t "~b" 2020)
+
+```
+
+and we'll get the year, 2020, in binary, 11111100100. The **b** directive is what tells Common Lisp to use **b**inary. 
+
+Go ahead, you try it!  Pick any number (4 digits or better will work best here) and have it print in hexdecimal, binary and octal!
+
+Now these aren't the only directives available, there's a good [writeup over on this page](http://gigamonkeys.com/book/a-few-format-recipes.html) showing you
+even more directives and their usage!
