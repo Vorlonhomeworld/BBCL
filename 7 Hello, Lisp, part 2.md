@@ -100,7 +100,7 @@ NIL
 
 We're still using **format t** as before, and we're still adding in the directive **~**. However, we're changing this slightly to allow
 seperate arguments to be used one after the other by using the comma. The comma allows us to chain items together. In this case, 
-we're asking for the number *pi* to print to 5 decimal points (format t "~,**5**f" pi). We're also asking that the number be printed as a [floating point](https://floating-point-gui.de/formats/fp/) number. Rather than, say, an integer or a ratio (format t "~,5**f**" pi).  
+we're asking for the number *pi* to print to 5 decimal points (format t "\~,**5**f" pi). We're also asking that the number be printed as a [floating point](https://floating-point-gui.de/formats/fp/) number. Rather than, say, an integer or a ratio (format t "~,5**f**" pi).  
 
 Go ahead - you try it, get pi to print to 4 digits, and then 9 digits!
 
