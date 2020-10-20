@@ -107,7 +107,7 @@ Go ahead - you try it, get pi to print to 4 digits, and then 9 digits!
 
 ### Other directives for formats
 
-That's not the only directive that Common Lisp has for printing statements either!  Common Lisp is happy to print in 10-based (decimal), all we have
+That's not the only directive that Common Lisp has for printing statements either!  Common Lisp is happy to print in 10-based numbers (decimal), all we have
 to do is ask for it:
 
 ```
@@ -144,7 +144,7 @@ in Octal (8-based number system), all we would have to do is change the directiv
 
 ```
 
-gives us the date, 2020 , in octal, 3744.  The **o** (that the letter, not a number) is what tells Common Lisp to print our number in **o**ctal.  Now, if you *really* need to 
+gives us the date, 2020 , in octal, 3744.  The **o** (that's the letter, not a number) is what tells Common Lisp to print our number in **o**ctal.  Now, if you *really* need to 
 go old school and have the date in Binary (2 based number system), just change the directive yet again:
 
 ```
