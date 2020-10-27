@@ -28,7 +28,7 @@ It's totally possible to do *and* have it all one line!
 (format t "Radius:~%Area:")
 
 ```
-The **~%** is Common Lisp's directive for a carriage return. Go ahead, give it a try!
+The **%** is Common Lisp's directive for a carriage return. Just remember the **~** there to let Common Lisp know we want to give it a directive! Go ahead, give it a try!
 
 
 Tabs
