@@ -12,7 +12,7 @@ convert our numbers into Roman numbers, print out carriage returns, even print o
 ```
 
 The **r** portion of the directive lets Common Lisp know we're asking it to print a Radix ( a set of numbers based on a number system - for example, our typical number
-system is a 10 based number system, it's Radix is 10, an Octal radix would be 8, a binary radix would be 2) but we haven't yet told it what kind, that's what the 
+system is a 10 based number system, therefore, it's Radix is 10, an Octal radix would be 8, a binary radix would be 2) but we haven't yet told it what kind, that's what the 
 preceeding symbol (**@**) is for, it tells Common Lisp that we want a Roman number Radix (Roman Number - the newer version). Common Lisp can 
 also print older version of Roman Numbers by adding in the **:** into the command (format t "~:@r" 2020)!
 
