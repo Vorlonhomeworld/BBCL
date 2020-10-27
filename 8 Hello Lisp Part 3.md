@@ -32,7 +32,10 @@ The **~%** is Common Lisp's directive for a carriage return. Go ahead, give it a
 
 Tabs
 
-
+```
 
 tabs = (format t "~a:~10t~a" :name "David Trombly")  
 yeilds  Name:     David Trombly-
+
+
+````
