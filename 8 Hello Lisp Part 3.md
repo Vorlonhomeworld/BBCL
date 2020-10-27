@@ -17,8 +17,8 @@ preceeding symbol (**@**) is for, it tells Common Lisp that we want a Roman numb
 also print older version of Roman Numbers by adding in the **:** into the command (format t "~:@r" 2020)!
 
 Go ahead, give them both a try, you should get Roman numbers instead of "2020"! Be careful with this one because if you forget the ampersand **"@"**, instead
-of getting Roman Numerals, Common Lisp will show you another trick, it will convert "2020" into "two thousand twenty". It's not a bug, it's yet another  
-feature of the **format** command!
+of getting Roman Numerals, Common Lisp will show you another trick, it will convert "2020" into "two thousand twenty". It's not a bug, it's yet another feature of the
+**format** command!
 
 The format command can also be used to print a carriage return. Let's say you want to print out Radius and Area, but have them be one on top of the other.
 It's totally possible to do *and* have it all one line!
