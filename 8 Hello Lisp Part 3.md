@@ -66,13 +66,13 @@ write it that way, we'd place the addition sign first, followed by the two numbe
 
 (+ 4 4)
 
-````
+```
 
 The same thing's true for adding a colon before the word "Name".  Now, you don't have to have the colon, if you don't want it, OR you can add it on your own if you'd 
 prefer, you'd need to make only one slight change to the code we entered above:
 
 
-````
+```
 
 (format t "~a~10t~a" "Name:" "Galen")  
 
