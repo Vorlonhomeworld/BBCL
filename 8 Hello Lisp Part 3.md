@@ -49,7 +49,7 @@ in Common Lisp, I could do it by entering this:
 
 ```
 
-All we're really doing is chaining directive together, like we'd do in Linux if we used the "|" (pipe) command between two commands:
+All we're really doing is chaining directives together, like we'd do in Linux if we used the "|" (pipe) command between two commands:
 
 **format t** we've already seen, tells Common Lisp that we want to print something to the s**T**andard output, the screen, the **~a** directive is Common Lisps's 
 **A**esthetic directive, this tells Common Lisp that we're going to supply it with something and it needs to be printed out as a human readable output.  The **:**
