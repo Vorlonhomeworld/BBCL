@@ -58,9 +58,9 @@ Common Lisp that we want 10 tabs, and yes, it does need to be in that format or 
 going to supply Common Lisp with something else to print. 
 
 If you haven't picked up on this, the "~a" are also place holders for something we'll put in a bit later.  Speaking of, the **:name** is our first place holder. I realize
-we said we wanted to print "Name:", Common Lisp needs to have the colon placed before the word we're working with, you'll see the same thing when we talk about numbers, 
-it's a variation of Lambda formatting, where the operation comes before the number or word, for example in Common Lisp, if we want it to add 4+4, we wouldn't
-write it that way, we'd place the addition sign first, followed by the two numbers to add:
+we said we wanted to print "Name:", Common Lisp needs to have the colon placed before the word we're working with, you'll see the same thing when we talk about numbers 
+This is because Common Lisp uses S-expressions *(we'll cover that more in the next chapter)* where the operation comes before the number or word, for example in Common 
+Lisp, if we want it to add 4+4, we wouldn't write it that way, we'd place the addition sign first, followed by the two numbers to add:
 
 ```
 
