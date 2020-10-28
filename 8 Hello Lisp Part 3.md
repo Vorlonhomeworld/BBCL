@@ -57,7 +57,7 @@ is our way of telling Common Lisp that we want to **modify** our print command t
 Common Lisp that we want 10 tabs, and yes, it does need to be in that format or it won't work. We follow it up with **~a**, another aesthetic command because we're
 going to supply Common Lisp with something else to print. 
 
-If you haven't picked up on this, the "~a" are also place holders for something we'll put it a bit later.  Speaking of, the **:name** is our first place holder. I realize
+If you haven't picked up on this, the "~a" are also place holders for something we'll put in a bit later.  Speaking of, the **:name** is our first place holder. I realize
 we said we wanted to print "Name:", Common Lisp needs to have the colon placed before the word we're working with, you'll see the same thing when we talk about numbers, 
 it's a variation of Lambda formatting, where the operation comes before the number or word, for example in Common Lisp, if we want it to add 4+4, we wouldn't
 write it that way, we'd place the addition sign first, followed by the two numbers to add:
