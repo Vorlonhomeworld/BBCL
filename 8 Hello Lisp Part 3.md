@@ -33,7 +33,7 @@ know we want to give it a directive! Go ahead, give it a try!
 
 
 It's also possible to print tabs within Common Lisp, the **"~t"** allows us to do this. This example might look a bit odd, but it's not really, I promise!
-If I wanted to print the follow:  
+If I wanted to print the following:  
 
 ```
 
