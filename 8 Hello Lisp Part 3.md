@@ -100,6 +100,7 @@ to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be di
 **2. Print pi so that it shows only 3 digits.**
 
 **3. Can you do the same thing as you did in number 2 a different way? If so, feel free to do it within the REPL.**
+
      *(Spoiler: You CAN do this two different ways in Common Lisp - if you get stuck, look at "Hello Lisp, Chapter 2")*
      
 **4.Print the year 1984 in Hexadecimal.**
