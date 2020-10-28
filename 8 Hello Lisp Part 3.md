@@ -86,4 +86,36 @@ say for instance, we wanted a table to print out instead, like so:
 (format t "~a~10t~a" "Name |" "Galen")
 
 ```
+It's totally up to us - just follow the format, and you can pretty much make whatever changes you want!
 
+### Review
+
+**Y**eah, I know, who likes quizes, right? However, reptition is the best way to learn something, so, I'll give you a few things to practice on.
+*Be awware* that unlike typical tests, the answers for these questions will *not* be in the back or in the next section, basically, if you miss something, you'll need
+to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be diffcult at all, I promise!
+
+
+**1.  Print "Hello, World!" in the REPL.**
+
+**2. Print pi so that it shows only 3 digits. **
+
+**3. Can you do the same thing as you did in number 2 a different way? If so, feel free to do it within the REPL.**
+     *(Spoiler: You CAN do this two different ways in Common Lisp - if you get stuck, look at "Hello Lisp, Chapter 2")*
+     
+**4.Print the year 1984 in Hexadecimal. **
+
+**5.Print the year 2099 in Octal.**
+
+**6.Print the year 1999 in Binary.**
+
+**7.Print 1963 in NEW Roman Numberals.**
+
+**8.Now preint 1963, but in OLD Roman Numerals.**
+*(If you get stuck, check "Hello Lisp, Part 3")*
+
+**9. Print your name followed by your occupation, but seperate them with 4 tabs**
+
+**10. Print your name followed by your occupation, but this time, put a carriage return between your name and your occupation**
+      *(If you get stuck, check "Hello Lisp, part 3")*
+      
+      
