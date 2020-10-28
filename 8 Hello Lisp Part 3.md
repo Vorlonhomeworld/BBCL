@@ -101,7 +101,7 @@ to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be di
 
 **3. Can you do the same thing as you did in number 2 a different way? If so, feel free to do it within the REPL.**
 
-     *(Spoiler: You CAN do this two different ways in Common Lisp - if you get stuck, look at "Hello Lisp, Chapter 2")*
+*(Spoiler: You CAN do this two different ways in Common Lisp - if you get stuck, look at "Hello Lisp, Chapter 2")*
      
 **4.Print the year 1984 in Hexadecimal.**
 
@@ -112,11 +112,13 @@ to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be di
 **7.Print 1963 in NEW Roman Numberals.**
 
 **8.Now preint 1963, but in OLD Roman Numerals.**
+
 *(If you get stuck, check "Hello Lisp, Part 3")*
 
 **9. Print your name followed by your occupation, but seperate them with 4 tabs**
 
 **10. Print your name followed by your occupation, but this time, put a carriage return between your name and your occupation**
-      *(If you get stuck, check "Hello Lisp, part 3")*
+
+*(If you get stuck, check "Hello Lisp, part 3")*
       
       
