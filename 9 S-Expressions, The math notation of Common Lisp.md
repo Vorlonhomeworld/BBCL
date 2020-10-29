@@ -42,13 +42,15 @@ your rooms would be:
 Now, image that these rooms are set up so that they're two doors apart, one door is labeled and one door
 is not. Inside AX, there are actually two departments, one is the door that's labeled, and the other is 
 the door right next to it that isn't labeled. The two departments call themselves **AH** (Accumulator High) and 
-**AL** (Accumulator low). They divide the work up between themselves. Bear in mind, they get their instruction in 
+**AL** (Accumulator low). (By the way, The same thing is true for office BX, it has BH and BL inside, CX had CH and CL 
+inside and DX has DH and DL inside.) They divide the work up between themselves. Bear in mind, they get their instruction in 
 Binary (zeros and ones ) and Binary comes in packages of 8 (0000001 11000000), and the office starts counting at 
 "0" not 1, from left to right. Any job that comes from bits 0 to 7 are handled by **AL** (Accumulator low),
-any job that comes from bits 8 to 16 are handled by **AH** (Accumulator high).
+any job that comes from bits 8 to 16 are handled by **AH** (Accumulator high). The same thing is true for 
+office BX, it has BH and BL inside, CX had CH and CL inside and DX has DH and DL inside.
 
 If AL is currently handling a job from bits 0 to 7, it's busy and can't handle another job, the next job has to 
-either wait or complete the job and tell the worker that the job's done and they can **pop** down for a cup of coffee
+either wait for AL complete the job and tell the worker that the job's done and they can **pop** down for a cup of coffee
 if they'd like, or if they try to take the second job at the same time (they wouldn't unless the other worker that was
 still there didn't get the message to **pop** out of that office for a cup of coffee or a soda) it would overwhelm 
 them and the whole office *could* possible shut down.
