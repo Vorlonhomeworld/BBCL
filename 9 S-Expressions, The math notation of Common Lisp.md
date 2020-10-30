@@ -61,7 +61,7 @@ do one type of job (yes I know, it sounds like the government!). That's *exactly
 of jobs and only for a part of the binary code, either the lower half (from 0 to 7) or the higher half (8-16).  
 
 **AX** (which is composed of **AL** and **AH**) is the **primary accumulator** (that's *really* it's name). It handles input and output and alot of the 
-arithmetic operators.
+arithmetic operations.
 
 **BX** (which is composed of **BL** and **BH**) is the **base register**  This is used to refer to file. It more or less creates a reference to a file without taking up 
 space as the file would.
