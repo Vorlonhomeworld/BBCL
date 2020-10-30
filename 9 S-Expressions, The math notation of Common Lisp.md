@@ -54,4 +54,23 @@ If AL is currently handling a job from bits 0 to 7, it's busy and can't handle a
 either wait for AL complete the job and tell the worker that the job's done and they can **pop** down for a cup of coffee
 if they'd like, or if they try to take the second job at the same time (they wouldn't unless the other worker that was
 still there didn't get the message to **pop** out of that office for a cup of coffee or a soda) it would overwhelm 
-them and the whole office *could* possible shut down.
+them and the whole office *could* possible shut down. I'm sure you're wondering why, if there's another department, in 
+this case it would be AH, why couldn't *it* couldn't take the job instead? Think of this same office building, with the same departments, but now
+add to that, that these departments *only* do certain jobs for *certain* parts of the number system, *and all of the departments* only
+do one type of job (yes I know, it sounds like the government!). That's *exactly* how the registers work! They do one or at most two types
+of jobs and only for a part of the binary code, either the lower half (from 0 to 7) or the higher half (8-16).  
+
+**AX** (which is composed of **AL** and **AH**) is the **primary accumulator** (that's *really* it's name). It handles input and output and alot of the 
+arithmetic operators.
+
+**BX** (which is composed of **BL** and **BH**) is the **base register**  This is used to refer to file. It more or less creates a reference to a file without taking up 
+space as the file would.
+
+**CX** (which is composed of **CL** and **CH**) is the count register. This handles the counting with loops. Basically, if you tell a program to loop 5 times, it keeps
+track of what loop the computer's actually on.
+
+**DX** (which is composed of **DL** and **DH**) is the data register. This also handles input and output *and* can work with the **AX** register using *only*
+multiplication or division of large numbers.
+
+##Back to Lisp!!
+
