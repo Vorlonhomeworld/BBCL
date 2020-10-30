@@ -110,7 +110,10 @@ len equ     $ - msg             ;length of our dear string
 ```
 
 If you recall - our Common Lisp program was one line only, that that you're seeing above is **all** of the stuff that happens on the backend that Common Lisp
-does for you. McCarthy had to be aware of the registers and what they were doing because, as I said earlier, he had a *very* small space to do it in.
+does for you. (In case your wondering, the lines with "edx, ecx" are *still* the **CX** registers, but to accomodate a 32 bit computer a second version of each register
+has to be build, so we still have th **CX** register which **still** handles bit 0-16, and we now have the **ECX** or the *Extended* **Count Register** which handles bits
+17-32!  The same is true for EDX, EBX and EAX as well, the **E** simple means **extended** (and yes it divided into two departments as well, just like the the original
+registers!) McCarthy had to be aware of the registers and what they were doing because, as I said earlier, he had a *very* small space to do it in.
 In fact, in his paper ["The History of Lisp"](http://jmc.stanford.edu/articles/lisp/lisp.pdf) he describes the computer he was working on at the time, an [IBM 704](https://en.wikipedia.org/wiki/IBM_704) as having 
 36 *bits* of memory - that's **4 bytes**. Because there was so little memory, John McCarthy had to find a way to hold the math operations in memory and have 
 room left over for calculating the result. He found it was easier to use the Prefix notation for this rather than regular notation.  Math won't be the only place you find this
