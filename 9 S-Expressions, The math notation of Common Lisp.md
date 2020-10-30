@@ -74,3 +74,40 @@ multiplication or division of large numbers.
 
 ## Back to Lisp!!
 
+**S**o how does any of this relate to Lisp you might wonder? Well, even though you don't have to make calls to registers in Common Lisp, it has to do it for you. 
+McCarthy had to code that into the language so that it would do that for us.  What do I mean by that? Well, do you remember the "Hello World" program we wrote.
+Let me show you the same program written in Assembly (this one compiles with NASM and will work with 32-bit Windows):
+
+```
+
+section .text                   ;section declaration
+
+                                ;we must export the entry point to the ELF linker or
+    global  _start              ;loader. They conventionally recognize _start as their
+			                          ;entry point. Use ld -e foo to override the default.
+
+_start:
+
+                                ;write our string to stdout
+
+    mov     edx,len             ;third argument: message length
+    mov     ecx,msg             ;second argument: pointer to message to write
+    mov     ebx,1               ;first argument: file handle (stdout)
+    mov     eax,4               ;system call number (sys_write)
+    int     0x80                ;call kernel
+
+                                ;and exit
+
+  	mov     ebx,0               ;first syscall argument: exit code
+    mov     eax,1               ;system call number (sys_exit)
+    int     0x80                ;call kernel
+
+section .data                   ;section declaration
+
+msg db      "Hello, world!",0xa ;our dear string
+len equ     $ - msg             ;length of our dear string
+
+```
+
+If you recall - our Common Lisp program was one line only, that that you're seeing above is **all** of the stuff that happens on the backend that Common Lisp
+does for you
