@@ -111,5 +111,10 @@ len equ     $ - msg             ;length of our dear string
 
 If you recall - our Common Lisp program was one line only, that that you're seeing above is **all** of the stuff that happens on the backend that Common Lisp
 does for you. McCarthy had to be aware of the registers and what they were doing because, as I said earlier, he had a *very* small space to do it in.
-In fact, in his paper ["The History of Lisp"](http://jmc.stanford.edu/articles/lisp/lisp.pdf) he describes the computer he was working on at the time, an [IBM 704](https://en.wikipedia.org/wiki/IBM_704)
+In fact, in his paper ["The History of Lisp"](http://jmc.stanford.edu/articles/lisp/lisp.pdf) he describes the computer he was working on at the time, an [IBM 704](https://en.wikipedia.org/wiki/IBM_704) as having 
+36 *bits* of memory - that's **4 bytes**. Because there was so little memory, John McCarthy had to find a way to hold the math operations in memory and have 
+room left over for calculating the result. He found it was easier to use the Prefix notation for this rather than regular notation.  Math won't be the only place you find this
+happening either, when we get to making decisions, you'll see that Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do this), you'll
+write the operator (the ">" sign) first, (> 5 6)
+.
 
