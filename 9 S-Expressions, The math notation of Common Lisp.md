@@ -72,5 +72,5 @@ track of what loop the computer's actually on.
 **DX** (which is composed of **DL** and **DH**) is the data register. This also handles input and output *and* can work with the **AX** register using *only*
 multiplication or division of large numbers.
 
-##Back to Lisp!!
+## Back to Lisp!!
 
