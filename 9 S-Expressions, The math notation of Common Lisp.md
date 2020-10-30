@@ -63,7 +63,7 @@ of jobs and only for a part of the binary code, either the lower half (from 0 to
 **AX** (which is composed of **AL** and **AH**) is the **primary accumulator** (that's *really* it's name). It handles input and output and alot of the 
 arithmetic operations.
 
-**BX** (which is composed of **BL** and **BH**) is the **base register**  This is used to refer to file. It more or less creates a reference to a file without taking up 
+**BX** (which is composed of **BL** and **BH**) is the **base register**  This is used to refer to a file. It more or less creates a reference to a file without taking up 
 space as the file would.
 
 **CX** (which is composed of **CL** and **CH**) is the count register. This handles the counting with loops. Basically, if you tell a program to loop 5 times, it keeps
