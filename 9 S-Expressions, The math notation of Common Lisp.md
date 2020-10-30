@@ -115,6 +115,8 @@ In fact, in his paper ["The History of Lisp"](http://jmc.stanford.edu/articles/l
 36 *bits* of memory - that's **4 bytes**. Because there was so little memory, John McCarthy had to find a way to hold the math operations in memory and have 
 room left over for calculating the result. He found it was easier to use the Prefix notation for this rather than regular notation.  Math won't be the only place you find this
 happening either, when we get to making decisions, you'll see that Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do this), you'll
-write the operator (the ">" sign) first, (> 5 6)
-.
+write the operator (the ">" sign) first, (> 5 6).
+
+**S**o, in short, John McCarthy used the Prefix notation to use less memory, use the registers carefully, and get a lot of power of his, at that time, seriously
+underpowered computer. Common Lisp operates the same way, and thus, runs quickly and powerfully on computers even today!
 
