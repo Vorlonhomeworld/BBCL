@@ -24,7 +24,7 @@ words!  The problem with Assembly was, it did *exactly* what you told it to do a
 actually tell it to clear a register for you to make sure you could use it, or add another register to your 
 register so you'd have the space to run your program.
 
-## Wait?  What's a register
+## Wait!  What's a register?
 
 I realize we're not learning assembly language, but in order to explain why John McCarthy used the Prefix notation,
 we'll have to go into discussing registers briefly. Think of your computer's proccesor as an office building with 
