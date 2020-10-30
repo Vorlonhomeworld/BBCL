@@ -122,6 +122,7 @@ room left over for calculating the result and have as little moving around as po
 the Prefix notation for this rather than regular notation.  Math won't be the only place you find this happening either, when we get to making decisions, you'll see that 
 Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do this), you'll write the operator (the ">" sign) first, (> 5 6).
 
-**S**o, in short, John McCarthy used the Prefix notation to use less memory, use the registers carefully, and get a lot of power of his, at that time, seriously
-underpowered computer. Common Lisp operates the same way, and thus, runs quickly and powerfully on computers even today!
+**S**o, in short, John McCarthy used the Prefix notation to use less memory, use the registers more effeciently, tax the computer as little as possible, and still get it to 
+calculate powerful equations for A.I, (which could get pretty complicated) *and* he had to do this on a seriously underpowered computer. Common Lisp still operates the  
+same way today and because of this it runs quickly and powerfully on computers even today!
 
