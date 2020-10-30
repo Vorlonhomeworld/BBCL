@@ -27,8 +27,8 @@ register so you'd have the space to run your program.
 ## Wait!  What's a register?
 
 I realize we're not learning assembly language, but in order to explain why John McCarthy used the Prefix notation,
-we'll have to go into discussing registers briefly. Think of your computer's proccesor as an office building with 
-4 rooms. Each room is pretty small, it can hold one worker and one client only. Each room does one specific operation,
+we'll have to go into discussing registers briefly. Think of McCarthy's computer's proccesor as an office building with 
+4 rooms (our processors have 8 or even 16!). Each room is pretty small, it can hold one worker and one client only. Each room does one specific operation,
 although two of the rooms **CAN** work together at times. Instead of numbers, the rooms have a two letter code,
 your rooms would be:
 
