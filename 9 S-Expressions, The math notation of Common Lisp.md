@@ -112,15 +112,15 @@ len equ     $ - msg             ;length of our dear string
 If you recall - our Common Lisp program was one line only, that code that you're seeing above is **all** of the stuff that happens in the background that Common Lisp
 does for you. (In case you're wondering, the lines with "ecx" are *still* the **CX** registers, but to accomodate a 32 bit computer a second version of each register
 has to be build, so we still have the **CX** register which **still** handles bits 0-16, and we now have the **ECX** or the *Extended* **Count Register** which handles bits
-17-32!  The same is true for EDX, EBX and EAX as well, the **E** simple means **extended** (and yes it's divided into two departments as well, just like the the original
+17-32!  The same is true for EDX, EBX and EAX as well, the **E** simply means **extended** (and yes it's divided into two departments as well, just like the the original
 registers!). The "*mov*" commands you're seeing are *move* commands, yep, like I said, in Assembly, you literally *had* to tell it to move memory and strings around!)
 
 McCarthy had to be aware of the registers and what they were doing because, as I said earlier, he had a *very* small space to do it in.
 In fact, in his paper ["The History of Lisp"](http://jmc.stanford.edu/articles/lisp/lisp.pdf) he describes the computer he was working on at the time, an [IBM 704](https://en.wikipedia.org/wiki/IBM_704) as having 
-36 *bits* of memory - that's **4 bytes**. Because there was so little memory, John McCarthy had to find a way to hold the math operations in memory and have 
-room left over for calculating the result. He found it was easier to use the Prefix notation for this rather than regular notation.  Math won't be the only place you find this
-happening either, when we get to making decisions, you'll see that Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do this), you'll
-write the operator (the ">" sign) first, (> 5 6).
+36 *bits* of memory - that's **4 bytes**. Because there was so little memory, John McCarthy had to find a way to hold the math operations in memory, have 
+room left over for calculating the result and have as little moving around as possible so as to not tax the computer he was working with. He found it was easier to use 
+the Prefix notation for this rather than regular notation.  Math won't be the only place you find this happening either, when we get to making decisions, you'll see that 
+Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do this), you'll write the operator (the ">" sign) first, (> 5 6).
 
 **S**o, in short, John McCarthy used the Prefix notation to use less memory, use the registers carefully, and get a lot of power of his, at that time, seriously
 underpowered computer. Common Lisp operates the same way, and thus, runs quickly and powerfully on computers even today!
