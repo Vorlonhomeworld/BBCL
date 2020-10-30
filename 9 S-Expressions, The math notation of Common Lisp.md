@@ -109,7 +109,7 @@ len equ     $ - msg             ;length of our dear string
 
 ```
 
-If you recall - our Common Lisp program was one line only, that that you're seeing above is **all** of the stuff that happens on the backend that Common Lisp
+If you recall - our Common Lisp program was one line only, that code that you're seeing above is **all** of the stuff that happens on the backend that Common Lisp
 does for you. (In case your wondering, the lines with "edx, ecx" are *still* the **CX** registers, but to accomodate a 32 bit computer a second version of each register
 has to be build, so we still have th **CX** register which **still** handles bit 0-16, and we now have the **ECX** or the *Extended* **Count Register** which handles bits
 17-32!  The same is true for EDX, EBX and EAX as well, the **E** simple means **extended** (and yes it divided into two departments as well, just like the the original
