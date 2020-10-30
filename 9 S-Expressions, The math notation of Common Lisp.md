@@ -50,8 +50,8 @@ Binary (zeros and ones ) and Binary comes in packages of 8 (0000001 11000000), a
 any job that comes from bits 8 to 16 are handled by **AH** (Accumulator high). The same thing is true for 
 office BX, it has BH and BL inside, CX had CH and CL inside and DX has DH and DL inside.
 
-If AL is currently handling a job from bits 0 to 7, it's busy and can't handle another job, the next job has to 
-either wait for AL complete the job and tell the worker that the job's done and they can **pop** down for a cup of coffee
+If AL is currently handling a job from bits 0 to 7, it's busy and can't handle another job from bits 0 to 7, that next job has to 
+either wait for AL complete the job and tell the current worker that the job's done and they can **pop** down for a cup of coffee
 if they'd like, or if they try to take the second job at the same time (they wouldn't unless the other worker that was
 still there didn't get the message to **pop** out of that office for a cup of coffee or a soda) but it would overwhelm 
 them and the whole office *could* possible shut down. I'm sure you're wondering why, if there's another department, in 
