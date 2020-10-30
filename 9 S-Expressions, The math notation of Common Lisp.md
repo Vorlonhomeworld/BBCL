@@ -9,7 +9,7 @@ become known as **PN** or **Polish Notation** , **NPN** or **Normal Polish Notat
 notation**, **Polish prefix notation** or just **Prefix Notation**. John McCarthy used this idea when constructing Lisp 
 (this is before it became known as Common Lisp.) for a few reasons.
 
-First, when he was putting this language together, computers were the size of a room, and needed an air-conditioning unit 
+First, when he was putting this language together, computers were the size of a room, and needed an air-conditioning unit also
 the size of a room to keep it cool, but for all their size, they were extremely under-powered by todays standards.
 Memory was something **less** than 32-bit and that memory was stored in vacuum tubes, not chips like we have today. Further,
 personal computers hadn't been invented yet, so only big business and colleges actually had a computer and just to
