@@ -57,7 +57,7 @@ still there didn't get the message to **pop** out of that office for a cup of co
 them and the whole office *could* possible shut down. I'm sure you're wondering why, if there's another department, in 
 this case it would be AH, why couldn't *it* couldn't take the job instead? Think of this same office building, with the same departments, but now
 add to that, that these departments *only* do certain jobs for *certain* parts of the number system, *and all of the departments* only
-do one or two types of jobs (yes I know, it sounds like the government!). That's *exactly* how the registers work! They do one or at most two types
+do one or two types of jobs *only* (yes I know, it sounds like the government!). That's *exactly* how the registers work! They do one or at most two types
 of jobs and only for a part of the binary code, either the lower half (from 0 to 7) or the higher half (8-16).  
 
 **AX** (which is composed of **AL** and **AH**) is the **primary accumulator** (that's *really* it's name). It handles input and output and alot of the 
