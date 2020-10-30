@@ -11,7 +11,7 @@ notation**, **Polish prefix notation** or just **Prefix Notation**. John McCarth
 
 First, when he was putting this language together, computers were the size of a room, and needed an air-conditioning unit 
 the size of a room to keep it cool, but for all their size, they were extremely under-powered by todays standards.
-Memory was something like 32-bit and that memory was stored in vacuum tubes, not chips like we have today. Further,
+Memory was something **less** than 32-bit and that memory was stored in vacuum tubes, not chips like we have today. Further,
 personal computers hadn't been invented yet, so only big business and colleges actually had a computer and just to
 use it, you had to wait in a line and you had to hand your program over to a technician who would run the program
 for you! So, not only did the language John McCarthy was working on have to be powerful (for AI ), but it also
@@ -110,4 +110,6 @@ len equ     $ - msg             ;length of our dear string
 ```
 
 If you recall - our Common Lisp program was one line only, that that you're seeing above is **all** of the stuff that happens on the backend that Common Lisp
-does for you
+does for you. McCarthy had to be aware of the registers and what they were doing because, as I said earlier, he had a *very* small space to do it in.
+In fact, in his paper ["The History of Lisp"](http://jmc.stanford.edu/articles/lisp/lisp.pdf) he describes the computer he was working on at the time, an [IBM 704](https://en.wikipedia.org/wiki/IBM_704)
+
