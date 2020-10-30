@@ -48,7 +48,7 @@ inside and DX has DH and DL inside.) They divide the work up between themselves.
 Binary (zeros and ones ) and Binary comes in packages of 8 (0000001 11000000), and the office starts counting at 
 "0" not 1, from left to right. Any job that comes from bits 0 to 7 are handled by **AL** (Accumulator low),
 any job that comes from bits 8 to 16 are handled by **AH** (Accumulator high). The same thing is true for 
-office BX, it has BH and BL inside, CX had CH and CL inside and DX has DH and DL inside.
+office BX, it has BH and BL inside and divides the work the same way as does office CX and DX.
 
 If AL is currently handling a job from bits 0 to 7, it's busy and can't handle another job from bits 0 to 7, that next job has to 
 wait for AL complete the job and tell the current worker that the job's done and they can **pop** down for a cup of coffee
