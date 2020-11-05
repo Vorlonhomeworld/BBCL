@@ -7,11 +7,12 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 **Architecture:**  1 - 64-bit Dec\
 2- Acorn RISC\
 3- Alpha\
-4- Amiga 500 - 4000\ 
-5- Android\ 
+4- Amiga 500 - 4000
+
+5- Android\
 6- AIX\
-7- Apollo\ 
-8- Butteryfly Machine\
+7- Apollo\
+8- Butterfly Machine\
 9- Dec\
 10- Dec Alpha\
 11- Dec (Ultrix)\
@@ -28,7 +29,7 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 22- Linux\
 23- MacOS\
 24- MacOS 7.5 or later\
-25- MacOS (Catalina / Mojave)\ 
+25- MacOS (Catalina / Mojave)\
 26- MIPS\
 27- MIT Lisp machine\
 28- NetBSD\
@@ -51,7 +52,8 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 45- Windows 98\
 46- Windows NT\
 47- Windows XP\
-48- Xerox 1186\
+48- Xerox 1186
+
 
 
 **Legend:**   $ - Commercial,  A - Active,  F - Free,  C - Caution,  X - Inactive
