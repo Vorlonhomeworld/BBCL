@@ -33,7 +33,7 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 26- MIPS\
 27- MIT Lisp machine\
 28- NetBSD\
-29- NeXT\ 
+29- NeXT\
 30- NeXT Step\
 31- OpenBSD\
 32- OS/2\
