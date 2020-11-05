@@ -23,7 +23,7 @@ you that in just a moment. SBCL's REPL also has a debugger built in as well.
 
 ## First Steps
 
-Even though you've read the documentation from the website for your Common Lisp implementation, you still want to verify within the REPL which version of Common Lisp
+Even though you've read the documentation from the website for your Common Lisp implementation and it's told you how complaint it is with Common Lisp, you still want to verify within the REPL which version of Common Lisp
 this REPL supports, as there are at least three versions, one of which is the ANSI STANDARD. Simply type this into the REPL and hit enter:
 
 ```
