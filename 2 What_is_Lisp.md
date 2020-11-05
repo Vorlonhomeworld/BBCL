@@ -94,9 +94,11 @@ For example, in C, if I were to write code for a program that used integers, I'd
 
 As a matter of fact, yes!  Common Lisp is still being used today, by both hobbyists and professionals. On the Hobbyists side, [StupmWm](http://stumpwm.github.io/)
 is a complete window mannager written completly in Common Lisp, [Climacs](https://common-lisp.net/project/climacs/) is an implementation
-of Emacs in Common Lisp, as are [Hemlock](https://github.com/bluelisp/hemlock) and [Clocc](http://clocc.sourceforge.net/). On the companies side,
-there's actually a fairly large list [available here](https://common-lisp.net/lisp-companies), this list includes Grammarly!  This isn't the only list either,
-[there's this one](http://pchristensen.com/blog/lisp-companies/) and you can always do a google search on Lisp jobs anytime!
+of Emacs in Common Lisp, as are [Hemlock](https://github.com/bluelisp/hemlock) and [Clocc](http://clocc.sourceforge.net/).One 
+hobbyist even wrote [Mezzano](https://github.com/froggey/Mezzano), an entire operating system, from Common Lisp. On the
+companies side, there's actually a fairly large list [available here](https://common-lisp.net/lisp-companies), this list
+includes Grammarly!  This isn't the only list either,[there's this one](http://pchristensen.com/blog/lisp-companies/) and 
+you can always do a google search on Lisp jobs anytime!
 
 That's not all either!  Have you ever written an Excel formula?  You ever notice that the formula had to be enclosed in paraentheses? That's a Common Lisp influence, as common 
 Lisp uses parentheses all the time. How about the syntax of the formula, for example, I have a budget on Excel/Libre Office and the formula for part of it is:
