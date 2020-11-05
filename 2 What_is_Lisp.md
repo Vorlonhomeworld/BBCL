@@ -67,7 +67,8 @@ You can also:
 * [Write a game](https://www.cliki.net/Game) (graphic or not!)
 * [Write system scripts](https://github.com/fare/fare-scripts)
 * Write a shell. 
-* Even write an app on [your android phone](https://gitlab.com/eql/EQL5-Android/-/tree/master/screenshots).
+* Write an app on [your android phone](https://gitlab.com/eql/EQL5-Android/-/tree/master/screenshots).
+* Even write an [entire operating system](https://github.com/froggey/Mezzano)!
 
 There's really no limit to what you can do with Common Lisp, just as example of what's been done [look at this web page](https://www.cliki.net/)!
 
