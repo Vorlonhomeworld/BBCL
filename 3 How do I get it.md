@@ -8,9 +8,9 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 2- Acorn RISC\
 3- Alpha\
 4- Amiga 500 - 4000\ 
-5 - Android\ 
-6 - AIX\
-7 - Apollo\ 
+5- Android\ 
+6- AIX\
+7- Apollo\ 
 8- Butteryfly Machine\
 9- Dec\
 10- Dec Alpha\
