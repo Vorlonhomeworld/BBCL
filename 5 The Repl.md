@@ -60,7 +60,7 @@ Quicklisp is a package manager for Common Lisp. As of this writing is has
 [1,500 libraries available](https://www.quicklisp.org/beta/releases.html)
 and you can download and install them with quicklisp - and to boot, it's
 prettty easy to work with! Yes you can use Common Lisp's **asdf** (which
-mean [Another System Definition Facility](https://common-lisp.net/project/asdf/#:~:text=ASDF%20is%20what%20Common%20Lisp,for%20Another%20System%20Definition%20Facility.&text=And%20you%20must%20typically%20compile,other%20files%20that%20use%20them.) ), however, ASDF is like the
+means [Another System Definition Facility](https://common-lisp.net/project/asdf/#:~:text=ASDF%20is%20what%20Common%20Lisp,for%20Another%20System%20Definition%20Facility.&text=And%20you%20must%20typically%20compile,other%20files%20that%20use%20them.) ), however, ASDF is like the
 Linux "Make" command where it compiles and causes a library to be useable,
 quicklisp downloads, compiles, stores and can call a Common Lisp library
 in very easy steps!
