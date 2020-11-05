@@ -4,7 +4,8 @@
 a single leader, like , say Python, so there's not just one source for it. This means that there are different implementations of Common Lisp available,
 each with their own purpose.  Just to give you an idea - I'll show you the different versions, then I'll pare the list down considerably:
 
-**Architecture:**  1 - 64-bit Dec\
+**Architecture:**\
+1 - 64-bit Dec\
 2- Acorn RISC\
 3- Alpha\
 4- Amiga 500 - 4000\
