@@ -168,7 +168,7 @@ we know that one pound equals sixteen ounces.
 
 Where Common Lisp is concerned having the code be ANSI compliant means that the code that works on one computer (even if it's a different operating system) will work
 on another system without the need to change it to fit that particular system. Remember, prior to 1984 Lisp wasn't standardized so there were multiple dialects
-of Lisp in operation from the late 1960's onward!  With Common Lisp becoming the standard in 1984, we now know that any code written in Common Lisp using an Ansi complaint
+of Lisp in operation from the late 1960's onward!  With Common Lisp becoming standardized in 1984, we now know that any code written in Common Lisp using an Ansi complaint
 implementation will work with no problems on any other computer!
 
 Since we've weeded out four other distributions, we have five remaining distributions to choose from:
@@ -181,8 +181,8 @@ Since we've weeded out four other distributions, we have five remaining distribu
 |      LISPWORKS           | Fully Compliant           |    02/2020 (Windows Personal Edition)    |
 |      SBCL                | Mostly Conforms           |    09/27/2020                            |
 
-CLISP which "mostly conforms" to ANSI standsards, looks to be ok. It's a general use Common Lisp implementation, it's free to use, has an extensive
-help menu. **However** it hasn't been updated since 2010! Now, Common Lisps ANSI standard were set in 1994 and haven't been updated, so it's not 
+CLISP which "mostly conforms" to ANSI standards, looks to be ok. It's a general use Common Lisp implementation, it's free to use, has an extensive
+help menu. **However** it hasn't been updated since 2010! Now, Common Lisps ANSI standards were set in 1994 and haven't been updated, so it's not 
 likely that this implementation would be out of date with the standard, however, any programs made by humans are going to have bugs, and since bugs
 need to be fixed by updating the code, and this code hasn't been updated since 2010, I would be hesitant to use this even though it's 
 available to me.
