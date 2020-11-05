@@ -53,7 +53,7 @@ All we're really doing is chaining directives together, like we'd do in Linux if
 
 **format t** we've already seen, tells Common Lisp that we want to print something to the s**T**andard output, the screen, the **~a** directive is Common Lisps's 
 **A**esthetic directive, this tells Common Lisp that we're going to supply it with something and it needs to be printed out as a human readable output.  The **:**
-is our way of telling Common Lisp that we want to **modify** our print command to including, in this case, tabs. The **~10t** is literally our tab command, it tells
+is our way of telling Common Lisp that we want to **modify** our print command to include, in this case, tabs. The **~10t** is literally our tab command, it tells
 Common Lisp that we want 10 tabs, and yes, it does need to be in that format or it won't work. We follow it up with **~a**, another aesthetic command because we're
 going to supply Common Lisp with something else to print. 
 
