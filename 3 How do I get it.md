@@ -7,8 +7,7 @@ each with their own purpose.  Just to give you an idea - I'll show you the diffe
 **Architecture:**  1 - 64-bit Dec\
 2- Acorn RISC\
 3- Alpha\
-4- Amiga 500 - 4000
-
+4- Amiga 500 - 4000\
 5- Android\
 6- AIX\
 7- Apollo\
