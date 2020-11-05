@@ -188,7 +188,7 @@ need to be fixed by updating the code, and this code hasn't been updated since 2
 available to me.
 
 Now, Clozure CL states that it conforms to the ANSI Compliant Status, however, it's got a rather complex installation proceedure and it's got a large amount of eye
-candy. That and it's showing updates for various files fom 2015 up to 2 days ago. Once again, the ANSI standard was set up in 1994 so the code won't 
+candy. That and it's showing updates for various files from 2015 up to 2 days ago. Once again, the ANSI standard was set up in 1994 so the code won't 
 neccessarily be out of date or anything. Just as with CLISP with the updates being all over the map, I would be less inclined to want to run that 
 implementation of Common Lisp.
 
