@@ -3,7 +3,7 @@
 
    I became interested in Common Lisp when I started using **StumpWM** as my window manager. Prior to that,I'd heard it mentioned, 
 even toyed with a version of it in Emacs, but I never gave it too much though. I just thought of it as an archaic language that only geeks used *(which is midly 
-ironic since I've been a Linux and Emacs users for years, so I'd qualify as a geek for sure!*  Once I started using StumpWM, and started learning what 
+ironic since I've been a Linux and Emacs users for years, so I'd qualify as a geek for sure!)*  Once I started using StumpWM, and started learning what 
 Common Lisp was capable of, I was impressed, to say the least! 
 
    I went online to see what books were available to teach me this language, and although there are some, none really taught me the way I wanted to learn, so I dropped
