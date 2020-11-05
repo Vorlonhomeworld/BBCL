@@ -107,7 +107,7 @@ standards, so this code would not be portable, in some cases with another Common
 [Allegro](https://franz.com/products/allegro-common-lisp/) - Allegro Common Lisp is a commercial Common Lisp implentation. It's meant to be run in an "Enterprise Server" 
 situation where large development projects in Common Lisp solutions are occuring. It **does** have a debugger, along with an interpreter and a compiler. It can also create
 Common Lisp instruction from Java. It does come with a built in database and prolog and other GUI tools for usage. **IMPORTANT** This implementation does **not**
-conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This was most recently updated 8/20/2019.
+conform to Common Lisp ANSI Standards, therefore code written on this machine may not be portable to another machine. This was most recently updated as of 8/20/2019.
 
 
 [Clasp](https://github.com/clasp-developers/clasp) - Clasp  is a free Common Lisp implementation geared for those *really* using C++ but wanting to also add a bit of Common
