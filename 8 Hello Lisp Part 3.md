@@ -111,7 +111,7 @@ to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be di
 
 **7.Print 1963 in NEW Roman Numberals.**
 
-**8.Now preint 1963, but in OLD Roman Numerals.**
+**8.Now print 1963, but in OLD Roman Numerals.**
 
 *(If you get stuck, check "Hello Lisp, Part 3")*
 
