@@ -123,6 +123,5 @@ the Prefix notation for this rather than regular notation.  Math won't be the on
 Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do this), you'll write the operator (the ">" sign) first, (> 5 6).
 
 **S**o, in short, John McCarthy used the Prefix notation to use less memory, use the registers more effeciently, tax the computer as little as possible, and still get it to 
-calculate powerful equations for A.I, (which could get pretty complicated) *and* he had to do this on a seriously underpowered computer. Common Lisp still operates the  
-same way today and because of this it runs quickly and powerfully on computers even today!
+calculate powerful equations for A.I, (which could get pretty complicated) *and* he had to do this on a seriously underpowered computer. Common Lisp still operates the same way today and because of this it runs quickly and powerfully on computers even today!
 
