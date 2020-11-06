@@ -7,7 +7,7 @@ S-Expressions (or Symbolic Expressions) owe their existence to the work of Polis
 operands (rather than write 3+4, he suggested writing this equation as + 3 4). This type of math would 
 become known as **PN** or **Polish Notation** , **NPN** or **Normal Polish Notation**, **Łukasiewicz notation**, **Warsaw
 notation**, **Polish prefix notation** or just **Prefix Notation**. John McCarthy used this idea when constructing Lisp 
-(this is before it became known as Common Lisp.) for a few reasons.
+(this is before it became known as Common Lisp) for a few reasons.
 
 First, when he was putting this language together, computers were the size of a room, and needed an air-conditioning unit also
 the size of a room to keep it cool, but for all their size, they were extremely under-powered by todays standards.
