@@ -16,8 +16,9 @@ You would use the **prefix notation** and write:
 (+ 3 4)
 
 ```
-Notice, you don't have to write the equals sign, nor do you have to tell Common Lisp to print it, it does this for you!  Multiplication is exactly the same way, except
-for the operand
+Notice, you don't have to write the equals sign, nor do you have to tell Common Lisp to print it, it does this for you! Subtraction works exactly the same way, except, 
+of course, for the operand.  Instead of writing (100 - 75) , you'd write it as (- 100 75) and you'd get 25 as your answer! Multiplication is also exactly the same way, except
+, of course, for the operand
 
 ```
 
@@ -46,7 +47,7 @@ for us:
 
 will give us 0.75. 
 
-Yes, we literally just used a list inside of a list, this is called a **nested loop**. It's pretty common to see these in Common Lisp. When you're working with nested lopos, 
+Yes, we literally just used a list inside of a list, this is called a **nested loop**. It's pretty common to see these in Common Lisp. When you're working with nested loops, 
 just remember that all the loops must be closed or it won't work, just like the example I showed on chapter 2 when I printed part of my LibreOffice Calc formula for my budget:
 
 ```
@@ -55,5 +56,32 @@ just remember that all the loops must be closed or it won't work, just like the 
 ```
 
 That's a nested loop, and every parantheses I opened up at the start had to be closed at the end. In fact if you scroll to the end of that formula you'll see that it has 30 
-closed parantheses at the end. If I had any of the loops not closed, that forumla wouldn't work, it would throw an error and I'd have to close that parentheses in order for it
-to work. Common Lisp is exactly the same way, and in fact it's possible to close lists inside of another list, and we'll get into that a bit later, I promise!`
+closed parantheses at the end. If I had any of the loops not closed, that formula wouldn't work, it would throw an error and I'd have to close that parentheses in order for it
+to work. Common Lisp is exactly the same way, and in fact it's possible to close lists inside of another list, and we'll get into that a bit later, I promise!
+
+
+So far we've covered addition, subtraction,multiplication and division, and yes, we'll cover exponentials too!  Common Lisp actually as two types of exponentials, believe
+it or not. One of them is what you'd expect, where you get it to multiply a number times another number as many times as you've told it to do. *However* there's another
+type of exponential command, and I wanted to point this out to so that you didn't use it in error! The two Common Lisp exponential commands are **exp** and **expt**.
+They *definetly* **do not** work the same way.  The **expt** command is the command you'd use for , say , working out 4 to the second power:
+
+```
+
+(expt 4 2)
+
+```
+
+This would give you 16, which is what you'd expect of it.  The second command **exp** operates differently. First of all, you give it only one number, secondly 
+it multiples by *e* (or [Euler's number](https://en.wikipedia.org/wiki/E_(mathematical_constant)) ) as many times as the number you gave it, for example, if I 
+enter this:
+
+````
+
+(exp 1)
+
+```
+
+I'm not going to get the result of (* 1 1), instead, I'm going to get the result of Euler's number (which is 2.7182817) multiplied 1 time which will give me, of course
+2.7182817.  If I enter in (exp 2), I'm still using Euler's number but now I'm multiplying it by itself  (* 2.7182817 2.7182817) which will give me 7.389056. (Yes, the 
+actual number is different, it's 7.3890557 - Common Lisp rounds down this number to 7.389056).
+
