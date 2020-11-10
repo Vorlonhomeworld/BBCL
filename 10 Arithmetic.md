@@ -75,7 +75,7 @@ This would give you 16, which is what you'd expect of it.  The second command **
 it multiples by *e* (or [Euler's number](https://en.wikipedia.org/wiki/E_(mathematical_constant)) ) as many times as the number you gave it, for example, if I 
 enter this:
 
-````
+```
 
 (exp 1)
 
