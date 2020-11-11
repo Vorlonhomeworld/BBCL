@@ -72,7 +72,8 @@ way.  The **expt** command is the command you'd use for , say , working out 4 to
 
 ```
 
-This would give you 16, which is what you'd expect of it.  Common Lisp will also let you use this command for negative exponentials too!  For that all you have to do is enter:
+This would give you 16, which is what you'd expect of it.  Common Lisp will also let you use this command for negative exponentials too!  For example, if we wanted to get the 
+answer to four to the **negative** 2 power, which is the same as asking Common Lisp to divide four by four, all we'd have to do is enter:
 
 ```
 
@@ -80,7 +81,7 @@ This would give you 16, which is what you'd expect of it.  Common Lisp will also
 
 ```
 
-You want to be careful here too, because negative exponentials are a number divided by itself the amount of times shown, it's subject to the same types of numbers a regular
+You want to be careful here too, because negative exponentials are a number divided by itself the amount of times shown, it's subject to the same types of rules a regular
 division problem would be, in other words, it will give you a ratio if the answer isn't an exact integer. If you don't need the ratio, but rather the float or decimal 
 number you can use the nested loop we used for division a bit higher up:
 
