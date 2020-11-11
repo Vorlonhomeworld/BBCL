@@ -26,7 +26,7 @@ UC
 
 ```
 
-That's it telling us that the function is defined.  Now , if you mess up, don't worry, just go back up where the code is and retype it in.
+That's it telling us that the function is defined.  Now , if you mess up, don't worry, just go back up where the code is on this page, and retype it in.
 Common Lisp will respond slightly differently, but it still means the function has been defined:
 
 ```
