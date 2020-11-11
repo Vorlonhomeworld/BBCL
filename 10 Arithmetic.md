@@ -61,8 +61,8 @@ to work. Common Lisp is exactly the same way, and in fact it's possible to close
 
 
 So far we've covered addition, subtraction,multiplication and division, and yes, we'll cover exponentials too!  Common Lisp actually has two types of exponentials, believe
-it or not. One of them is what you'd expect, where you get it to multiply a number times itself as many times as you've told it to do so. For example, asking lisp to print 
-out the answer to 4 to the second power is the same thing as asking it to print out four times four (* 4 4). *However* there's another type of exponential command, and I 
+it or not. One of them is what you'd expect, where you get it to multiply a number times itself as many times as you've told it to do so. For example, asking Common Lisp to
+print out the answer to 4 to the second power is the same thing as asking it to print out four times four (* 4 4). *However* there's another type of exponential command, and I 
 wanted to point this out to so that you didn't use it in error! The two Common Lisp exponential commands are **exp** and **expt**. They *definetly* **do not** work the same
 way.  The **expt** command is the command you'd use for , say , working out 4 to the second power:
 
