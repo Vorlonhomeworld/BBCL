@@ -60,7 +60,7 @@ closed parantheses at the end. If I had any of the loops not closed, that formul
 to work. Common Lisp is exactly the same way, and in fact it's possible to close lists inside of another list, and we'll get into that a bit later, I promise!
 
 
-So far we've covered addition, subtraction,multiplication and division, and yes, we'll cover exponentials too!  Common Lisp actually as two types of exponentials, believe
+So far we've covered addition, subtraction,multiplication and division, and yes, we'll cover exponentials too!  Common Lisp actually has two types of exponentials, believe
 it or not. One of them is what you'd expect, where you get it to multiply a number times another number as many times as you've told it to do. *However* there's another
 type of exponential command, and I wanted to point this out to so that you didn't use it in error! The two Common Lisp exponential commands are **exp** and **expt**.
 They *definetly* **do not** work the same way.  The **expt** command is the command you'd use for , say , working out 4 to the second power:
@@ -71,7 +71,27 @@ They *definetly* **do not** work the same way.  The **expt** command is the comm
 
 ```
 
-This would give you 16, which is what you'd expect of it.  The second command **exp** operates differently. First of all, you give it only one number, secondly 
+This would give you 16, which is what you'd expect of it.  Common Lisp will also let you use this command for negative exponetials too!  For that all you have to do is enter:
+
+```
+
+(expt 4 -2)
+
+```
+
+You want to be careful here too, because negative exponentials are a number divided by itself the amount of times shown, it's subject to the same types of numbers a regular
+division problem would be, in other words, it will give you a ratio if the answer isn't an exact integer. If you don't need the ratio, but rather the float or decimal 
+number you can use the nested loop we used for division a bit higher up:
+
+```
+
+(float(expt 4 -2))
+
+```
+
+You'll get an answer in decimal rather than in ratio this way!
+
+The second command **exp** operates differently. First of all, you give it only one number, secondly 
 it multiples by *e* (or [Euler's number](https://en.wikipedia.org/wiki/E_(mathematical_constant)) ) as many times as the number you gave it, for example, if I 
 enter this:
 
@@ -83,5 +103,5 @@ enter this:
 
 I'm not going to get the result of (* 1 1), instead, I'm going to get the result of Euler's number (which is 2.7182817) multiplied 1 time which will give me, of course
 2.7182817.  If I enter in (exp 2), I'm still using Euler's number but now I'm multiplying it by itself  (* 2.7182817 2.7182817) which will give me 7.389056. (Yes, the 
-actual number is different, it's 7.3890557 - Common Lisp rounds down this number to 7.389056).
+actual number is different, it's 7.3890557 - Common Lisp rounds up this number to 7.389056).
 
