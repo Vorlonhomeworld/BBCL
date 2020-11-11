@@ -71,7 +71,7 @@ They *definetly* **do not** work the same way.  The **expt** command is the comm
 
 ```
 
-This would give you 16, which is what you'd expect of it.  Common Lisp will also let you use this command for negative exponetials too!  For that all you have to do is enter:
+This would give you 16, which is what you'd expect of it.  Common Lisp will also let you use this command for negative exponentials too!  For that all you have to do is enter:
 
 ```
 
