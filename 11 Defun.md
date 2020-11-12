@@ -22,7 +22,7 @@ that we've created a nested list at this point. Since it hasn't closed yet, we c
 the REPL won't allow us to add anything further to this function, that's why this list is unclosed on the  first line.
 
 The second line shows us calling **exp** and instead of giving it a number, we're telling it to multiply Euler's number by **a**. You're probably wondering how
-this is going to work since "a" has no definition other than a, right?  Keep watching, all will be explained!  Now, we close this loop at the end and Common Lisp's
+this is going to work since "a" has no definition other than "a", right?  Keep watching, all will be explained!  Now, we close this loop at the end and Common Lisp's
 REPL responds to us to let us know it understood what we asked it to do:
 
 ```
