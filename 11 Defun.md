@@ -14,6 +14,7 @@ using that function called "Euler's Calculator":
 
 The **defun** function allows us to **DE**fine the **FUN**ction we're using by first giving it a name. The format for the defun function is:
 **(Defun** *function name* *( function variable - **or** it can be left blank))*. for example, I gave my function the name "uc" for Euler's Calcuator.
+To be honest, it doesn't matter what I call it, I could have easily called it **A** or **EC** or almost anything else I wanted it to do. 
 I then gave it the variable name **(a)** , now that variable name is *optional only*, it depends on what I need it to do. In this case it was easier
 to give the function a name, then call that function again on the next line. If the function were bigger or it called other functions, it would
 be easier to leave the variable name blank. Now I want you to notice that we've created a nested list at this point. Since it hasn't closed yet, we can continue to 
