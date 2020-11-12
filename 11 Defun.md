@@ -16,7 +16,7 @@ The **defun** function allows us to **DE**fine the **FUN**ction we're using by f
 **(Defun** *function name* *( function variable - **or** it can be left blank))*. for example, I gave my function the name "uc" for Euler's Calcuator.
 To be honest, it doesn't matter what I call it, I could have easily called it **A** or **EC** or almost anything else I wanted to. 
 I then gave it the variable name **(a)** , once again, I could have given it a variable name of **P**, **2t**, pretty much anything, the name itself is up to me as 
-the programmer.Now that variable name is *optional only*, it depends on what I need it to do. In this case it was easier to give the function a name, then call that 
+the programmer. Now that variable name is *optional only*, it depends on what I need it to do. In this case it was easier to give the function a name, then call that 
 function again on the next line. If the function were bigger or it called other functions, it would be easier to leave the variable name blank. Now I want you to notice 
 that we've created a nested list at this point. Since it hasn't closed yet, we can continue to enter a second or even a third line in the REPL. Once the list is closed 
 the REPL won't allow us to add anything further to this function, that's why this list is unclosed on the  first line.
