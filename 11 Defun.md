@@ -12,7 +12,7 @@ using that function called "Euler's Calculator":
 
 ```
 
-The **defun** function allows us to **DE**fine the **FUN**ction were using by first giving it a name. The format the defun function is:
+The **defun** function allows us to **DE**fine the **FUN**ction we're using by first giving it a name. The format the defun function is:
 **(Defun** *function name* *( function variable - **or** it can be left blank))*. for example, I gave my function the name "uc" for Euler's Calcuator.
 I then gave it the variable name **(a)** , now that variable name is *optional only*, it depends on what I need it to do. In this case it was easier
 to give the function a name, then call that function again on the next line. If the function were bigger or it called other functions, it would
