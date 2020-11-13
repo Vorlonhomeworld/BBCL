@@ -2,8 +2,7 @@
 
 **N**ow that we're starting to work on code, we need to get a slightly better environment to work with. Don't get me wrong, the REPL is great for typing in 
 one list and testing it, but once we start working on bigger programs, we'll need something a bit better for us so that we can test the program to see if it's 
-going to do what we want it to do, and for that we have two options for Emacs users (I'm an Emacs user, so I'm definetly biased towards Emacs) and two
-for Vi users.
+going to do what we want it to do, and for that we have two options for Emacs users and two for Vi users.
 
 ## Vi Users
 
