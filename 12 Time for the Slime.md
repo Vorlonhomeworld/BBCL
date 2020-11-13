@@ -10,7 +10,7 @@ The IDE's work pretty much the same way (except for one, and we'll point that on
 in turn, allows you to test the code you're working on while your working with, like in the example below:
 
 
-<a href="rel"><img src="https://raw.githubusercontent.com/cuichaox/visual-cells/master/demo/slime-screenshot.png" height="700" width="900"></a>
+<a href="rel"><img src="https://raw.githubusercontent.com/cuichaox/visual-cells/master/demo/slime-screenshot.png" height="600" width="950"></a>
 
 
 The window on the left is the actual code, and the window on the right is the result of that code. If that code had an error, we'd see the REPL and it would 
