@@ -1,8 +1,21 @@
 # Time for the Slime
 
 **N**ow that we're starting to work on code, we need to get a slightly better environment to work with. Don't get me wrong, the REPL is great for typing in 
-one list and testing it, but once we start working on bigger programs, we'll need something a bit better for us so that we can test the program to see if it's 
-going to do what we want it to do, and for that we have two options for Emacs users and two for Vi users.
+one list and testing it, but once we start working on bigger programs, we'll need something a bit better. We're going to need an **I.D.E**. An IDE is an **I**tegrated
+**D**evelopment **E**nvironment. This will let us code full-length programs and test them with the code still open. Almost none of the Common Lisp distributions come 
+with I.D.E's of their own, except the commercial divisions, however, that doesn't mean we're out of luck! If you're running Emacs, you have three choices for Common Lisp
+I.D.E's, if you're running VIM you have two I.D.E's you can choose from!  
+
+The IDE's work pretty much the same way (except for one, and we'll point that one out to you !), they allow you to run a Common Lisp REPL inside of Emacs (or Vi), this, 
+in turn, allows you to test the code you're working on while your working with, like in the example below:
+
+
+<a href="rel"><img src="https://raw.githubusercontent.com/cuichaox/visual-cells/master/demo/slime-screenshot.png" height="700" width="900"></a>
+
+
+The window on the left is the actual code, and the window on the right is the result of that code. If that code had an error, we'd see the REPL and it would 
+let us know what exact code is causing the problem, just as it did when we just ran the REPL by itself. With that in mind, let's get into the actual I.D.E's themselves.
+
 
 ## Vi Users
 
@@ -20,7 +33,10 @@ free to [check out this page](https://susam.in/blog/lisp-in-vim-with-slimv-or-vl
 
 ## Emacs users
 
-Emacs users can use **Sly** or **Slime**.
+Emacs users can use **ILISP**, **Sly** or **Slime**.
+
+**[ILISP](https://sourceforge.net/projects/ilisp/)** is one of the earliest Common Lisp IDE's for Emacs. It's last update was in 2002 and is said
+to have been superceded by Slime.
 
 **[SLIME](https://github.com/slime/slime)** stands for **S**uperior **L**isp **I**nteraction **M**ode for **E**macs. It started life as **SLIM** back in 2003,
 an Emacs extension written by Eric Marsden. Luke Gorrie and Helmut Eller then took over and turned it into **SLIME**
@@ -35,5 +51,14 @@ the more stable of the two.
 
 ## Ok, but what the heck's SWANK?
 
-Swank is a [wire protocol](https://en.wikipedia.org/wiki/Wire_protocol) that allows the Common Lisp REPL to run inside Emacs. This gives us the ability to write code using the 
+Swank is a [wire protocol](https://en.wikipedia.org/wiki/Wire_protocol) that allows the Common Lisp REPL to run inside Emacs. It works by starting a network session 
+on port 4005 (that's it's default port to use, but it can be made to use a port of your own choosing!) and within that session, it opens up the REPL, allowing you
+to send commands to and from it. As a result, it allows you to test code that's being written in Emacs.  (* Just a note, I'm more familiar with Slime so I'll be referring
+to it more than Sly or Ilisp or Slimv or Vlime.).  
+
+Not only can Swank allow you to communicate with the Repl through Emacs, but SWANK can be used to communicate to a remote computer running a Common Lisp session or, if you
+happen to use StumpWm, you can communicate directly with the Window Manager in Common Lisp and make any kind of change you'd like to that Window manager!
+
+
+This gives us the ability to write code using the 
 REPL and we can test that code without having to leave emacs and with the code still visible to us.  It's literally the heart of SLIMV, VLIME, SLIME and SLY!
