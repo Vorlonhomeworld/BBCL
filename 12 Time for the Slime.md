@@ -6,7 +6,7 @@ one list and testing it, but once we start working on bigger programs, we'll nee
 with I.D.E's of their own, except the commercial divisions, however, that doesn't mean we're out of luck! If you're running Emacs, you have three choices for Common Lisp
 I.D.E's, if you're running VIM you have two I.D.E's you can choose from!  
 
-The IDE's work pretty much the same way (except for one, and we'll point that one out to you !), they allow you to run a Common Lisp REPL inside of Emacs (or Vi), this, 
+The IDE's work pretty much the same way (except for one, and I'll point that one out to you !), they allow you to run a Common Lisp REPL inside of Emacs (or Vi), this, 
 in turn, allows you to test the code you're working on while your working with, like in the example below:
 
 
@@ -23,7 +23,7 @@ Vi users can user Slimv or Vlime.
 
 **[Slimv](https://github.com/kovisoft/slimv)** stands for **S**uperior **L**isp **I**nteraction **Mode**  for **V**im. It's a Vim plugin created by Tamas Kovacs.  
 
-**[Vlime](https://github.com/vlime/vlime)** doesn't stand for anything, and is links Common Lisp with Vim.
+**[Vlime](https://github.com/vlime/vlime)** is also a plugin for VIM users and it allows VIM users to turn VIM into an I.D.E for Common Lisp.
 
 Of the two, Slimv is a bit older, it was first released in January 2009, Vlime was first released in May of 2017.  Vlime is still considered a Beta
 version at this time, Slimv appears to be out of Beta, however it hasn't been updated since 09/2019, the most [recent version is 0.9.14](https://github.com/kovisoft/slimv).
@@ -54,7 +54,7 @@ the more stable of the two.
 Swank is a [wire protocol](https://en.wikipedia.org/wiki/Wire_protocol) that allows the Common Lisp REPL to run inside Emacs. It works by starting a network session 
 on port 4005 (that's it's default port to use, but it can be made to use a port of your own choosing!) and within that session, it opens up the REPL, allowing you
 to send commands to and from it. As a result, it allows you to test code that's being written in Emacs.  (* Just a note, I'm more familiar with Slime so I'll be referring
-to it more than Sly or Ilisp or Slimv or Vlime.).  
+to it more than Sly, Ilisp, Slimv or Vlime.).  
 
 Not only can Swank allow you to communicate with the Repl through Emacs, but SWANK can be used to communicate to a remote computer running a Common Lisp session or, if you
 happen to use StumpWm, you can communicate directly with the Window Manager in Common Lisp and make any kind of change you'd like to that Window manager!
