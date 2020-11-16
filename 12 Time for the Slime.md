@@ -43,7 +43,7 @@ an Emacs extension written by Eric Marsden. Luke Gorrie and Helmut Eller then to
 
 **[SLY](https://github.com/joaotavora/sly)** is SLY is Sylvester the Cat's Common Lisp IDE for Emacs. This is a fork of SLIME. This came about because the creater 
 of Sly felt that Luke Gorrie and Helmut Eller and everyone else that was coding SLIME wasn't taking care of the bug  reports in a timely manner, and they also
-had their own hacks ("hacks" means code) that they wanted to share with everyone else.
+had their own hacks ("hacks", in this case, means original code for SLIME) that they wanted to share with everyone else.
 
 Both Slime and Sly use SWANK, however, Sly calls their version SLYNK. The main difference between SLIME and SLY is that SLIME leans toward being a conservative 
 build, thus focus is on stability, whereas SLY likes to be cutting edge and sometimes this causes SLY to crash.  I've used both and find SLIME to be 
