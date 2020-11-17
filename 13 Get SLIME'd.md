@@ -29,7 +29,7 @@ using a Windows keyboard) + A. A window will open up on the bottom and you can t
 at that point you would need to give it the full path to your emacs init file, .emacs or init.el and hit enter. It will let you know if it reloaded
 corrrectly:
 
-<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/images/melpa.png" height="600" width="950"></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/melpa.png" height="600" width="950"></a>
 
 
 Once that's done you can access your packages and you should see packages from the Melpa archive, including slime.  Just click on it and select install and 
