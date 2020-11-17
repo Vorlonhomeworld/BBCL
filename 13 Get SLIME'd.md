@@ -29,7 +29,7 @@ using a Windows keyboard) + A. A window will open up on the bottom and you can t
 at that point you would need to give it the full path to your emacs init file, .emacs or init.el and hit enter. It will let you know if it reloaded
 corrrectly.
 
-Once that's done you can access your packages and you should know see packages from the Melpa archive, including slime.  Just click on it and select install and 
+Once that's done you can access your packages and you should see packages from the Melpa archive, including slime.  Just click on it and select install and 
 it's installed within Emacs. *(Don't think you're done just yet - there's a bit more to do and we'll get to that in a second!)*
 
 **I**f using github is better for you, you can certainly use github as well. On linux, as long as you have git, you can take care of that by pulling up your
