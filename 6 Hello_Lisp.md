@@ -70,7 +70,7 @@ At the bottom, it tells us what line our error's in. Granted, we have just one l
 Now, we can get the debuger to tell us a bit more plainly what's happening if we use the command **RETURN**.  We'd need to type RETURN then hit enter, we'd then be prompted 
 enter the code with the error on it and hit enter, Common Lisp would then tell us plainly what the error is:
 
-<a href="rel"><img src="/Repl_Debug.jpg"></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_Debug.jpg"></a>
 
 It's letting us know that we're missing something specifically for the **FORMAT** function, not only that, it's telling us in plain english as well!
 
