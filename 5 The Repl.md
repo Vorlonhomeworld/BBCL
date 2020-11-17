@@ -44,7 +44,9 @@ This set of code tests the type of dialect your Common Lisp is using, and it's l
            
 If all works well,  you'll see:
 
-<a href="rel"><img src="/REPL2.jpg"></a>
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL2.jpg"></a>
+
 
 *(Yes, this is a seperate operating system. I use this one for work, it's Windows 10)*
 
