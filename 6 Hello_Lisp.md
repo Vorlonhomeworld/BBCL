@@ -25,7 +25,10 @@ it's one line of code! So, in your REPL, type this in:
 
 and hit enter, and you should see:
 
-<a href="rel"><img src="/Repl3.jpg"></a>
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl3.jpg"></a>
+
+
 
 Recall that Lisp is for **li**st **p**roccessing, well in Common Lisp, any list is defined as commands that exist between parentheses, so every
 Common Lisp command has to have parentheses:
@@ -55,7 +58,8 @@ error, it won't run, it **will** give an error:
 
 The REPL's going to reply with this:
 
-<a href="rel"><img src="/Repl_Error.jpg"></a>
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_Error.jpg"></a>
 
 
 Looks pretty cryptic, doesn't it?  It really isn't. The very first line lets us know that Common Lisp is sensing an **int**ernal error, now ignore the second
