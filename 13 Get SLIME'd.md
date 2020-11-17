@@ -27,13 +27,15 @@ web address is over at http://melpa.milkbox.net/packages. That last command is t
 Now, a little pro tip for emacs is that you can get it to reload it's init file right away by typing in Meta Key (usually it's the "Windows" key if you're
 using a Windows keyboard) + A. A window will open up on the bottom and you can type in *load-file* followed by enter. It will ask you which file you want to load
 at that point you would need to give it the full path to your emacs init file, .emacs or init.el and hit enter. It will let you know if it reloaded
-corrrectly:
+corrrectly.
+
+Once that's done you can access your packages and you should see packages from the Melpa archive, including slime:
+
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/melpa.png" height="600" width="950"></a>
 
 
-Once that's done you can access your packages and you should see packages from the Melpa archive, including slime.  Just click on it and select install and 
-it's installed within Emacs. *(Don't think you're done just yet - there's a bit more to do and we'll get to that in a second!)*
+Just click on it and select install and it's installed within Emacs. *(Don't think you're done just yet - there's a bit more to do and we'll get to that in a second!)* 
 
 **I**f using github is better for you, you can certainly use github as well. On linux, as long as you have git, you can take care of that by pulling up your
 terminal of choice and creating a directory where slime is going to go, in my case, it's a directory in my userspace called "slime". Just enter in:
