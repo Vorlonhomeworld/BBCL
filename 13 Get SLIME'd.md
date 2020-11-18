@@ -168,7 +168,7 @@ It's letting me know what the format of the run-program command is, what argumen
 
 Not only that, but it also gives you, as I mentioned, a testing space inside Common Lisp. Take a look at that one list in action:
 
-<a href="rel><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/slime_action.png" heigh="600" width="950"></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/slime_action.png" heigh="600" width="950"></a>
                                                                                                                          
                                                                                                                          
 
