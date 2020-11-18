@@ -112,7 +112,7 @@ enter:
 
 ```
 
-Once that's finished you can close out of SBCL and over in your emacs init file (either .emacs or init.el) add this in beneath your previous
+Once that's finished you can close out of SBCL and open your emacs init file (either .emacs or init.el) add this in beneath your previous
 SLIME code:
 
 ```
