@@ -124,7 +124,7 @@ SLIME code:
                      
 ```
 
-If you don't want to have to create a new core everytime you update Slime or SBCL, you can use this process insead (it won't be as quick as the one above,
+If you don't want to have to create a new core everytime you update Slime or SBCL, you can use this process instead (it won't be as quick as the one above,
 however!) enter your REPL and enter:
 
 ```
