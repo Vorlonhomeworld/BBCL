@@ -98,7 +98,7 @@ inferior lisp) to SBCL, which is the REPL we happen to have on the computer!
 Lots of work, huh ? Don't worry - it's worth it to see Slime load up with a repl automatically!  We have one last step - and this step is 
 purely *optional*. You don't have to do it unless you want to. This step allows swank to load quicker. I stumbled across this in my early
 Slime days - it's shown [over in Common-Lisp.net's page](https://common-lisp.net/project/slime/doc/html/Loading-Swank-faster.html) for Slime.
-What you do, it create a Common Lisp core file for emac's usage. 
+What you do, is to create a Common Lisp core file for emac's usage. 
 
 It's a lot easier than it sounds - trust me, I've done it and I load it daily. The only thing to be aware of is if you update SLIME or SBCL
 you **must** create a new core file! The upside with this is Swank loads extremely quickly. To create that core file, open up your REPL and
