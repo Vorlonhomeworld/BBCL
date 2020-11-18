@@ -93,4 +93,11 @@ inferior lisp) to SBCL, which is the REPL we happen to have on the computer!
 (setq inferior-lisp-program "sbcl")
 
 ```
+With any luck, once you start emacs and load a Common Lisp program, you should see this:
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/slime1.png" height="600" width="950"></a>
+
+Just so we're clear on this, your display might not be split in half like mine is, that's a setting that can be done in Emacs pretty easily,
+just press Ctrl + x + 3 and you'll get that vertical split  (Ctrl + x + 2 splits it horizontally and Ctrl + x + 1 stops all splits! ).
+
 
