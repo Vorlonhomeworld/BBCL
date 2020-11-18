@@ -36,8 +36,8 @@ Once that's done you can access your packages and you should see packages from t
 
 Just click on it and select install and it's installed within Emacs. *(Don't think you're done just yet - there's a bit more to do and we'll get to that in a second!)* 
 
-**I**f you like using github better,you can certainly use github! On linux, as long as you have git, you can pull up your terminal of choice and 
-create a directory where slime is going to go, in my case, it's a directory in my userspace called "slime". Just enter in:
+**I**f you like using github better,you can certainly use github! On linux, as long as you have the program git installed, you can pull up your terminal 
+of choice and create a directory where slime is going to go, in my case, it's a directory in my userspace called "slime". Just enter in:
 **md slime** and hit enter.  Once you've done that enter that directory *(cd slime)* and in that directory clone the github version of Slime by 
 entering **git clone https://github.com/slime/slime.git**.   That command causes the directory on github to copy itself to the directory you set aside for 
 slime, in my example, the directory's called slime as well.
