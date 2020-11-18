@@ -161,8 +161,8 @@ just press Ctrl + x + 3 and you'll get that vertical split  (Ctrl + x + 2 splits
 ## So what's the big deal about SLIME anyway
 
 As I mentioned, SLIME is an I.D.E, it does more than what that one screenshot showed you.  For example, look at the next screenshot and you'll see a 
-brief program  (one list long) that's in the process of being typed. Take a look on the lower right hand side, see the additional text on the bottom?
-It's letting me know what the format of the uiop command is, what arguments it takes and what keywords it accepts!  
+brief program  (one list long) that's in the process of being typed. Take a look at the bottom of the screen, see the additional text on the bottom?
+It's letting me know what the format of the run-program command is, what arguments it takes and what keywords it accepts!  
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Slime_2.png" height="600" width="950"></a>
 
