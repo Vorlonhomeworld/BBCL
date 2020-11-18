@@ -70,7 +70,8 @@ In the next set of lines, I've set up the repl to open automatically when Slime 
 
 ```
 
-The next set of lines are also customization that allows Slime to open up automatically if I ask Emacs to open up a lisp file
+The next set of lines are also customization that allows Slime to open up automatically if I ask Emacs to open up a lisp file. By the way, this piece 
+came from [Cliki, another great Common Lisp resource](https://www.cliki.net/SLIME%20Tips)!
 
 ```
 
