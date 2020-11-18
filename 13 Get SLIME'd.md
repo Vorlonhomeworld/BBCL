@@ -101,3 +101,17 @@ Just so we're clear on this, your display might not be split in half like mine i
 just press Ctrl + x + 3 and you'll get that vertical split  (Ctrl + x + 2 splits it horizontally and Ctrl + x + 1 stops all splits! ).
 
 
+## So what's the big deal about SLIME anyway
+
+As I mentioned, SLIME is an I.D.E, it does more than what that one screenshot showed you.  For example, look at the next screenshot and you'll see a 
+brief program  (one list long) that's in the process of being typed. Take a look on the lower right hand side, see the additional text on the bottom?
+It's letting me know what the format of the uiop command is, what arguments it takes and what keywords it accepts!  
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Slime_2.png" height="600" width="950"></a>
+
+Not only that, but it also gives you, as I mentioned, a testing space inside Common Lisp. Take a look at that one list in action:
+
+<a href="rel><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/slime_action.png" heigh="600" width="950"></a>
+                                                                                                                         
+                                                                                                                         
+
