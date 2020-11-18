@@ -93,6 +93,62 @@ inferior lisp) to SBCL, which is the REPL we happen to have on the computer!
 (setq inferior-lisp-program "sbcl")
 
 ```
+
+Lots of work, huh ? Don't worry - it's worth it to see Slime load up with a repl automatically!  We have one last step - and this step is 
+purely *optional*. You don't have to do it unless you want to. This step allows swank to load quicker. I stumbled across this in my early
+Slime days - it's shown [over in Common-Lisp.net's page](https://common-lisp.net/project/slime/doc/html/Loading-Swank-faster.html) for Slime.
+What you do, it create a Common Lisp core file for emac's usage. 
+
+It's a lot easier than it sounds - trust me, I've done it and I load it daily. The only thing to be aware of is if you update SLIME or SBCL
+you **must** create a new core file! The upside with this is Swank loads extremely quickly. To create that core file, open up your REPL and
+enter:
+
+
+```
+
+* (load ".../slime/swank-loader.lisp")
+* (swank-loader:dump-image "sbcl.core-with-swank")
+
+```
+
+Once that's finished you can close out of SBCL and over in your emacs init file (either .emacs or init.el) add this in beneath your previous
+SLIME code:
+
+```
+
+(setq slime-lisp-implementations
+      '((sbcl ("sbcl" "--core" "sbcl.core-with-swank")
+              :init (lambda (port-file _)
+                      (format "(swank:start-server %S)\n" port-file)))))
+                     
+```
+
+As another *purely optional* step you can take to load Swank faster (and you won't need to create a new core file everytime you update SBCL or SLIME) is to
+enter your REPL and enter:
+
+```
+
+* (mapc 'require '(sb-bsd-sockets sb-posix sb-introspect sb-cltl2 asdf))
+* (save-lisp-and-die "sbcl.core-for-slime")
+
+```
+
+Once that's done, you go over to your emacs init file (once again, either .emacs or init.el) and instead of entering the code above, enter this:
+
+```
+
+(setq slime-lisp-implementations
+      '((sbcl ("sbcl" "--core" "sbcl.core-for-slime"))))
+      
+```
+
+I'll include my .emacs as an example so that you can see what the code looks like, once it's put together. A couple of things to point out,
+I'm using the Swank core option so my .emacs shows the sbcl.core-with-swank option in it. Also, I've customized a control key shortcut
+for reloading my .emacs on the fly. (I'm also using tabs, which is part of the latest version of emacs):
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/emacs_setup.png" height="600" width="950"></a>
+
+
 With any luck, once you start emacs and load a Common Lisp program, you should see this:
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/slime1.png" height="600" width="950"></a>
