@@ -24,10 +24,9 @@ This piece of code tells emacs that we're adding an archive to it's list of arch
 web address is over at http://melpa.milkbox.net/packages. That last command is to tell it to run that command everytime emacs is started.
 
 
-Now, a little pro tip for emacs is that you can get it to reload it's init file right away by typing in Meta Key (usually it's the "Windows" key if you're
-using a Windows keyboard) + A. A window will open up on the bottom and you can type in *load-file* followed by enter. It will ask you which file you want to load
-at that point you would need to give it the full path to your emacs init file, .emacs or init.el and hit enter. It will let you know if it reloaded
-corrrectly.
+Now, a little pro tip for emacs is that you can get it to reload it's init file right away by typing in Alt Key + A. A window will open up on the bottom and you
+can type in *load-file* followed by enter. It will ask you which file you want to load at that point you would need to give it the full path to your emacs
+init file, .emacs or init.el and hit enter. It will let you know if it reloaded corrrectly.
 
 Once that's done you can access your packages and you should see packages from the Melpa archive, including slime:
 
