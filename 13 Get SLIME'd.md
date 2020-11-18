@@ -124,8 +124,8 @@ SLIME code:
                      
 ```
 
-As another *purely optional* step you can take to load Swank faster (and you won't need to create a new core file everytime you update SBCL or SLIME) is to
-enter your REPL and enter:
+If you don't want to have to create a new core everytime you update Slime or SBCL, you can use this process insead (it won't be as quick as the one above,
+however!) enter your REPL and enter:
 
 ```
 
