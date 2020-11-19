@@ -48,7 +48,7 @@ inside the repl you'll want to use quickload, so enter *(ql:quickload "quicklisp
 download and install slime-helper into the quicklisp directory, it will be our go-between file for emacs. Believe it or not, this is an .el file, so 
 Emacs can easily read and understand it!
 
-Now we're finally ready to head over to emacs and add some elisp (that's what .el files are, elisp, which isn't the same as Common Lisp! ) into 
+Now we're finally ready to head over to emacs and add some more elisp (that's what .el files are, elisp, which isn't the same as Common Lisp! ) into 
 Emacs so that SLIME will run. First, we need to let Emacs know where slime is located on our hard drive:
 
 ```
