@@ -171,4 +171,15 @@ Not only that, but it also gives you, as I mentioned, a testing space inside Com
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/slime_action.png" heigh="600" width="950"></a>
                                                                                                                          
                                                                                                                          
+This screen is showing one list of Common Lisp on the left, this particular list, as the code suggests, runs the command "ls -ao" (it's somewhat analagous
+to the windows "dir" command, only it allows us to list the files with file size and date, and lists hidden files as well!). The right hand side shows the list
+being run (in truth it was run twice! ). This works with longer files as well.
+
+That's still not all, it can also evaulate lines of code for errors, for example, in the picture below, I'm evaulating a single list and I want to test it
+to make sure that it's reading correctly. All I have to do it put my cursor at the end of that list and click Ctrl - X, Ctrl -E and Slime will respond to me
+now, in this case, I don't want a NIL response or a TRUE response because this list isn't testing for either condition, instead I want it to return the name 
+of the prompt, to verify it's being read the way it was written.  Sure enough, that's what it does ( look on bottom right for the response it's giving!)
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Slime_eval.png" height="600" width="950"></a>
+
 
