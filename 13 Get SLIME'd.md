@@ -53,7 +53,7 @@ Emacs so that SLIME will run. First, we need to let Emacs know where slime is lo
 
 ```
 
-*(add-to-list 'load-path "/home/phoenix/slime")*
+(add-to-list 'load-path "/home/phoenix/slime")
 
 ```
 
