@@ -57,7 +57,8 @@ Emacs so that SLIME will run. First, we need to let Emacs know where slime is lo
 
 ```
 
-This tells emacs that slime is located in whichever directory you installed it in. In this example it's in a directory off my home directory "phoenix".
+This tells emacs that slime is located in whichever directory you installed it in. In this example it's in a directory off my home directory "phoenix" in
+it's own directory called "slime". 
 
 In the next set of lines, I've set up the repl to open automatically when Slime does, it's just easier for me (and the ";;" marks are for comments only)
 
