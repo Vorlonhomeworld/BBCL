@@ -8,7 +8,7 @@ chapter.
 
 **S**ince we already have Common Lisp *and* Quicklisp, we literally only need to get Slime. Now there are two ways to get this, one will
 be from Emacs directly. Emacs has two repositories, **Elpa** and **Melpa**. Elpa is the more stable of the two, so I tend to shy away from 
-Melpa myself, but, if you want to use it, you have to tell Emacs, because it won't show up as a source for packages unless you do. 
+Melpa myself, but, if you want to use it, you have to set up Emacs to use it, because it won't show up as a source for packages unless you do so. 
 
 So to access Melpa, you'll need to access your emacs init file (it's usually called **.emacs** or **init.el**) and add the following lines in Emacs:
 
