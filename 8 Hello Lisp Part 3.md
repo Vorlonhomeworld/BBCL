@@ -90,7 +90,7 @@ It's totally up to us - just follow the format, and you can pretty much make wha
 
 ### Review
 
-**Y**eah, I know, who likes quizes, right? However, reptition is the best way to learn something, so, I'll give you a few things to practice on.
+**Y**eah, I know, who likes quizes, right? However, repetition is the best way to learn something, so, I'll give you a few things to practice on.
 *Be aware* that unlike typical tests, the answers for these questions will *not* be in the back or in the next section, basically, if you miss something, you'll need
 to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be diffcult at all, I promise!
 
