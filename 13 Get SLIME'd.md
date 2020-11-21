@@ -108,8 +108,8 @@ enter:
 
 ```
 
-* (load ".../slime/swank-loader.lisp")
-* (swank-loader:dump-image "sbcl.core-with-swank")
+ (load ".../slime/swank-loader.lisp")
+ (swank-loader:dump-image "sbcl.core-with-swank")
 
 ```
 
