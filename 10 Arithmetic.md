@@ -109,5 +109,5 @@ actual number is different, it's 7.3890557 - Common Lisp rounds up this number t
 
 Common Lisp has more arithmetic functions that that, it also has Cosines, Log, Modulus (Modulus is the *remainder* from a division answer, for example, if we divide five by
 two ( / 5 2), **oops!**  I mean (float(/ 5 2))!  We're going to get 2.50, the .50 portion is the remainer because it's not a whole number. That remainder
-would be printed as the modulus of five divided by two!) and more. If you're interested  you can look the one up I didn't cover [on this page](http://www.lispworks.com/documentation/HyperSpec/Front/StartPts.htm).  (By the way, I'd book mark this page as it's a searchable index of pretty much
+would be printed as the modulus of five divided by two!) and more. If you're interested  you can look the math operations I didn't cover [on this page](http://www.lispworks.com/documentation/HyperSpec/Front/StartPts.htm).  (By the way, I'd book mark this page as it's a searchable index of pretty much
 any Common Lisp term with at least one example to show you how it's used!
