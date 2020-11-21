@@ -1,7 +1,7 @@
 # Time for the Slime
 
 **N**ow that we're starting to work on code, we need to get a slightly better environment to work with. Don't get me wrong, the REPL is great for typing in 
-one list and testing it, but once we start working on bigger programs, we'll need something a bit better. We're going to need an **I.D.E**. An IDE is an **I**tegrated
+one list and testing it, but once we start working on bigger programs, we'll need something a bit better. We're going to need an **I.D.E**. An IDE is an **I**ntegrated
 **D**evelopment **E**nvironment. This will let us code full-length programs and test them with the code still open. Almost none of the Common Lisp distributions come 
 with I.D.E's of their own, except the commercial divisions, however, that doesn't mean we're out of luck! If you're running Emacs, you have three choices for Common Lisp
 I.D.E's, if you're running VIM you have two I.D.E's you can choose from!  
