@@ -65,8 +65,9 @@ You can also:
 
 * Write a window manager. ([Stumpwm](http://stumpwm.github.io/) is great example of a window manager written in Common Lisp.)
 * Write a [graphics library](https://common-lisp.net/libraries#header1-135) (CLX is an example of one such library, it's the one
-  that's used in Stumpwm, mentioned above!
+  that's used in Stumpwm, mentioned above!)
   
+* Write a [database or an interface for an existing database](https://www.cliki.net/Database).  
 * [Write a game](https://www.cliki.net/Game) (graphic or not!)
 * [Write system scripts](https://github.com/fare/fare-scripts)
 * Write a shell. 
