@@ -7,7 +7,7 @@ with I.D.E's of their own, except the commercial divisions, however, that doesn'
 I.D.E's, if you're running VIM you have two I.D.E's you can choose from!  
 
 The IDE's work pretty much the same way (except for one, and I'll point that one out to you !), they allow you to run a Common Lisp REPL inside of Emacs (or Vi), this, 
-in turn, allows you to test the code you're working on while your working with, like in the example below:
+in turn, allows you to test the code you're working on while your working with that same code, like in the example below:
 
 
 <a href="rel"><img src="https://raw.githubusercontent.com/cuichaox/visual-cells/master/demo/slime-screenshot.png" height="600" width="950"></a>
