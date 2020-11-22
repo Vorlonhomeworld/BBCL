@@ -28,10 +28,10 @@ The case loop looks like this:
 
 ```
 (case password
-(:enter "Ha ha! Not even close!")
-(:password "Usually, this is a good password choice for a typical windows admin, however, we're not, so it's not right!")
-(:p455w0rd "No L33t speak, please!")
-(otherwise "Please try again!")))
+  (:enter "Ha ha! Not even close!")
+  (:password "Usually, this is a good password choice for a typical windows admin, however, we're not, so it's not right!")
+  (:p455w0rd "No L33t speak, please!")
+  (otherwise "Please try again!")))
 
 ```
 
