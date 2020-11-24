@@ -43,5 +43,49 @@ That function is the equivalent of saying "Let the password equal "Sherlock".:
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_password.png" height="600" width="950"></a>
 
+This works, of course, but what if we want to get input from the user first? We can do that, with a few changes to the code:
+
+```
+
+(defun getchoice3 ()
+  (let ((choice 1))
+    (format t  "~%Enter your password:  ")
+    (let ((response (read)))
+      (cond ((equal response '007)
+	     (format t "Welcome James Bond, 007 ~%" ))
+	    (t (format t "~& Incorrect Reponse, session terminated!" response))))))
+
+(getchoice3)
+
+```
+
+Notice that we define our function, **choice** first  ( **(defun choice3 ()**), we call it choice3 because we *are* asking the user to choose a password, now 
+we can call this  *a*, *a1*, *b*..etc..., but it's easier on us if we give this a name that reflects what it's doing. It makes it easier for us to find and debug
+this if we need to or change it (and we'll be doing just that in a moment). Notice also, after choice3 we have an empty set of parantheses? This is called an empty list
+and it's perfectly valid in Common Lisp. It's empty because we're going to be reading a response later and working with it. 
+
+We're still using **format t** to print out the request for the password, but just underneath, notice that we're asking Common Lisp to read the response? That's all that's
+needed for Common Lisp to read what we just entered in for our password. Below that, (***cond ((equal response '007)***), that's us telling Common Lisp that "if the response
+equals 007 we do the next line below it, (the *(format t "Welcome James Bond, 007 ")*.  The next line starting with *(t (format.....))* that's our "else" statement (as in 
+if the password is right do this, else do this instead!).  The (getchoice3) line by itself tells Common Lisp to run the defined function called choice3 at the top. If that
+wasn't there, we could still call this code but it wouldn't run!
+
+So let's go a head and call it and make sure it works!   We do that by going to the directory where this code lives (in the terminal) and enter in:
+
+``` sbcl --script choice.lisp ```
+
+(choice.lisp is the name it has on my computer - you can name it something different if you wish! ).   
+
+The computer respopnds with:
+
+``` 
+
+Enter your password:  (my response) 007
+
+Welcome James Bond, 007
+
+```
+
+
 
 
