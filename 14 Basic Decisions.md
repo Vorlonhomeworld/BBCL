@@ -60,7 +60,7 @@ This works, of course, but what if we want to get input from the user first? We 
 
 ```
 
-Notice that we define our function, **choice** first  ( **(defun choice3 ()**), we call it choice3 because we *are* asking the user to choose a password, now 
+Notice that we define our function, **choice3** first  ( **(defun choice3 ()**), we call it choice3 because we *are* asking the user to choose a password, now 
 we can call this  *a*, *a1*, *b*..etc..., but it's easier on us if we give this a name that reflects what it's doing. It makes it easier for us to find and debug
 this if we need to or change it (and we'll be doing just that in a moment). Notice also, after choice3 we have an empty set of parantheses? This is called an empty list
 and it's perfectly valid in Common Lisp. It's empty because we're going to be reading a response later and working with it. 
@@ -86,6 +86,37 @@ Enter your password:  (my response) 007
 Welcome James Bond, 007
 
 ```
+
+That's all well and good, but what we want this to now run another routine if the password is correct? All we need do is code that routine in our existing code and add a 
+pointer to that routine (like we did with **(getchoice3)** in our prior routine!).  We would change our previous code to:
+
+(defun welcome ()
+  (format t "~&You have no new messages, License to kill status: Active.~%~%"))
+
+
+(defun getchoice3 ()
+  (let ((choice 1))
+    (format t  "~%Enter your password:  ")
+    (let ((response (read)))
+      (cond ((equal response '007)
+	     (format t "Welcome James Bond, 007 ~%" (welcome)))
+	    (t (format t "~& Incorrect Reponse, session terminated!" response))))))
+
+(getchoice3)
+
+
+We set up a function called "welcome" that prints a simple message and we told it to run after the correct password was entered  by creating the pointer "(welcome)" just after
+the "(format t "Welcome James Bond, 007 ~%".  If we run this program, which we can do by entering:
+
+``` 
+
+sbcl --script choice.lisp
+
+
+```
+
+We get:
+
 
 
 
