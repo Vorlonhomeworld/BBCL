@@ -35,7 +35,8 @@ The case loop looks like this:
 
 ```
 
-This gives our case loop 3 password to work with and an answer to give if it's not the ones above it, nor is it correct.
+This gives our case loop 3 passwords to work with along with the answers we want the program to give, we also have an answer if the password used doesn't match
+any of the ones we provided for it.
 
 Running this in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function. 
 That function is the equivalent of saying "Let the password equal "Sherlock".:
