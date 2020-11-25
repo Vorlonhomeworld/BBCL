@@ -13,8 +13,8 @@ example - don't ever do this in real life!)*.  The format would be:
 
 ```
 
-Notice that this list is still opened, the word "let" starts the list, password :sherlock is a sub list with two parentheses on one side and the other, but
-we still have one paranethesis that remained opened, that's because we need to fill in the rest of this example, if we close it, we may not be able 
+Notice that this list is still opened, the word "let" starts the list, password :sherlock is a sub list with two parentheses on one side and two on the other, but
+we still have one paranethesis that remains opened, that's because we need to fill in the rest of this example, if we close it, we may not be able 
 to refer back to it with the set of commands that actually verify this is the correct password! Note that this is a very simple example which will not
 take user input - we'll expand on this and make it take user input later on, but for now, we'll have it loop through three or more 
 possible choices of password without user input.  
