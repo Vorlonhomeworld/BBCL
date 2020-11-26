@@ -71,7 +71,17 @@ equals 007 we do the next line below it, (the *(format t "Welcome James Bond, 00
 if the password is right do this, else do this instead!).  The (getchoice3) line by itself tells Common Lisp to run the defined function called choice3 at the top. If that
 wasn't there, we could still call this code but it wouldn't run!
 
-So let's go a head and call it and make sure it works!   We do that by going to the directory where this code lives (in the terminal) and enter in:
+So let's go a head and call it and make sure it works!   We can run this in SLIME by pressing Ctrl-C Ctrl-K and we'll see this:
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_choice.png" height="600" width="950"></a>
+
+
+The **CL-User>** prompt doubles as an input prompt in this case, because we haven't defined what our prompt actually should look like!
+
+You could also start a terminal in Emacs, if you prefer, by clicking Meta (that's the Alt key) + x then type in **"term"**. Hit enter and
+Emacs will ask you which terminal you want to to start, and it may show your default terminal.  Once the terminal is selected, just go 
+to the directory your Common Lisp lives in and type in:
 
 ``` sbcl --script choice.lisp ```
 
@@ -79,13 +89,9 @@ So let's go a head and call it and make sure it works!   We do that by going to 
 
 The computer respopnds with:
 
-``` 
 
-Enter your password:  (my response) 007
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_choices_terminal.png" height="600" width="950"></a>
 
-Welcome James Bond, 007
-
-```
 
 That's all well and good, but what we want this to now run another routine if the password is correct? All we need do is code that routine in our existing code and add a 
 pointer to that routine (like we did with **(getchoice3)** in our prior routine!).  We would change our previous code to:
