@@ -54,7 +54,7 @@ This works, of course, but what if we want to get input from the user first? We 
     (let ((response (read)))
       (cond ((equal response '007)
 	     (format t "Welcome James Bond, 007 ~%" ))
-	    (t (format t "~& Incorrect Reponse, session terminated!" response))))))
+	    (t (format t "Incorrect Reponse, session terminated!"))))))
 
 (getchoice3)
 
@@ -93,35 +93,65 @@ The computer respopnds with:
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_choices_terminal.png" height="600" width="950"></a>
 
 
-That's all well and good, but what we want this to now run another routine if the password is correct? All we need do is code that routine in our existing code and add a 
-pointer to that routine (like we did with **(getchoice3)** in our prior routine!).  We would change our previous code to:
+In looking the code, it **does** work, but shouldn't we give the user another chance if the get it wrong?  Maybe they just hit the wrong key, it happens to 
+us all from time-to-time, right?  Turns out, that's easily done, all we have to do is tell it to run getchoice3 if the password's wrong:
 
-(defun welcome ()
-  (format t "~&You have no new messages, License to kill status: Active.~%~%"))
-
+```
 
 (defun getchoice3 ()
   (let ((choice 1))
     (format t  "~%Enter your password:  ")
     (let ((response (read)))
       (cond ((equal response '007)
-	     (format t "Welcome James Bond, 007 ~%" (welcome)))
-	    (t (format t "~& Incorrect Reponse, session terminated!" response))))))
+	     (format t "Welcome James Bond, 007 ~%" ))
+	    (t (format t "Incorrect Response!") (getchoice3))))))
 
 (getchoice3)
 
+```
 
-We set up a function called "welcome" that prints a simple message and we told it to run after the correct password was entered  by creating the pointer "(welcome)" just after
-the "(format t "Welcome James Bond, 007 ~%".  If we run this program, which we can do by entering:
+Since we called our function getchoice3, calling it after an incorrect reponse would sent us right back to the top. Sounds good, right?  Let's test it to be sure, remember, Ctrl-C, Ctrl-K gets this code to run:
 
-``` 
 
-sbcl --script choice.lisp
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_choices2.png" height="600" width="950"></a>
 
+
+OK, so now we have an option if the wrong password is entered, but what about if it's correct?  Once again, not too difficult, we just add that list
+into our code and we're good to go:
+
+```
+(defun welcome ()
+  (format t "Agent logged in. Status: Active, License to Kill: Active.~%~%"))
+
+
+(defun getchoice3 ()
+  (let ((choice  1))
+    (format t  "~%Enter your password:  ")
+    (let ((response (read)))
+      (cond ((equal response '007)
+	     (format t "~%~%Welcome James Bond, 007 ~%")(welcome))
+	    (t (format t "~%~%Incorrect Response!~%~%") (getchoice3))))))
+(getchoice3)
 
 ```
 
-We get:
+Here we're adding in a list (or a subroutine if that makes more sense for you) called welcome. It's an empty list because we're going to define what it does
+later on in the code. At the end of it, we have two carriage returns (that's what the "~%" is for, remember! ).  So, we can run this in SLIME (it will
+generate a few errors, but the code really does run, I promise you! ) and get:
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_2_loops.png" height="600" width="950"></a>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
