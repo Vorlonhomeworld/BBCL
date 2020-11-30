@@ -173,6 +173,9 @@ generate a few errors, but the code really does run, I promise you! ) and get:
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_2_loops.png" height="600" width="950"></a>
 
 
+By the way, if you're (welcome) list shows up above the banner "Welcome James Bond" you may have a mis-placed parenthesis somewhere in your program. Double check it and make 
+sure your parentheses are correct! I actuaklly had this issue occur when I was coding this the first time - so if you *do* have a missing or incorrectly closed parenthese, don't 
+worry, you're in good company!
 
 
 
