@@ -99,7 +99,7 @@ that we're reading the **response** from the user. That's all that's needed for 
 
 Below that, (***cond ((equal response '007)***), that's us telling Common Lisp that "if the response equals 007 we do the next line below it, (the *(format t "Welcome James
 Bond, 007 ")*. We *could* write it out as  (cond (( = response '007)), and that would be correct and understandable by Common Lisp as well. The next line starting with
-*(t (format.....))* that's our "else" statement (as in if the password is right do this, else do that instead!).  The (getchoice3) line by itself tells Common Lisp to run the defined function called choice3 at the top. If that wasn't there, we could still call this code but it wouldn't run!
+*(t (format.....))* that's our "else" statement (as in if the password is right do this, else do that instead!).  The (getchoice3) line by itself tells Common Lisp to run the defined function called getchoice3 at the top. If that wasn't there, we could still call this code but it wouldn't run!
 
 So let's go a head and call it and make sure it works!   We can run this in SLIME by pressing Ctrl-C Ctrl-K and we'll see this:
 
