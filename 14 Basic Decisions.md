@@ -54,7 +54,11 @@ get errors on this.  Let me explain this differently:
   (otherwise "Please try again!")*)* **)**  < - The second parenthesis closes the statment that started with "case", the third parenthesis closes the "let" loop completely!
   
   
-  
+What this shows us is that you can have lists inside lists as long as the main list remains open. If I were to attempt to close one portion of this and run it, I'd get an 
+error, even though the text is exactly the same as before:
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/choice_error.jpg" height="600" width="1200"></a>
 
 
 Running this in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function. 
