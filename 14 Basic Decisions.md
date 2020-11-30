@@ -38,6 +38,25 @@ The case loop looks like this:
 This gives our case loop 3 passwords to work with along with the answers we want the program to give, we also have an answer if the password used doesn't match
 any of the ones we provided for it.
 
+In order for this to work correctly, the let command and the arguments that go along with it have to be in the same list. If any part of the let loop is outside the list, you'll 
+get errors on this.  Let me explain this differently:
+
+**(** let *((password :sherlock))*             < - The ((password :sherlock)) is opened and closed, however, notice the word "let" is still opened?
+
+*(* case password                              < - The "case" statement is also opened, so at this point we need two additional parentheses to close this list  up
+
+  *(* :enter "Ha ha! Not even close!" *)*      < - This opens and closes on the same line - it's a list within a list within another list!    
+  
+  *(* :password "Usually, this is a good password choice for a typical windows admin, however, we're not, so it's not right!") < - This also opens and closes on the same line.
+  
+  *(* :p455w0rd "No L33t speak, please!")  < - This also opens and closes on the same line too!
+  
+  (otherwise "Please try again!")*)* **)**  < - The second parenthesis closes the statment that started with "case", the third parenthesis closes the "let" loop completely!
+  
+  
+  
+
+
 Running this in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function. 
 That function is the equivalent of saying "Let the password equal "Sherlock".:
 
