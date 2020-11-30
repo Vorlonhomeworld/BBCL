@@ -86,7 +86,7 @@ This works, of course, but what if we want to get input from the user first? We 
 
 ```
 
-Notice that we define our function, **choice3** first  ( **(defun choice3 ()**), we call it choice3 because we *are* asking the user to choose a password, now 
+Notice that we define our function, **getchoice3** first  ( **(defun getchoice3 ()**), we call it choice3 because we *are* asking the user to choose a password, now 
 we can call this  *a*, *a1*, *b*..etc..., but it's easier on us if we give this a name that reflects what it's doing. It makes it easier for us to find and debug
 this if we need to or change it (and we'll be doing just that in a moment). Notice also, after choice3 we have an empty set of parantheses? This is called an empty list
 and it's perfectly valid in Common Lisp. It's empty because we're going to be reading a response later and working with it. 
