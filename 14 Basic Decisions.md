@@ -107,7 +107,7 @@ So let's go a head and call it and make sure it works!   We can run this in SLIM
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_choice.png" height="600" width="950"></a>
 
 
-The **CL-User>** prompt doubles as an input prompt in this case, because we haven't defined what our prompt actually should look like!
+The **CL-User>** prompt doubles as an input prompt **only** for the first password attempt, any time after that, the prompt is correct. 
 
 You could also start a terminal in Emacs, if you prefer, by clicking Meta (that's the Alt key) + x then type in **"term"**. Hit enter and
 Emacs will ask you which terminal you want to to start, and it may show your default terminal.  Once the terminal is selected, just go 
