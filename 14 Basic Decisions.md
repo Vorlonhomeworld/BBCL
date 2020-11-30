@@ -60,8 +60,11 @@ error, even though the text is exactly the same as before:
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/choice_error.jpg" height="600" width="1200"></a>
 
+This is because Common Lisp has global and local variables - the variable "password" is considered local and therefore it only exists within the list. We haven't yet 
+talked about global lists, but we will later on. For now, be aware that local variables exist only within the one list, global variables exists througout the duration of the
+program and they can be called from any list within the program.
 
-Running this in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function. 
+Running the correct code in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function. 
 That function is the equivalent of saying "Let the password equal "Sherlock".:
 
 
@@ -88,11 +91,17 @@ we can call this  *a*, *a1*, *b*..etc..., but it's easier on us if we give this 
 this if we need to or change it (and we'll be doing just that in a moment). Notice also, after choice3 we have an empty set of parantheses? This is called an empty list
 and it's perfectly valid in Common Lisp. It's empty because we're going to be reading a response later and working with it. 
 
-We're still using **format t** to print out the request for the password, but just underneath, notice that we're asking Common Lisp to read the response? That's all that's
-needed for Common Lisp to read what we just entered in for our password. Below that, (***cond ((equal response '007)***), that's us telling Common Lisp that "if the response
-equals 007 we do the next line below it, (the *(format t "Welcome James Bond, 007 ")*.  The next line starting with *(t (format.....))* that's our "else" statement (as in 
-if the password is right do this, else do this instead!).  The (getchoice3) line by itself tells Common Lisp to run the defined function called choice3 at the top. If that
-wasn't there, we could still call this code but it wouldn't run!
+The **let** command  assigns the variable "choice"  *temporarily* to "1". This is because the let command requires a variable and that variable requires something
+be assigned to it. We're still using **format t** to print out the request for the password, but just underneath, notice that we're asking Common Lisp to read the response?
+It looks similar to the let list above it where we assigned the variable of "choice" to it, doesn't it? Although it looks similar, there's a key difference here, on this line,
+the function "read" at the end means that Common Lisp is now reading what we just typed in. The word "response" isn't a function, it's a variable as well, and it's used to show
+that we're reading the **response** from the user.
+
+That's all that's needed for Common Lisp to read what we just entered in for our password. Below that, (***cond ((equal response '007)***), that's us telling Common Lisp that
+"if the response equals 007 we do the next line below it, (the *(format t "Welcome James Bond, 007 ")*. We *could* write it out as  (cond (( = response '007)), and that would
+be correct and understandable by Common Lisp as well. The next line starting with *(t (format.....))* that's our "else" statement (as in if the password is right do this, else
+do this instead!).  The (getchoice3) line by itself tells Common Lisp to run the defined function called choice3 at the top. If that wasn't there, we could still call this code
+but it wouldn't run!
 
 So let's go a head and call it and make sure it works!   We can run this in SLIME by pressing Ctrl-C Ctrl-K and we'll see this:
 
