@@ -64,8 +64,7 @@ This is because Common Lisp has global and local variables - the variable "passw
 talked about global lists, but we will later on. For now, be aware that local variables exist only within the one list, global variables exists througout the duration of the
 program and they can be called from any list within the program.
 
-Running the correct code in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function. 
-That function is the equivalent of saying "Let the password equal "Sherlock".:
+Running the correct code in SLIME gives us an answer of "Please try again!" because none of the password choices match the password we set at the top with our let function:
 
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_password.png" height="600" width="950"></a>
