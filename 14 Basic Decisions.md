@@ -173,7 +173,7 @@ generate a few errors, but the code really does run, I promise you! ) and get:
 
 
 By the way, if you're (welcome) list shows up above the banner "Welcome James Bond" you may have a mis-placed parenthesis somewhere in your program. Double check it and make 
-sure your parentheses are correct! I actuaklly had this issue occur when I was coding this the first time - so if you *do* have a missing or incorrectly closed parenthese, don't 
+sure your parentheses are correct! I actually had this issue occur when I was coding this the first time - so if you *do* have a missing or incorrectly closed parenthese, don't 
 worry, you're in good company!
 
 
