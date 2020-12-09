@@ -16,7 +16,7 @@ So to access Melpa, you'll need to access your emacs init file (it's usually cal
 
 (require 'package)
 (add-to-list 'package-archives
-'("melpa"     . "http://melpa.milkbox.net/packages/"))
+'("melpa"     . "http://melpa.org/packages/"))
 (package-initialize)
 
 ```
