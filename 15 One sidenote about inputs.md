@@ -58,7 +58,7 @@ For example, program we wrote above can easily be re-written to use (read-line) 
   (let ((choice 1))
     (format t  "~%Enter your password:  ")
     (let ((response (read-line)))
-      (cond ((equal response '007)
+      (cond ((string-equal response "007")
 	     (format t "~%~%Welcome James Bond, 007 ~%")(welcome))
 	    (t (format t "~%Incorrect Reponse.~%") (getchoice3))))))
 
@@ -70,5 +70,5 @@ This allows us to keep going, even if someone tries to crash the program by ente
 on running:
 
 
-<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/choice_better.png" height="600" width="1200"></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/choice_corrected.PNG" height="600" width="1200"></a>
 
