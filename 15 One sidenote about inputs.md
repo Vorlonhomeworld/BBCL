@@ -34,8 +34,10 @@ The program can't handle that and crashes:
 
 While the crash itself is bad as it is, if a clever hacker sees that they can make your program crash, they can get it to exit to the system, spawn a shell and
 get access at whatever level you have access on that computer. In the hacker community this is known as "getting root" or "root shelling" and the bottom line
-here is, I don't want anyone getting a root shell on anything I've written!  One change is all that's needed to keep that from happening, instead of using
-**(read)** to read the user's input, we'll need to use **(read-line)** instead.
+here is, I don't want anyone getting a root shell on anything I've written!  Two changes are all that's needed to keep that from happening, instead of using
+**(read)** to read the user's input, we'll need to use **(read-line)** instead, and instead of using (equal-response '007) we change it to (string-equal response "007").
+We change the (equal-response) because we're looking to compare strings. If we leave it the way it is, the program won't crash, but it also won't understand that it's being
+given the corrrect string either!
 
 
 ## So what's the difference ?
