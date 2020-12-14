@@ -93,7 +93,7 @@ inputted has something to compare with!
 (defun getchoice3 ()
   (let ((choice 1))
     (format t  "~%Enter your password:  ")
-    (let ((response (read-line
+    (let ((response (read-line))
       (cond ((sting-equal response "007")
 	     (format t "Welcome James Bond, 007 ~%" ))
 	    (t (format t "Incorrect Reponse, session terminated!"))))))
