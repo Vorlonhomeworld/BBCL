@@ -86,7 +86,7 @@ that has exactly the same access we have on that system! Fortunately for us, Com
 If we switch (read) to (read-line), that stops the problem right away because [(read)](http://www.lispworks.com/documentation/HyperSpec/Body/f_rd_rd.htm#r) runs the input
 through the Lisp parser, [(read-line)](http://www.lispworks.com/documentation/HyperSpec/Body/f_rd_lin.htm) doesn't use the parser, it stores what you gave it and compares it 
 to the string you tell it to compare it with (which is why we have to change ((equal response) to ((string-equal response)) on the next line so that the string our user 
-iputted has something to compare with!
+inputted has something to compare with!
 
 ```
 
