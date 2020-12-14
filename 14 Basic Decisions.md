@@ -69,15 +69,32 @@ Running the correct code in SLIME gives us an answer of "Please try again!" beca
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_password.png" height="600" width="950"></a>
 
-This works, of course, but what if we want to get input from the user first? We can do that, with a few changes to the code:
+This works, of course, but what if we want to get input from the user first? We can do that, with a few changes to the code. The first and biggest change to our code would be 
+to use (read-line) rather than read to get the user's input. The second change would be to change  ((equal response '007 ) to ((string-equal response "007).
+
+The reason for this is while (read) works and can make decisions for us, it's *really* insecure. I mean, as long as the person entering input does what we *expect* them
+to do, the code will run and we'll have no problems, however, let's say the user decides to enter "Bond, James Bond" as the password, our program won't like it and it'll crash:
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Common_Lisp_Crash.png" height="600" width="1200"></a>
+
+Specifically, the **","** character is the cause of the crash, because Common Lisp interprets that character as an escape character and it will cause the program to crash. Yes,
+I realize we're on our own computer so a crash isn't a big deal at *this* stage of the game, *however*, once we start coding for real, that can become a real problem! If we 
+code a web interface and we use (read) to accept user input and they enter in anything with **","** in it, the program will crash and the user may be left with a terminal
+that has exactly the same access we have on that system! Fortunately for us, Common Lisp has been around the block a few times, so it has tools to help us out with this.
+
+If we switch (read) to (read-line), that stops the problem right away because [(read)](http://www.lispworks.com/documentation/HyperSpec/Body/f_rd_rd.htm#r) runs the input
+through the Lisp parser, [(read-line)](http://www.lispworks.com/documentation/HyperSpec/Body/f_rd_lin.htm) doesn't use the parser, it stores what you gave it and compares it 
+to the string you tell it to compare it with (which is why we have to change ((equal response) to ((string-equal response)) on the next line so that the string our user 
+iputted has something to compare with!
 
 ```
 
 (defun getchoice3 ()
   (let ((choice 1))
     (format t  "~%Enter your password:  ")
-    (let ((response (read)))
-      (cond ((equal response '007)
+    (let ((response (read-line
+      (cond ((sting-equal response "007")
 	     (format t "Welcome James Bond, 007 ~%" ))
 	    (t (format t "Incorrect Reponse, session terminated!"))))))
 
@@ -130,8 +147,8 @@ us all from time-to-time, right?  Turns out, that's easily done, all we have to 
 (defun getchoice3 ()
   (let ((choice 1))
     (format t  "~%Enter your password:  ")
-    (let ((response (read)))
-      (cond ((equal response '007)
+    (let ((response (read-line)))
+      (cond ((string-equal response "007")
 	     (format t "Welcome James Bond, 007 ~%" ))
 	    (t (format t "Incorrect Response!") (getchoice3))))))
 
@@ -156,8 +173,8 @@ into our code and we're good to go:
 (defun getchoice3 ()
   (let ((choice  1))
     (format t  "~%Enter your password:  ")
-    (let ((response (read)))
-      (cond ((equal response '007)
+    (let ((response (read-line)))
+      (cond ((string-equal response "007")
 	     (format t "~%~%Welcome James Bond, 007 ~%")(welcome))
 	    (t (format t "~%~%Incorrect Response!~%~%") (getchoice3))))))
 (getchoice3)
