@@ -70,7 +70,7 @@ Running the correct code in SLIME gives us an answer of "Please try again!" beca
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_password.png" height="600" width="950"></a>
 
 This works, of course, but what if we want to get input from the user first? We can do that, with a few changes to the code. The first and biggest change to our code would be 
-to use (read-line) rather than read to get the user's input. The second change would be to change  ((equal response '007 ) to ((string-equal response "007).
+to use (read-line) rather than (read) to get the user's input. The second change would be to change  ((equal response '007 ) to ((string-equal response "007).
 
 The reason for this is while (read) works and can make decisions for us, it's *really* insecure. I mean, as long as the person entering input does what we *expect* them
 to do, the code will run and we'll have no problems, however, let's say the user decides to enter "Bond, James Bond" as the password, our program won't like it and it'll crash:
