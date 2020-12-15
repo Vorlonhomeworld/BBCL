@@ -113,7 +113,7 @@ It looks similar to the let list above it where we assigned the variable of "cho
 the function "read-line" at the end means that Common Lisp is now reading what we just typed in. The word "response" isn't a function, it's a variable as well, and it's used 
 to show that we're reading the **response** from the user. That's all that's needed for Common Lisp to read what we just entered in for our password.
 
-Below that, (***cond ((string-equal response '007)***), that's us telling Common Lisp that "if the response equals 007 we do the next line below it, (the *(format t 
+Below that, (***cond ((string-equal response "007")***), that's us telling Common Lisp that "if the response equals 007 we do the next line below it, (the *(format t 
 "Welcome James Bond, 007 ")*. The next line starting with *(t (format.....))* that's our "else" statement (as in if the password is right do this, else do that instead!).  
 The (getchoice3) line by itself tells Common Lisp to run the defined function called getchoice3 at the top. If that wasn't there, we could still call this code but it 
 wouldn't run!
