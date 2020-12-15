@@ -1,6 +1,6 @@
 # Basic Decisions
 
-**S**o far, we've had Common List print things for us, now we'll get into Common Lisp's decision making ability. We'll start simple and build
+**S**o far, we've had Common Lisp print things for us, now we'll get into Common Lisp's decision making ability. We'll start simple and build
 out from there.  First, we'll look at the **Let** and **Case** functions.
 
 **Let** allows us to set up a variable to equal something, for example if I wanted to set up a program that asked for a password, I could use the **Let** function
