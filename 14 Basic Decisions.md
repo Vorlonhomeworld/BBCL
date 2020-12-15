@@ -140,7 +140,7 @@ The computer respopnds with:
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/REPL_choices_terminal.png" height="600" width="950"></a>
 
 
-In looking the code, it **does** work, but shouldn't we give the user another chance if the get it wrong?  Maybe they just hit the wrong key, it happens to 
+In looking at the code, it **does** work, but shouldn't we give the user another chance if the get it wrong?  Maybe they just hit the wrong key, it happens to 
 us all from time-to-time, right?  Turns out, that's easily done, all we have to do is tell it to run getchoice3 if the password's wrong:
 
 ```
