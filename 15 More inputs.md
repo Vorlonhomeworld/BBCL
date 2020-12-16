@@ -15,9 +15,6 @@ this code as we go along to make it easier to code and debug!   With that in min
   (format t "Suddenly,  you realize where you are .... you have found ~%~% The Menzoberazzen!!~%~%"))
 
 
-
-
-
 (defun sloping_path ()
   (format t "~%~%You're on a path sloping down to the north. Strangely enough, the path is well lit from torches mounted along the path. You can hear voices and smell cooking  to the north.~%")
   (let ((choice 1))
@@ -29,10 +26,6 @@ this code as we go along to make it easier to code and debug!   With that in min
 	    (format t "~%")(cave))
 	    (t (format t "~% You bang your head against the wall!~%~%")(sloping_path))))))
 	     
-	  
-
-
-
 
 (defun cave ()
   (format t "~%~%You wake up on the floor of a deep dark cave. Above you, way out of reach, is the hole you fell through. The only path available to you is a path to the north that goes down further into the cave~%")
@@ -55,9 +48,10 @@ sbcl --script mini_adventure.lisp
 
 ```
 
-(mini_adventure.lisp) is the name I have it on on my system, but you can save this under any name you'd like! Run it and you'll see:
+mini_adventure.lisp is the name I have it on on my system, but you can save this under any name you'd like! Run it and you'll see:
 
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/mini_adventure.jpg" height="600" width="1200"></a>
 
-
+While it runs, this really isn't the best way to code this. For example, did you notice that the prompt has to be recoded each time? Surely there's got to be a way to 
+code the prompt just once so that we don't have to keep calling coding it, right?  Tr
