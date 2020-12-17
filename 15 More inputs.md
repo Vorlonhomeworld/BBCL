@@ -40,17 +40,17 @@ this code as we go along to make it easier to code and debug!   With that in min
 
 ```
 
-In this code, we define a function called menz, this is also our last room.  We start with the last room because Common Lisp reads the way we read. It starts at the top and goes
-to the bottom. If we were to write the first room first then  the second room second, we'd get an error going from room to to room because the first room wouldn't have seen the
-second room and so on. Therefore we start with the last room. We set it up as a function so that we can call it easily from the room before.  The room does nothing except
-introduce you the city. Once that's done the program exits normally.
+In this code, we define a function called (menz), this is also our last room.  We start with the last room because Common Lisp reads the way we read. It starts at the top and
+goes to the bottom. If we were to write the first room first then  the second room second, we'd get an error going from room to to room because the first room wouldn't have
+seen the second room and so on. Therefore we start with the last room. We set it up as a function so that we can call it easily from the room before.  The room does nothing
+except introduce you the city. Once that's done the program exits normally.
 
 The next function creates the sloping corridor, now, it's called sloping_corridor, but I could have just as easily called it room2, s_room, a, z, 1, 2, it doesn't really
 matter to  Common Lisp's interpreter, but it **does** matter  to the human that's debugging it. For that reason, calling it the same name as the room we'll be going in 
 makes it easier to find in the code and therefore easier to debug.
 
-This room also uses a prompt and accepts two directions, north andf south. Because we want to be safe about the user input, we use (read-line) rather than read and 
-we use ((string-equal response) to compare the user's entery to one of three possible outcomes. The first outcome would be the user pressing "n", the game would
+This room also uses a prompt and accepts two directions, north and south. Because we want to be safe about the user input, we use (read-line) rather than (read) and 
+we use ((string-equal response) to compare the user's entry to one of three possible outcomes. The first outcome would be the user pressing "n", the game would
 print a carriage return (format t "~%") then run the defined function (menz) which prints the information for the city of Menzoberazzen. Going south bring the user to the
 cave, which is the starting point and defined in the function (cave).  There's a third reponse for everything else, and that's to have the program print a carraige return
 and print out "You bang your head against the wall!", then it returns back to the same function it started in , (sloping_cave).
