@@ -24,4 +24,4 @@ You're free to download it, clone it, make updates to it. Pretty much anything y
 
 
 
-**Next [What_is_Lisp] (https://github.com/Vorlonhomeworld/BBCL/blob/main/2%20What_is_Lisp.md) **
+**Next Section** [Chapter 2. What is Lisp](https://github.com/Vorlonhomeworld/BBCL/blob/main/2%20What_is_Lisp.md)
