@@ -62,3 +62,6 @@ happen to use StumpWm, you can communicate directly with the Window Manager in C
 
 This gives us the ability to write code using the 
 REPL and we can test that code without having to leave emacs and with the code still visible to us.  It's literally the heart of SLIMV, VLIME, SLIME and SLY!
+
+
+**Next** [Chapter 13. Get SLIME'd](https://github.com/Vorlonhomeworld/BBCL/blob/main/13%20Get%20SLIME'd.md)
