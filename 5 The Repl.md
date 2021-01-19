@@ -205,3 +205,6 @@ with either ";" or ";;" are comments and don't get run by the system.
 It's there to make the code more readable!  This will start to 
 make more sense once we get into coding Common Lisp.  Speaking of,
 let's get coding!
+
+
+**Next** [Chapter 6. Hello Lisp](https://github.com/Vorlonhomeworld/BBCL/blob/main/6%20Hello_Lisp.md)
