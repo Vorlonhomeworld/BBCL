@@ -111,3 +111,6 @@ Common Lisp has more arithmetic functions that that, it also has Cosines, Log, M
 two ( / 5 2), **oops!**  I mean (float(/ 5 2))!  We're going to get 2.50, the .50 portion is the remainer because it's not a whole number. That remainder
 would be printed as the modulus of five divided by two!) and more. If you're interested  you can look the math operations I didn't cover [on this page](http://www.lispworks.com/documentation/HyperSpec/Front/StartPts.htm).  (By the way, I'd book mark this page as it's a searchable index of pretty much
 any Common Lisp term with at least one example to show you how it's used!
+
+
+**Next** [Chapter 11. Defun](https://github.com/Vorlonhomeworld/BBCL/blob/main/11%20Defun.md)
