@@ -86,3 +86,4 @@ setenv SBCL_HOME /my/sbcl/prefix/lib/sbcl   (for csh / tcsh)
 That's literally it!  You now have the Common Lisp environment on your computer. Now let's start it up....
 
 
+**Next** [Chapter 5. The Repl](https://github.com/Vorlonhomeworld/BBCL/blob/main/5%20The%20Repl.md)
