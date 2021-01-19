@@ -122,3 +122,5 @@ to read the **Hello Lisp** *(1,2 and 3)* to find the answer.   These won't be di
 *(If you get stuck, check "Hello Lisp, part 3")*
       
       
+      
+**Next** [Chapter 9. S-Expressions, The math notation of Common Lisp](https://github.com/Vorlonhomeworld/BBCL/blob/main/9%20S-Expressions%2C%20The%20math%20notation%20of%20Common%20Lisp.md)
