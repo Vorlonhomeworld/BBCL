@@ -33,7 +33,7 @@ restarts (invokable by number or by possibly-abbreviated name):
 Notice that it's printing pi out as fully as it can, however, that's a problem, because pi can be computed out indefintely, so at some point, the computer **and** the 
 REPL are going to throw up their hands and give up, which is just what happened here!  That's where directives come in handy. Directives are Common Lisp's way of further
 clarifying what we want it to do, like say, print pi with a certain amount of decimal places only! We can print this out more sanely, and a bit more humanely for the REPL, 
-the computer and our eyes it we tell it how many decimals places we want it to go. It will ignore anything after those places and give us an easier to read number!
+the computer and our eyes if we tell it how many decimals places we want it to go. It will ignore anything after those places and give us an easier to read number!
 
 What we'll do is let Common Lisp know that we want to add a few optional directives in. We have to start that process by inserting a tilde "~" first. That
 lets Common Lisp know that we're adding optional directives into the print statment.  We'll tell pi to print out its value to 2 digits only by entering in:
