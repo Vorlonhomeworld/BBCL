@@ -125,3 +125,6 @@ Common Lisp has the same format for that too. Instead of writing (if 5 > 6 do th
 **S**o, in short, John McCarthy used the Prefix notation to use less memory, use the registers more effeciently, tax the computer as little as possible, and still get it to 
 calculate powerful equations for A.I, (which could get pretty complicated) *and* he had to do this on a seriously underpowered computer. Common Lisp still operates the same way today and because of this it runs quickly and powerfully on computers even today!
 
+
+
+**Next** [Chapter 10. Arithmetic](https://github.com/Vorlonhomeworld/BBCL/blob/main/10%20Arithmetic.md)
