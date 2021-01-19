@@ -184,3 +184,6 @@ of the prompt, to verify it's being read the way it was written.  Sure enough, t
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Slime_eval.png" height="600" width="950"></a>
 
 This is literally Common Lisp's REPL on steroids!!
+
+
+**Next** [Chapter 14. Basic Decisions](https://github.com/Vorlonhomeworld/BBCL/blob/main/14%20Basic%20Decisions.md)
