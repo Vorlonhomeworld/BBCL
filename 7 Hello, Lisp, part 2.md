@@ -54,8 +54,14 @@ NIL
 ```
 
 The **~** lets the format command know we're adding directives to the command.
+
 The **v** lets Common Lisp know that we're going to be adding an argument to whatever it is we want it to print, so it needs to parse that too
+
 The **$** lets Common Lisp know that we want the format to be decimal. This is important because Common Lisp can print, natively in Hex and Octal too!
+
+The **2** lets Common Lisp know that we want it to print out our decimal number to to places only
+
+Finally, **pi** tells Common Lisp *what* number we're printing out to two decimal places.
 
 Yes, we **can** enter the previous command to print pi as (format t "~$" pi) and it will still print out 3.14 , however it we leave out the "v" and try
 
