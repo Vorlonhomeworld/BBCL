@@ -79,3 +79,4 @@ This is only a taste of what the debugger can do. It can step through your code 
 By the way, can you spot what we left out in our last code? There's a working example of this code a bit higher up, I promise you it's literally one missing item!
 
 
+**Next** [Chapter 7. Hello, Lisp, part 2](https://github.com/Vorlonhomeworld/BBCL/blob/main/7%20Hello%2C%20Lisp%2C%20part%202.md)
