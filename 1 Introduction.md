@@ -20,3 +20,8 @@ all, you don't need to know what a *REPL* is at all (I'll explain that, I promis
 promise!
 
 You're free to download it, clone it, make updates to it. Pretty much anything you'd like.  Feel free and learn!
+
+
+
+
+**Next(https://github.com/Vorlonhomeworld/BBCL/blob/main/2%20What_is_Lisp.md)[What is Lisp]**
