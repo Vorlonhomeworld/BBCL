@@ -159,3 +159,6 @@ Go ahead, you try it!  Pick any number (4 digits or better will work best here) 
 
 Now these aren't the only directives available, there's a good [writeup over on this page](http://gigamonkeys.com/book/a-few-format-recipes.html) showing you
 even more directives and their usage!
+
+
+**Next** [Chapter 8. Hello Lisp, Part 3](https://github.com/Vorlonhomeworld/BBCL/blob/main/8%20Hello%20Lisp%20Part%203.md)
