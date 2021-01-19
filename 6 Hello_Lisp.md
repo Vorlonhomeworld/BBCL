@@ -62,9 +62,10 @@ The REPL's going to reply with this:
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/Repl_Error.jpg"></a>
 
 
-Looks pretty cryptic, doesn't it?  It really isn't. The very first line lets us know that Common Lisp is sensing an **int**ernal error, now ignore the second
+Looks pretty cryptic, doesn't it?  It really isn't. The very first line lets us know that Common Lisp is sensing an **int**ernal error (It's the line with **SB-INT**, 
+**SB** are the initials for **S**teel **B**ank, and the **INT** tells us that we have an **INT**ernal error within Steel Bank's Common Lisp). Now ignore the second
 line and instead look at the third line, it's telling us that it's missing one argument **"Invalid number of arguments: 1"**.
-The line right underneath that tells us that we're in the debugger amd what options we have (there are others that aren't visible right now, but available!).
+The line right underneath that tells us that we're in the debugger and what options we have (there are others that aren't visible right now, but available!).
 At the bottom, it tells us what line our error's in. Granted, we have just one line, but if we had more, it would highlight only the line where the error is occuring.
 
 Now, we can get the debuger to tell us a bit more plainly what's happening if we use the command **RETURN**.  We'd need to type RETURN then hit enter, we'd then be prompted 
