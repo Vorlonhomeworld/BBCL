@@ -73,4 +73,10 @@ mini_adventure.lisp is the name I have it on on my system, but you can save this
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/mini_adventure.jpg" height="600" width="1200"></a>
 
 While it runs, this really isn't the best way to code this. For example, did you notice that the prompt has to be recoded each time? Surely there's got to be a way to 
-code the prompt just once so that we don't have to keep calling coding it, right?  Tr
+code the prompt just once so that we don't have to keep calling coding it, right?  There really is,  but it will involve more changes in the game with functions we haven't yet 
+learned about, so we'll table that for later. Just know that we can code the prompt once and tell Common Lisp to load directions for each room.  As a matter of fact, there's an 
+example of just such a thing coded in Common Lisp already [over at this page](http://www.ulisp.com/show?383X). It's written in Ulisp **and** Common Lisp, so please be sure
+you view the code for Common Lisp, not ULisp as they're not the same thing.
+
+
+
