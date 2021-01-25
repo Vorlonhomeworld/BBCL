@@ -12,4 +12,9 @@ the list! Common Lisp has two functions, CAR and CDR (you'll see that they're ac
   to work with at the time. Now that particular computer didn't have address registers , but instead, had index registers.  Remember, we talked a bit about computer registers
   in [chapter 9](https://github.com/Vorlonhomeworld/BBCL/blob/main/9%20S-Expressions%2C%20The%20math%20notation%20of%20Common%20Lisp.md) of this book?  
  
-  The index registers were called A, B and C
+  The index registers were called A, B and C (in the I.B.M manual), they were also called IR1, IR2 and IR4 in the M.I.T manual. Yes, you're reading this correctly, it does jump
+  from IR2 to IR4, however, the machine was set up so that registers could be set up together (for example IR1 and IR2 could be called at the same time). They were accessed by 
+  LX instructions, LXA **l**oaded the inde**x** from the **a**ddress field and LXD **l**oaded the inde**x** from the **d**ecrement field. While the 704 had no CAR or CDR 
+  functions available, the LXA and LXD instructions served as models for CAR and CDR.
+  
+  
