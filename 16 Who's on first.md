@@ -19,7 +19,7 @@ functions available, the LXA and LXD instructions served as models for CAR and C
  
   The instructions worked, but they were limited in what they could do. Yes, it was possible to access a specific register directly, in fact, in the IBM manual they had 
 a shorthand instruction for this, the capital letter **"C"**, which stood for *Contents Of*.  With this instruction it was possible to access the contents of register
-100, for example by writing C(100), however, no instruction to read the address field or decrement field existed at all! John McCarthy took that existing terminiology and applied it to a list
+100, for example, by writing C(100), however, no instruction to read the address field or decrement field existed at all! John McCarthy took that existing terminiology and applied it to a list
 rather than a register for pretty much the same effect. You have the ability to access a field directly by requesting it through the CAR or CDR command.
 
   Possibly the best explanation I've come across of this is an explanation that breaks down each of the letters of CADR from Thomas W. Lynch at the Birbeck College, University
