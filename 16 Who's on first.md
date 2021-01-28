@@ -32,3 +32,70 @@ rather than a register for pretty much the same effect. You have the ability to 
   | c          |   complete       | Finish processing    |
   | d          |   drop           | Drop the head cell   |
   | r          |   run            | Run the program      |
+  
+  The first thing you'll need to know is that Common Lisp reads this request from right to left (remember prefix notation?), so  if we were to enter:
+  
+  ```
+  
+  (CAR '(0 1 2 3))
+  
+  ```
+  
+  Common lisp would read the **r** first and run the routine, then it would **a**ccess the head cell, in this case, it's "0", then it would complete. This would give us a 
+result of "0". 
+
+  Now, if we were to use **cdr** instead, for example:
+  
+  ```
+  
+  (CDR '(0 1 2 3))
+  
+  ```
+
+Common lisp would still **r** run, but instead of access the head cell, it would **d**rop the head cell, which in this case is still "0", then it would complete. This would 
+give us a result of (1 2 3)  because we removed the "0" from this list.
+
+  Remember I said this was expandable? It is! All we need to do is repeat a few commands. Let's say I have the following list:
+  
+  ```
+  
+  (0 (1 2 3) 4 5)
+  
+  ```
+  
+  and what I need to get is the value of "2". If I try **CAR** the list, I'll get **0**, as I would be **r**unning the program, **a**ccessing the head cell, then 
+  **c**ompleting. In order to get the value of 2, wouldn't I have to drop that 0 off.  I can try that, since **d** would allow me to **d**rop the head cell off, which is 
+  "0". I would enter that request like this:
+  
+  ```
+  
+  (cadr '(0 (1 2 3) 4 5))
+  
+  ```
+  Here, I'm running the program, dropping the head cell off , which is "0", accessing the head cell, which is now (1 2 3), remember, "0" is dropped off so it's not there any
+  more. Once I do that, I tell the program to complete. It will do so, but it won't give me "2", instead it'll give me (1 2 3). This isn't what we wanted, we wanted to get 
+  only "2". So, back to the drawing board......or maybe not!
+  
+  Remember that this command has four letters in it, and we've used all four letters, so how to we get this to go further into our list? Simple, we repeat two of our  
+prior steps. We need to repeat the access and drop steps one more time to get what we need, so we'd write this out as:
+
+```
+
+(cadadr '(0 (1 2 3) 4 5))
+
+```
+
+That **now** gives us the answer we were looking for, which is "2".  I'll show this to you another way to give you a better idea of how this is doing this. This too is from 
+Thomas W. Lynch's paper:
+
+|  Step | Command   |     Entered in   |     Result              |           Comments                                                                |
+|-------|-----------|------------------|-------------------------|-----------------------------------------------------------------------------------|           
+|   0   | cadad**r**| (0 (1 2 3) 4 5)  | **run** (0 (1 2 3) 4 5) | runs the command on '(0 (1 2 3) 4 5). Nothing to remove yet                       |
+|   1   | cada**d** | (0 (1 2 3) 4 5)  | **drop** ( (1 2 3) 4 5) | drops the head of the cell, which is "0" resulting in ((123(45))                  |
+|   2   | cad**a**  | ( (1 2 3) 4 5 )  | **access** (1 2 3)      | accesses the **new** head of the cell, which is (123) and reads that only         |
+|   3   | ca**d**   |   (1 2 3)        | **drop**   (2 3)        | drops the head of the **new** cell, which leaves us with (2 3)                    | 
+|   4   | c**a**    |      (2 3)       | **access**   (2)        | accesses the head of the new cell which is now ( 2) and reads only that new cell  |
+|   5   | **c**     |        (2)       | **complete**            | completes the command, leaving only "2" as the reamining item in that cell        |
+
+
+
