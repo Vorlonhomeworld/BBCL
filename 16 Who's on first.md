@@ -17,7 +17,7 @@ from IR2 to IR4, however, the machine was set up so that registers could be call
 LX instructions, LXA **l**oaded the inde**x** from the **a**ddress field and LXD **l**oaded the inde**x** from the **d**ecrement field. While the 704 had no CAR or CDR 
 functions available, the LXA and LXD instructions served as models for CAR and CDR. 
  
-  The instructions worked, bt they were limited in what they could do. Yes, it was possible to access a specific register directly, in fact, in the IBM manual they had 
+  The instructions worked, but they were limited in what they could do. Yes, it was possible to access a specific register directly, in fact, in the IBM manual they had 
 a shorthand instruction for this, the capital letter **"C"**, which stood for *Contents Of*.  With this instruction it was possible to access the contents of register
 100 by writing C(100), however, no instruction to read the address field or decrement field existed at all! John McCarthy took that existing terminiology and applied it to a list
 rather than a register for pretty much the same effect. You have the ability to access a field directly by requesting it through the CAR or CDR command.
