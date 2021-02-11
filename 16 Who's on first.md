@@ -95,11 +95,51 @@ Thomas W. Lynch's paper:
 |  Step |Command  |     Entered in  |     Result              |           Comments                                                                |
 |-------|---------|-----------------|-------------------------|-----------------------------------------------------------------------------------|           
 |   0   |cadad**r**| (0 (1 2 3) 4 5)| **run** (0 (1 2 3) 4 5) | runs the command on '(0 (1 2 3) 4 5). Nothing to remove yet                       |
-|   1   |cada**d**| (0 (1 2 3) 4 5) | **drop** ( (1 2 3) 4 5) | drops the head of the cell, which is "0" resulting in ((123(45))                  |
+|   1   |cada**d**| (0 (1 2 3) 4 5) | **drop** the "0"        | drops the head of the cell, which is "0" resulting in ((123(45))                  |
 |   2   |cad**a** | ( (1 2 3) 4 5 ) | **access** (1 2 3)      | accesses the **new** head of the cell, which is (123) and reads that only         |
 |   3   |ca**d**  |   (1 2 3)       | **drop**   (1)          | drops the head of the **new** cell, which leaves us with (2 3)                    | 
 |   4   |c**a**   |      (2 3)      | **access**   (2)        | accesses the head of the new cell which is now ( 2) and reads only that new cell  |
 |   5   |**c**    |        (2)      | **complete**            | completes the command, leaving only "2" as the reamining item in that cell        |
 
 
+  As an example of what this can do for you (outside of sorting numbers), consider this example:
+  
+  You have a list that shows the name, place of birth and current place of employment of an employee, and what you need is to be able to access different parts of his record.
+  You can do that with the commands I just showed you.  First, let's start with the employees record, admittedly, this is a simple way to do this:
+  
+  ```
+  (defun records ()
+  '(sheridan john earth babylon5))
+  
+  ```
+  We can pull his first name out of the list asking for it from this list - remember, we've **de**fined our **fun**ction by calling it "records", so we can access it again
+  by calling it by name:
+  
+  ```
+ (car (records))
+ 
+ ```
+ 
+ Gives us "Sheridan".   Now, if we wanted to access his place of birth we'd need to enter a different command. Given the table up top, you might think you'd need to enter:
+ 
+ ```
+ (cadadr (records))
+ 
+ ```
+ 
+ However, that would give us an error.  If you look at the table above, you'll notice that each time we **a**ccess the list, it focuses on a small section of that list and 
+ drops everything else, so were we to use this command we would have dropped everything else off the list and there'd be nothing left to print, which would give us an error.
+ That means we need to limit our **a**ccess to one command but **d**rop more of the record off.  What we could do in this example is enter:
+ 
+ ```
+ (caddr (records))
+ 
+ ```
+ 
+ This will give us "Earth", which is what we want as the command will **r**un on the list (sheridan john earth babylon5), then it will drop the head of the list off, which is 
+ "sheridan", the list then becomes "(john earth babylon5)". We then get the program to **d**rop the new head of the list off, which is "john". The list then becomes "(earth
+ babylon5)". At this point we can access the new head of the list which is "earth", and that's what the program will print.
+ 
+ Now, how do you think we'd get this list to print his current place of employment, Babylon5?   Just look up, you'll need to add one more character to the code we just looked 
+ at!
 
