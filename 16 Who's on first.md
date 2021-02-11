@@ -72,9 +72,9 @@ give us a result of (1 2 3)  because we removed the "0" from this list.
   (cadr '(0 (1 2 3) 4 5))
   
   ```
-  Here, I'm running the program, dropping the head cell off , which is "0", accessing the head cell, which is now (1 2 3), remember, "0" is dropped off so it's not there any
-  more. Once I do that, I tell the program to complete. It will do so, but it won't give me "2", instead it'll give me (1 2 3). This isn't what we wanted, we wanted to get 
-  only "2". So, back to the drawing board......or maybe not!
+  Here, I'm **r**unning the program, **d**ropping the head cell off , which is "0", **a**ccessing the head cell, which is now (1 2 3), remember, "0" is dropped off so it's 
+  not there any more. Once I do that, I tell the program to **c**omplete. It will do so, but it won't give me "2", instead it'll give me (1 2 3). This isn't what we wanted, 
+  we wanted to get   only "2". So, back to the drawing board......or maybe not!
   
   Remember that this command has four letters in it, and we've used all four letters, so how to we get this to go further into our list? Simple, we repeat two of our  
 prior steps. We need to repeat the access and drop steps one more time to get what we need, so we'd write this out as:
