@@ -120,7 +120,13 @@ Thomas W. Lynch's paper:
  
  ```
  
- Gives us "Sheridan".   Now, if we wanted to access his place of birth we'd need to enter a different command. Given the table up top, you might think you'd need to enter:
+ This gives us:
+ 
+ ```
+  "Sheridan"
+  ```
+  
+ Now, if we wanted to access his place of birth we'd need to enter a different command. Given the table up top, you might think you'd need to enter:
  
  ```
  (cadadr (records))
