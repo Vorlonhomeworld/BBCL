@@ -86,8 +86,8 @@ give us a result of (1 2 3)  because we removed the "0" from this list.
 ```
 
 That **now** gives us the answer we were looking for, which is "2". We're **r**unning the program, then we're **d**ropping the head of the cell, which is still "0". We
-then **a**ccess the head of the cell, which is now "(1 2 3)", we now again **d**rop the head of the new cell, which is "1". We then access the new head of the cell we 
-just now created, which is "2". Now we complete and get our number "2".
+then **a**ccess the head of the cell, which is now "(1 2 3)", we now again **d**rop the head of the new cell, which is "1". We then **a**ccess the new head of the cell we 
+just now created, which is "2". Now we **c**omplete and get our number "2".
 
 I'll show this to you another way to give you a better idea of how this is doing this. This too is from 
 Thomas W. Lynch's paper:
