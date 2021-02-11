@@ -97,7 +97,7 @@ Thomas W. Lynch's paper:
 |   0   |cadad**r**| (0 (1 2 3) 4 5)| **run** (0 (1 2 3) 4 5) | runs the command on '(0 (1 2 3) 4 5). Nothing to remove yet                       |
 |   1   |cada**d**| (0 (1 2 3) 4 5) | **drop** ( (1 2 3) 4 5) | drops the head of the cell, which is "0" resulting in ((123(45))                  |
 |   2   |cad**a** | ( (1 2 3) 4 5 ) | **access** (1 2 3)      | accesses the **new** head of the cell, which is (123) and reads that only         |
-|   3   |ca**d**  |   (1 2 3)       | **drop**   (2 3)        | drops the head of the **new** cell, which leaves us with (2 3)                    | 
+|   3   |ca**d**  |   (1 2 3)       | **drop**   (1)          | drops the head of the **new** cell, which leaves us with (2 3)                    | 
 |   4   |c**a**   |      (2 3)      | **access**   (2)        | accesses the head of the new cell which is now ( 2) and reads only that new cell  |
 |   5   |**c**    |        (2)      | **complete**            | completes the command, leaving only "2" as the reamining item in that cell        |
 
