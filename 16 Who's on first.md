@@ -135,7 +135,8 @@ Thomas W. Lynch's paper:
   '(sheridan john earth babylon5))
   
   ```
-  We can pull his first name out of the list asking for it from this list - remember, we've **de**fined our **fun**ction by calling it "records", so we can access it again
+  
+    We can pull his first name out of the list asking for it from this list - remember, we've **de**fined our **fun**ction by calling it "records", so we can access it again
   by calling it by name:
   
   ```
@@ -150,6 +151,8 @@ Thomas W. Lynch's paper:
  
  ```
   
+  *(Remember, it's **r**unning the list (sheridan john earth babylon5), **d**ropping the head of the list off, which is "Sheridan", then **a**ccessing the head of the
+  list, which is now "John", then **c**completing the job, which causes it to print the last thing it's accessed, "John")*
   
   We can access just his last name by entering in:
   
