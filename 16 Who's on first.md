@@ -55,6 +55,29 @@ result of "0".
 Common lisp would still **r** run, but instead of access the head cell, it would **d**rop the head cell, which in this case is still "0", then it would complete. This would 
 give us a result of (1 2 3)  because we removed the "0" from this list.
 
+Just in case you're scratching your head about this (and I know I was when I was learning this!), when you access any list in Common Lisp, Common Lisp only sees what 
+you've accessed and nothing else.  Think of a list like a lunch bag:
+
+```
+
+(defun lunchbag ()
+  '(sandwich cookie chips soda))
+  
+ ```
+ 
+ Imagine the command **(defub '(lunchbag))** as you opening the lunchbag and looking inside. You would see that the lunchbag has  **'(sandwich cookie chips soda)** inside.
+ Now, you getting the sandwich out of the bag would be analagous to **(car '(lunchbag))**. Sandwich is the first thing in the bag (or the head of the list), you'd **r**each
+ into the bag, **a**ccess the sandwich and **c**omplete the act of getting the sandwich. Your lunchbag is still there, but the only thing that's in your hand is the
+ sandwich. Same thing is true with Common Lisp.
+ 
+ The **CDR** command would be analagous to the same lunch bag, *however* , since you've already pulled it out, the list of things in the bag is now **'(cookie chips soda)**.
+ The sandwich has been **d**roppped out of the list of things on the bag, since the list of things in the bag is now **'(cookie chips soda)** if we were to **Car** the bag,
+ we'd reach for the cookie.
+ 
+ Essentially, anything **a**ccessed by Common Lisp is pulled and seperated out of the list and is presented singularly, so the **CAR** command is great for looking at single 
+ items, any time something is **d**ropped by the list, the rest of the list is intact, except for the item dropped. This can be used for single or multiple items. The 
+ multiple items can be accessed by expanding the command!
+
   Remember I said this was expandable? It is! All we need to do is repeat a few commands. Let's say I have the following list:
   
   ```
