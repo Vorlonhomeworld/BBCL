@@ -4,7 +4,7 @@
 accept user input.  Now we're going to learn how to access data within lists.  Now why would we want to do that? Simple! A list can hold lots of data together, for example, a
 list within Common Lisp can contain a username, a password, the user's access level or it could contain your first name, your last name, your address...etc... pretty much anything 
 you want it to hold. If we want to have Common Lisp **only** access a certain portion of that data, we need a way to direct Common Lisp to *only* access that data within
-the list! Common Lisp has two functions, CAR and CDR (you'll see that they're actually expandable into more than two in a momemt!) to do just that!
+the list! Common Lisp has two functions, CAR and CDR (you'll see that they're actually expandable into more than two in a moment!) to do just that!
   
 ## CAR, CDR....what a minute, what?!
 
