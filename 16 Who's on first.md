@@ -9,7 +9,7 @@ the list! Common Lisp has two functions, CAR and CDR (you'll see that they're ac
 ## CAR, CDR....what a minute, what?!
 
   CAR and CDR go back to the beginning of Lisp. When John McCarthy was designing Lisp itself, he had an [IBM 704](https://www.computerhistory.org/chess/stl-431614f6482e6/) 
-to work with at the time. Now that particular computer didn't have address registers , but instead, had index registers.  Remember, we talked a bit about computer registers
+to work with. Now that particular computer didn't have address registers , but instead, had index registers.  Remember, we talked a bit about computer registers
 in [chapter 9](https://github.com/Vorlonhomeworld/BBCL/blob/main/9%20S-Expressions%2C%20The%20math%20notation%20of%20Common%20Lisp.md) of this book?  
  
   The index registers were called A, B and C (in the I.B.M manual), they were also called IR1, IR2 and IR4 in the M.I.T manual. Yes, you're reading this correctly, it does jump
