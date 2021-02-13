@@ -136,7 +136,7 @@ Thomas W. Lynch's paper:
   
   ```
   
-    We can pull his first name out of the list asking for it from this list - remember, we've **de**fined our **fun**ction by calling it "records", so we can access it again
+  We can pull his first name out of the list asking for it from this list - remember, we've **de**fined our **fun**ction by calling it "records", so we can access it again
   by calling it by name:
   
   ```
