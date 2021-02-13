@@ -65,7 +65,7 @@ you've accessed and nothing else.  Think of a list like a lunch bag:
   
  ```
  
- Imagine the command **(defub '(lunchbag))** as you opening the lunchbag and looking inside. You would see that the lunchbag has  **'(sandwich cookie chips soda)** inside.
+ Imagine the command **(defun '(lunchbag))** as you opening the lunchbag and looking inside. You would see that the lunchbag has  **'(sandwich cookie chips soda)** inside.
  Now, you getting the sandwich out of the bag would be analagous to **(car '(lunchbag))**. Sandwich is the first thing in the bag (or the head of the list), you'd **r**each
  into the bag, **a**ccess the sandwich and **c**omplete the act of getting the sandwich. Your lunchbag is still there, but the only thing that's in your hand is the
  sandwich. Same thing is true with Common Lisp.
