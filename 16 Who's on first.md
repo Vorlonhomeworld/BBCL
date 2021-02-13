@@ -52,7 +52,7 @@ result of "0".
   
   ```
 
-Common lisp would still **r**un, but instead of access the head cell, it would **d**rop the head cell, which in this case is still "0", then it would complete. This would 
+Common lisp would still **r**un, but instead of accessing the head cell, it would **d**rop the head cell, which in this case is still "0", then it would complete. This would 
 give us a result of (1 2 3)  because we removed the "0" from this list.
 
 Just in case you're scratching your head about this (and I know I was when I was learning this!), when you access any list in Common Lisp, Common Lisp only sees what 
