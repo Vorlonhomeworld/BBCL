@@ -193,4 +193,21 @@ Thomas W. Lynch's paper:
  
  Now, how do you think we'd get this list to print his current place of employment, Babylon5?   Just look up, you'll need to add one more character to the code we just looked 
  at!
+ 
+ One more thing, if you remember, I said that (CDR) can be used to print multiple parts of a list?  Looking at the same list, what if we wanted to print where this employee was
+ from and where is was working?  From what we already know, we'd have to **not** use an access command, but because the list has his last name, first name, place of birth
+ and place of employment, we'd need to at least remove the first two fields, right?   What we'd need to enter in is:
+ 
+ ```
+ 
+ (cddr (records))
+ 
+ ```
+ 
+ That would give us:
+ 
+ ```
 
+Earth Babylon5
+
+```
