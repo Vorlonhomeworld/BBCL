@@ -139,15 +139,34 @@ Thomas W. Lynch's paper:
   by calling it by name:
   
   ```
- (car (records))
+ (cadr (records))
  
  ```
  
  This gives us:
  
  ```
-  "Sheridan"
-  ```
+  "John"
+ 
+ ```
+  
+  
+  We can access just his last name by entering in:
+  
+ ```
+ 
+ (car (records))
+ 
+ ```
+ 
+ which could give us:
+ 
+ ```
+ 
+ "Sheridan "
+ 
+ ```
+  
   
  Now, if we wanted to access his place of birth we'd need to enter a different command. Given the table up top, you might think you'd need to enter:
  
