@@ -6,7 +6,7 @@ list within Common Lisp can contain a username, a password, the user's access le
 you want it to hold. If we want to have Common Lisp **only** access a certain portion of that data, we need a way to direct Common Lisp to *only* access that data within
 the list! Common Lisp has two functions, CAR and CDR (you'll see that they're actually expandable into more than two in a moment!) to do just that!
   
-## CAR, CDR....what a minute, what?!
+## CAR, CDR....wait a minute, what?!
 
   CAR and CDR go back to the beginning of Lisp. When John McCarthy was designing Lisp itself, he had an [IBM 704](https://www.computerhistory.org/chess/stl-431614f6482e6/) 
 to work with. Now that particular computer didn't have address registers , but instead, had index registers.  Remember, we talked a bit about computer registers
