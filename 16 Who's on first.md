@@ -86,7 +86,7 @@ you've accessed and nothing else.  Think of a list like a lunch bag:
   
   ```
   
-  and what I need to get is the value of "2". If I try **CAR** the list, I'll get **0**, as I would be **r**unning the program, **a**ccessing the head cell, then 
+  and what I need to get is the value of "2". If I try the command **CAR** on the list, I'll get **0**, as I would be **r**unning the program, **a**ccessing the head cell, then 
   **c**ompleting. In order to get the value of 2, wouldn't I have to drop that 0 off.  I can try that, since **d** would allow me to **d**rop the head cell off, which is 
   "0". I would enter that request like this:
   
