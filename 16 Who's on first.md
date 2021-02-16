@@ -41,7 +41,7 @@ rather than a register for pretty much the same effect. You have the ability to 
   
   ```
   
-  Common lisp would read the **r** first and run the routine, then it would **a**ccess the head cell, in this case, it's "0", then it would complete. This would give us a 
+  Common lisp would **r**ead the list first and run the routine, then it would **a**ccess the head cell, in this case, it's "0", then it would complete. This would give us a 
 result of "0". 
 
   Now, if we were to use **cdr** instead, for example:
