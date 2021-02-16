@@ -42,7 +42,7 @@ rather than a register for pretty much the same effect. You have the ability to 
   ```
   
   Common lisp would **r**un the list first, then it would **a**ccess the head cell, in this case, it's "0", then it would complete. This would give us a 
-result of "0". 
+result of "0".  (I'm the simple version of the program we'll be running with CAR, the "C" portion completes and prints what it accessed automatically!)
 
   Now, if we were to use **cdr** instead, for example:
   
