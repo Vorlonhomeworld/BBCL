@@ -71,9 +71,8 @@ you've accessed and nothing else.  Think of a list like a lunch bag:
  sandwich. Same thing is true with Common Lisp.
  
  The **CDR** command would be analagous to the same lunch bag, *however*, in this case, we want to access the cookie first (maybe we need a sugar fix or something!). So we 
- go to the bag which is still **'(sandwich cookie chips soda)** and we remove the sandwich out of the bag. The next thing under the sandwich is the cookie, which is what 
- we pick up and eat.;
- 
+ go to the bag which is still **'(sandwich cookie chips soda)** and we remove the sandwich out of the bag. The list (contents of the bag) now changes to **'(cookie chips soda)**
+ Since the sandwich is no longer part of that list, we pick up the next thing on that list, which is the cookie.
  
  Essentially, anything **a**ccessed by Common Lisp is pulled and seperated out of the list and is presented singularly, so the **CAR** command is great for looking at single 
  items, any time something is **d**ropped by the list, the rest of the list is intact, except for the item dropped. This can be used for single or multiple items. The 
