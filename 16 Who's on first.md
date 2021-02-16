@@ -75,8 +75,8 @@ you've accessed and nothing else.  Think of a list like a lunch bag:
  Since the sandwich is no longer part of that list, we pick up the next thing on that list, which is the cookie.
  
  Essentially, anything **a**ccessed by Common Lisp is pulled and seperated out of the list and is presented singularly, so the **CAR** command is great for looking at single 
- items, any time something is **d**ropped by the list, the rest of the list is intact, except for the item dropped. This can be used for single or multiple items. The 
- multiple items can be accessed by expanding the command!
+ items, any time something is **d**ropped by the list. with the CDR command, the rest of the list is intact, except for the item dropped. This can be used for single or 
+ multiple items. The multiple items can be accessed by expanding the command!
 
   Remember I said this was expandable? It is! All we need to do is repeat a few commands. Let's say I have the following list:
   
