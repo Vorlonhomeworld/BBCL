@@ -86,7 +86,7 @@ you've accessed and nothing else.  Think of a list like a lunch bag:
   
   ```
   
-  and what I need to get is the value of "2". If I try the command **CAR** on the list, I'll get **0**, as I would be **r**unning the program, **a**ccessing the head cell, then 
+  and what I need to access is "2". If I try the command **CAR** on the list, I'll get **0**, as I would be **r**unning the program, **a**ccessing the head cell, then 
   **c**ompleting. In order to get the value of 2, wouldn't I have to drop that 0 off.  I *could* use **d** to do that, however, it couldn't be the command **cdr** because
   **cdr** would drop *only* the head of this cell off "0". I would wind up with:
   
