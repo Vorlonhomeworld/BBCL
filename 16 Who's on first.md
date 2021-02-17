@@ -218,4 +218,4 @@ Earth Babylon5
 
 ```
 
-**Next**[Sort of Nice](https://github.com/Vorlonhomeworld/BBCL/blob/main/17%20Sort%20of%20Nice.md)
+**Next**  [Sort of Nice](https://github.com/Vorlonhomeworld/BBCL/blob/main/17%20Sort%20of%20Nice.md)
