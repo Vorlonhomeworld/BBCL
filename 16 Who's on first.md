@@ -65,10 +65,10 @@ you've accessed and nothing else.  Think of a list like a lunch bag:
   
  ```
  
- Imagine the command **(defun '(lunchbag))** as you opening the lunchbag and looking inside. You would see that the lunchbag has  **'(sandwich cookie chips soda)** inside.
- Now, you getting the sandwich out of the bag would be analagous to **(car '(lunchbag))**. Sandwich is the first thing in the bag (or the head of the list), you'd **r**each
- into the bag, **a**ccess the sandwich and **c**omplete the act of getting the sandwich. Your lunchbag is still there, but the only thing that's in your hand is the
- sandwich. Same thing is true with Common Lisp.
+ Imagine the command **(defun '(lunchbag))** as you packing the lunchbag. Were you to look in the lunch bag after you packed it, you would see that the lunchbag has
+ **'(sandwich cookie chips soda)** inside.  Now, you getting the sandwich out of the bag would be analagous to **(car '(lunchbag))**. Sandwich is the first thing in the bag 
+ (or the head of the list), you'd **r**each  into the bag, **a**ccess the sandwich and **c**omplete the act of getting the sandwich. Your lunchbag is still there, but the 
+ only thing that's in your hand is the  sandwich. Same thing is true with Common Lisp.
  
  The **CDR** command would be analagous to the same lunch bag, *however*, in this case, we want to access the cookie first (maybe we need a sugar fix or something!). So we 
  go to the bag which is still **'(sandwich cookie chips soda)** and we remove the sandwich out of the bag. The list (contents of the bag) now changes to **'(cookie chips soda)**
