@@ -233,13 +233,13 @@ I want to point out to you that that code only works right in the REPL.  If you'
 
 **(defparameter)** is being used because our list '(John Sheridan Earth Babylon5) isn't a function, but rather a set of values.
 
-We call our value personel with asterisks on either side because we want it to be a global variable, something we can access anywhere in our code. If you remember, I 
+We call our value \*personel\*  with the asterisks on both sides because we want it to be a global variable, something we can access anywhere in our code. If you remember, I 
 mentioned a few chapters back that if you declare a function or a variable in one list and try to acess it from another list, it won't be accessible to the program.
 It would be as if this variable or function wasn't even setup to begin with.  By placing the variable in between asterisks, we're making this a global variable that can be 
 accessed anywhere in Common Lisp.
 
 The command (format t "~a" ....) tells Common Lisp that we want it to print something, **but** we want to define it later (hence the "~a" command, it's a place holder
-in Common Lisp ).  The second part of that command (cadr personel) (in between two asterisks, of course ) tells common lisp that we want it to sort the list we called
+in Common Lisp ).  The second part of that command (cadr \*(personel\*) (in between two asterisks, of course ) tells common lisp that we want it to sort the list we called
 "personel" and print out the second item on the list, which would be "Sheridan"). 
 
 Just to test it, we'll run it in our command prompt, and we get:
