@@ -22,7 +22,7 @@ a shorthand instruction for this, the capital letter **"C"**, which stood for *C
 100, for example, by writing C(100). John McCarthy took that existing terminiology and applied it to a list rather than a register for pretty much the same effect. You have
 the ability to access a field directly by requesting it through the CAR or CDR command.
 
-  Possibly the best explanation I've come across of this is actually breaks down each of the letters of CADR (**CAR** and **CDR** share the same letters, therefore **CDAR** 
+  Possibly the best explanation I've come across of this is actually breaks down each of the letters of CADR (**CAR** and **CDR** share the same letters, so **CADR** 
   is the combination of **CAR** and **CDR** with each letter used only once!) This is in a paper from Thomas W. Lynch at the Birbeck College, University
   of London, in fact, his paper [is online](https://arxiv.org/ftp/arxiv/papers/1507/1507.05956.pdf) and is a great, and in depth discussion of CAR and CDR if you want to read
   it!   In his explanation, he breaks down CAR and CDR into their individual letters and explains what each letter does:
