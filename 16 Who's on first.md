@@ -24,7 +24,7 @@ the ability to access a field directly by requesting it through the CAR or CDR c
 
   Possibly the best explanation I've come across of this is actually breaks down each of the letters of CADR (**CAR** and **CDR** share the same letters, so **CADR** 
   is the combination of **CAR** and **CDR** with each letter used only once!) This is in a paper from Thomas W. Lynch at the Birbeck College, University
-  of London, in fact, his paper [is online](https://arxiv.org/ftp/arxiv/papers/1507/1507.05956.pdf) and is a great, and in depth discussion of CAR and CDR if you want to read
+  of London, in fact, his paper [is online](https://arxiv.org/ftp/arxiv/papers/1507/1507.05956.pdf) and is a great, and an in depth discussion of CAR and CDR if you want to read
   it!   In his explanation, he breaks down CAR and CDR into their individual letters and explains what each letter does:
   
   | Letter     |  Command         |   Explanation        |                            
