@@ -1,4 +1,25 @@
 # Sort of Nice *(a look at sorting in Common Lisp)*
 
   Since we looked at **CAD** and **CDR**, the next step on our journey would be to look at sorting (because sorting uses CAD and CDR and variations of this
-  command when it runs! ). Common Lisp actually has not one, but *two* [sort](http://clhs.lisp.se/Body/f_sort_.htm) commands
+  command when it runs! ). Common Lisp actually has not one, but *two* [sort](http://clhs.lisp.se/Body/f_sort_.htm) commands, **sort** and **stable-sort**. They
+  both use the same syntax in the same order, however **stable-sort** is actually a more stable version of the two. There's a great example of this given on the clhs.lisp.se
+  page I linked to for this command:
+  
+  ```
+  
+  (sort (setq committee-data
+             (vector (list (list "JonL" "White") "Iteration")
+                     (list (list "Dick" "Waters") "Iteration")
+                     (list (list "Dick" "Gabriel") "Objects")
+                     (list (list "Kent" "Pitman") "Conditions")
+                     (list (list "Gregor" "Kiczales") "Objects")
+                     (list (list "David" "Moon") "Objects")
+                     (list (list "Kathy" "Chapman") "Editorial")
+                     (list (list "Larry" "Masinter") "Cleanup")
+                     (list (list "Sandra" "Loosemore") "Compiler")))
+       #'string-lessp :key #'cadar)
+       
+```
+       
+This starts right off with Common Lisp stating that we're going to **sort** the data that folows. The next step is to set up the data, and we'll do that with the **setq** command.
+The **setq** command is pretty much like an equals command , it's telling us that "committee-data" is going to equal the data that follows it.
