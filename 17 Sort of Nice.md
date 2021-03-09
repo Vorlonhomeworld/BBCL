@@ -22,4 +22,9 @@
 ```
        
 This starts right off with Common Lisp stating that we're going to **sort** the data that folows. The next step is to set up the data, and we'll do that with the **setq** command.
-The **setq** command is pretty much like an equals command , it's telling us that "committee-data" is going to equal the data that follows it.
+The **setq** command is pretty much like an equals command , it's telling us that "committee-data" is going to equal the data that follows it. The next line starts off with 
+the function **vector**. This function **must** be there to distinguish a *vector* from a *list*, otherwise the function isn't going to work, because Common Lisp expects a
+list to have different things in it than a vector will.
+
+## List, vector, aren't they the same ?
+
