@@ -28,3 +28,12 @@ list to have different things in it than a vector will.
 
 ## List, vector, aren't they the same ?
 
+  They really aren't, even though they can look like they are. For exaxmple:
+  
+  ``` 
+  (defun my_function() )
+  
+  ```
+  
+  can be said to be an empty list, it can also be considered a valid vector too, but just because they look the same in this example doesn't mean they *are* the same. They're 
+  not, and for our sort command to work, we have to tell it which items we're working with.
