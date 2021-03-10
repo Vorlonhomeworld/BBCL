@@ -36,4 +36,25 @@ list to have different things in it than a vector will.
   ```
   
   can be said to be an empty list, it can also be considered a valid vector too, but just because they look the same in this example doesn't mean they *are* the same. They're 
-  not, and for our sort command to work, we have to tell it which items we're working with.
+not, and for our sort command to work, we have to tell it which items we're working with. 
+    A vector [is defined as](https://www.computerhope.com/jargon/v/vector.htm) *"A pointer or an array with one dimension"*.  A pointer, as the name implies, *points* to 
+another variable, either directly or indirectly. For example, in [chapter 11](https://github.com/Vorlonhomeworld/BBCL/blob/main/11%20Defun.md) I created a really simple 
+program called "Euler's Calculator":
+
+```
+
+(defun uc (a)
+(exp a))
+
+
+```
+
+in this example defun uc is shown to equal "a". When I load this program and then enter:
+
+```
+
+(uc 4) 
+
+```
+
+I'm using the number "4" to refer to the variable (or *pointer* "a") that I setup for UC
