@@ -77,3 +77,34 @@ of data*". Strings with strings, numbers with number, that kind of thing.  Our e
 ```
 
 Each array is a string, surrounded by quotes.
+
+  A *list* is a basic structure of Common Lisp that can contain either a *cons* (a memory construct that either holds values or pointers to values) or a *null* (and empty 
+parantheses.  Because our  vector contains a memory construct, we have to let  Common Lisp know that we're creating a vector out of lists, in this case, two lists are being 
+used to create our vector. Once we finish telling Comomn Lisp what our list is, we have to tell it how to sort it:
+
+```
+
+  (sort (setq committee-data
+             (vector (list (list "JonL" "White") "Iteration")
+                     (list (list "Dick" "Waters") "Iteration")
+                     (list (list "Dick" "Gabriel") "Objects")
+                     (list (list "Kent" "Pitman") "Conditions")
+                     (list (list "Gregor" "Kiczales") "Objects")
+                     (list (list "David" "Moon") "Objects")
+                     (list (list "Kathy" "Chapman") "Editorial")
+                     (list (list "Larry" "Masinter") "Cleanup")
+                     (list (list "Sandra" "Loosemore") "Compiler")))
+       #'string-lessp :key #'cadar)
+       
+```
+
+  The last line (**#'string-lessp :key #'cadar**) tells Common Lisp how were sorting this list out.  First, we tell it to sort alphabetically, that's what the string-lessp is
+for. String-lessp is the equivalent of string< and string >. In this case (lessp) it's looking to see if string 1 is less than string 2, if it is, than it's true, otherwise
+it's false. The "#'" by the way is used to pass a function , by name, as an argument to another function.
+
+  Once we tell it to sort alphabetically, we have to tell it **what** we want to sort by, first name, last name, job title. We establish that by using :key #'cadar.
+Cadar, as you remember, reads left to right, so it's going to run, access the first list, which is where we see the first name followed by last name, it's going to 
+drop the head of the list, which is the first name, access the new head of the list, which is the last name, then complete. Therefore it will sort by the last name.
+Now, here's where we see the difference between **sort** and **stable-sort**. Because we're sorting by last name, you would expect Kathy Chapman to be first, right?
+
+
