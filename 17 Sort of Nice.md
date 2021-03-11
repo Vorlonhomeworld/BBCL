@@ -105,6 +105,38 @@ it's false. The "#'" by the way is used to pass a function , by name, as an argu
   Once we tell it to sort alphabetically, we have to tell it **what** we want to sort by, first name, last name, job title. We establish that by using :key #'cadar.
 Cadar, as you remember, reads left to right, so it's going to run, access the first list, which is where we see the first name followed by last name, it's going to 
 drop the head of the list, which is the first name, access the new head of the list, which is the last name, then complete. Therefore it will sort by the last name.
-Now, here's where we see the difference between **sort** and **stable-sort**. Because we're sorting by last name, you would expect Kathy Chapman to be first, right?
+If you run the command, it does sort as expected:
+
+```
+
+ #((("Kathy" "Chapman") "Editorial")
+     (("Dick" "Gabriel") "Objects")
+     (("Gregor" "Kiczales") "Objects")
+     (("Sandra" "Loosemore") "Compiler")
+     (("Larry" "Masinter") "Cleanup")
+     (("David" "Moon") "Objects")
+     (("Kent" "Pitman") "Conditions")
+     (("Dick" "Waters") "Iteration")
+     (("JonL" "White") "Iteration"))
+     
+```
+
+Just remember, **sort** isn't guaranteed to work, but **stable-sort** is, so you may want to stick with stable-sort. For example, if we sort the same list, by job title (and we
+can, by the way, just switch the #'key to cadr instead of cadar!) we may not get an alphabetical sort by title, but if we use **stable-sort** we will definetly get:
+
+```
+
+((("Larry" "Masinter") "Cleanup") 
+(("Sandra" "Loosemore") "Compiler")
+(("Kent" "Pitman") "Conditions") 
+(("Kathy" "Chapman") "Editorial")
+(("Dick" "Waters") "Iteration") 
+(("JonL" "White") "Iteration")
+(("David" "Moon") "Objects") 
+(("Dick" "Gabriel") "Objects")
+(("Gregor" "Kiczales") "Objects"))
+  
+  ```
+
 
 
