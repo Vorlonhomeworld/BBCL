@@ -79,7 +79,7 @@ of data*". Strings with strings, numbers with numbers, that kind of thing.  Our 
 Each array is a string, surrounded by quotes.
 
   A *list* is a basic structure of Common Lisp that can contain either a *cons* (a memory **cons**truct that either holds values or pointers to values) or a *null* (and empty 
-parantheses.  Because our  vector contains a memory construct, we have to let  Common Lisp know that we're creating a vector out of lists, in this case, two lists are being 
+parantheses).  Because our  vector contains a memory construct, we have to let  Common Lisp know that we're creating a vector out of lists, in this case, two lists are being 
 used to create our vector. Once we finish telling Comomn Lisp what our list is, we have to tell it how to sort it:
 
 ```
