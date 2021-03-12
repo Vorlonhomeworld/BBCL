@@ -60,7 +60,7 @@ in this example (defun uc) is shown to equal "a". When I load this program and t
 I'm using the number "4" to refer to the variable (or *pointer* "a") that I setup for UC.
 
   An array [is defined as](https://www.computerhope.com/jargon/a/array.htm) *"A group of **related** data values grouped together. These values **must** be the same type 
-of data*". Strings with strings, numbers with number, that kind of thing.  Our example up at the top is an example of an array as all of the values are strings. 
+of data*". Strings with strings, numbers with numbers, that kind of thing.  Our example up at the top is an example of an array as all of the values are strings. 
 
 ```
 
