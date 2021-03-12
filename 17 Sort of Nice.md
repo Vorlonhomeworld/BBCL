@@ -49,7 +49,7 @@ program called "Euler's Calculator":
 
 ```
 
-in this example defun uc is shown to equal "a". When I load this program and then enter:
+in this example (defun uc) is shown to equal "a". When I load this program and then enter:
 
 ```
 
