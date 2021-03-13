@@ -28,7 +28,7 @@ expects a list to have different things in it than a vector will.
 
 ## List, vector, aren't they the same ?
 
-  They really aren't, even though they can look like they are. For exaxmple:
+  They really aren't, even though they can look like they are. For example:
   
   ``` 
   (defun my_function() )
