@@ -99,7 +99,7 @@ used to create our vector. Once we finish telling Common Lisp what our list is, 
 ```
 
   The last line (**#'string-lessp :key #'cadar**) tells Common Lisp how were sorting this list out.  First, we tell it to sort alphabetically, that's what the string-lessp is
-for. String-lessp is the equivalent of string< and string >. In this case (lessp) it's looking to see if string 1 is less than string 2, if it is, than it's true, otherwise
+for. String-lessp is the equivalent of string< and string>. In this case, (lessp), it's looking to see if string 1 is less than string 2, if it is, than it's true, otherwise
 it's false. The "#'" by the way is used to pass a function , by name, as an argument to another function.
 
   Once we tell it to sort alphabetically, we have to tell it **what** we want to sort by, first name, last name, job title. We establish that by using :key #'cadar.
