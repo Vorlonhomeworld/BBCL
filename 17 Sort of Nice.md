@@ -83,7 +83,7 @@ parantheses).  Just in case you're feeling a bit confused by all this talking of
 is courtesy of [Technomadic](http://sellout.github.io/):
 
 
-<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/list_of_sequences.png" height="600" width="950"></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/list_of_sequences.png" height="550" width="950"></a>
 
 
 
