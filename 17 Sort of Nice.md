@@ -21,10 +21,10 @@
        
 ```
        
-This starts right off with Common Lisp stating that we're going to **sort** the data that folows. The next step is to set up the data, and we'll do that with the **setq** command.
-The **setq** command is pretty much like an equals command , it's telling us that "committee-data" is going to equal the data that follows it. The next line starts off with 
-the function **vector**. This function **must** be there to distinguish a *vector* from a *list*, otherwise the function isn't going to work, because Common Lisp expects a
-list to have different things in it than a vector will.
+This starts right off with Common Lisp stating that we're going to **sort** the data that folows. The next step is to set up the data, and we'll do that with the **setq**
+command. The **setq** command is pretty much like an equals command , it's telling us that "committee-data" is going to equal the data that follows it. The next line starts 
+off with the function **vector**. This function **must** be there to distinguish a *vector* from a *list*, otherwise the function isn't going to work, because Common Lisp
+expects a list to have different things in it than a vector will.
 
 ## List, vector, aren't they the same ?
 
@@ -80,7 +80,7 @@ Each array is a string, surrounded by quotes.
 
   A *list* is a basic structure of Common Lisp that can contain either a *cons* (a memory **cons**truct that either holds values or pointers to values) or a *null* (and empty 
 parantheses).  Because our  vector contains a memory construct, we have to let  Common Lisp know that we're creating a vector out of lists, in this case, two lists are being 
-used to create our vector. Once we finish telling Comomn Lisp what our list is, we have to tell it how to sort it:
+used to create our vector. Once we finish telling Common Lisp what our list is, we have to tell it how to sort it:
 
 ```
 
