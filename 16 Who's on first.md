@@ -250,4 +250,4 @@ Just to test it, we'll run it in our command prompt, and we get:
 
 
 
-**Next**  [Sort of Nice](https://github.com/Vorlonhomeworld/BBCL/blob/main/17%20Sort%20of%20Nice.md)
+**Next**  [Sort of Nice *(a look at sorting in Common Lisp)*](https://github.com/Vorlonhomeworld/BBCL/blob/main/17%20Sort%20of%20Nice.md)
