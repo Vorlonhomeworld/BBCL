@@ -111,7 +111,7 @@ for. String-lessp is the equivalent of string< and string>. In this case, (lessp
 it's false. The "#'" by the way is used to pass a function , by name, as an argument to another function.
 
   Once we tell it to sort alphabetically, we have to tell it **what** we want to sort by, first name, last name, job title. We establish that by using :key #'cadar.
-Cadar, as you remember, reads left to right, so it's going to run, access the first list, which is where we see the first name followed by last name, it's going to 
+Cadar, as you remember, reads left to right, so it's going to run, access the the head cell first, which is where we see the first name followed by last name, it's going to 
 drop the head of the list, which is the first name, access the new head of the list, which is the last name, then complete. Therefore it will sort by the last name.
 If you run the command, it does sort as expected:
 
