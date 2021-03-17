@@ -81,7 +81,7 @@ Each array is a string, surrounded by quotes.
   A *list* is a basic structure of Common Lisp that can contain either a *cons* (a memory **cons**truct that either holds values or pointers to values) or a *null* (and empty 
 parantheses).  Because our  vector contains a memory construct, we have to let  Common Lisp know that we're creating a vector out of lists, in this case, two lists are being 
 used to create our vector. Just in case you're feeling a bit confused by all this talking of **cons**, **lists** and **vectors**, I found a chart that might make it a bit
-easier. This chart is on [Technomadic's website.](http://sellout.github.io/):
+easier. This chart is on [Technomadic's website](http://sellout.github.io/):
 
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/list_of_sequences.png" height="550" width="950"></a>
