@@ -167,4 +167,4 @@ a bit differently:
  ```
  
 
-**Next**  [Adventure revisited](https://github.com/Vorlonhomeworld/BBCL/blob/main/18%20Adventure%20revisited.)
+**Next**  [Random Numbers and Loops](https://github.com/Vorlonhomeworld/BBCL/blob/main/18%20Random%20numbers%20and%20Loops)
