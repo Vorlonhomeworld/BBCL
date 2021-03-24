@@ -67,3 +67,31 @@ to create that randomness as well.
   The (make-random-state t) is a *boolean* function, that is, it's value can either be true or false (in Common Lisp, the word *nil* is sometimes used for false) only.
 By telling make-random-state that it's value is true that means that it's making a random state of a random state. Had we set it to nil it  would have run and the numbers
 would have appeared to be random, however, this pattern would then repeat, with exactly the same numbers, so it wouldn't be truly random.
+
+  The (defun dice ()  statement  creates the function (dice) and sets it up without any input. Notice that the statement (defun dice () isn't closed yet? That's because even
+though we're not giving it an input, we *will* be giving it an operation to perform on the next line, the (+ 1 (random 80 ))) operation I mentioned at the top where
+we tell it to give us a number from 1 to 80 randomly. 
+
+  What follows that line are three print statements - admittedly, this is a bit fancy, but why not?  The top line prints out  "Dice 1: " with a carriage return added to the
+end (that's the "~%" at the end of the line. The second prints out "+----------------------------------------------------------------------+ " with two carriages returns at 
+the end. Finally, the last line prints out the randomly generated number for the dice and prints it, the "~A" is the placeholder where we want the number to print. We 
+follow that up with a carriage return and once we've closed the quote we add in "(dice)" to tell "~A" what value it's printing.
+
+  We can make our dice roller roll a die 5 times in a row easily and with very few lines of code if we incorporate a loop within it.  A loop is a set of instructions that tell
+Common Lisp to repeat an instruction a set amount of times. Without the loop, we'd have to code five repeating lines of format t statements, but with a loop, we only have to 
+code it once.  In this example, we'll roll our die 5 times:
+
+```
+
+(setf  *random-state* (make-random-state t))
+
+(defun dice ( )
+  (+ 1 (random 20)))
+
+(loop for x from 1 to 5
+   do (format t "~% ~A~%" (dice)))
+
+
+```
+
+
