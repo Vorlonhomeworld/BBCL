@@ -58,7 +58,7 @@ For example, if I comment out the second line of this code like this:
 
 ```
 
-  The (setf *random-state*....) won't be seen or run, so this will give me the same value every time I run it. The reason for this is that computers are *deterministic* , that
+  The (setf \*random-state\*....) won't be seen or run, so this will give me the same value every time I run it. The reason for this is that computers are *deterministic* , that
 is, the first step determines the next step. For example if we tell the computer we're counting and start with "1", it would likely determine the next step would be to 
 count "2".  With \*random-state\* used, it changes that first step every time based an algorithm  that's part of that function. I also call random state as "\*random-state\*"
 rather than as just "random-state" so that I can call this from anywhere in the program. I'm also using the \*random-state\* function to tell (make-random-state) what to use 
@@ -94,5 +94,31 @@ code it once.  In this example, we'll roll our die 5 times:
 
 ```
 
+This produces:
+
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/dice_throw.jpg" ></a>
+
+  We still start off with setting up "\*random-state\*" and  we still tell it to "make-random-state t" just as before and we still define our function "dice". Now we can call it
+something else if we wanted, but because this is a dice thow, it's easier to call it a name that make it easy for us to remember why we're using this. We *do* change the random
+number we want to produce to be anything from 1 to 20. At this point, we set up our loop.
+
+  Common Lisp loops start off by declaring the loop function right away, it also does one other thing, it takes a shortcut in the syntax. Most other coding language would
+code this loop as:
+
+```
+
+for x = 1 to 5
+
+```
+
+In Common Lisp the "equals" part of the loop is understood to exist, so it doesn't need to be written out, it's enough to tell it that "x" runs from 1 to 5.  By the way,
+"x" is a variable that we hadn't delcared up to this point, and that's perfectly ok within the loop, it serves as a place holder for a varaible we'll call shortly.
+
+
+  The **"do"** statement on the next line *absolutely has to be there* other wise, Common Lisp won't run, even if everything else if coded correctly. This statement tells
+Common Lisp what it's supposed to be **do**ing for 5 times, that is, it's supposed to print a carriage return ("~%") , then it's going to print something that's going to 
+be defined later ("~A") then another carriage return ("~%"), the placeholder we put in earlier ("~A") turns out to be our random dice throw, which prints 5 times.
+
+
+  
 
