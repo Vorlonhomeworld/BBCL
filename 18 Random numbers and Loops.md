@@ -108,14 +108,16 @@ code this loop as:
 ```
 
 for x = 1 to 5
+  next x
 
 ```
 
-In Common Lisp the "equals" part of the loop is understood to exist, so it doesn't need to be written out, it's enough to tell it that "x" runs from 1 to 5.  By the way,
+In Common Lisp the "equals" part of the loop is understood to exist, so it doesn't need to be written out, it's enough to tell it that "x" runs from 1 to 5. Additionally, we 
+don't have to code the "next x" portion either, Common Lisp undertands that both are there so we don't have to tell it, just that one line on the top is enough. By the way,
 "x" is a variable that we hadn't delcared up to this point, and that's perfectly ok within the loop, it serves as a place holder for a varaible we'll call shortly.
 
 
-  The **"do"** statement on the next line *absolutely has to be there* other wise, Common Lisp won't run, even if everything else if coded correctly. This statement tells
+  The **"do"** statement on the next line *absolutely has to be there* otherwise, Common Lisp won't run, even if everything else if coded correctly. This statement tells
 Common Lisp what it's supposed to be **do**ing for 5 times, that is, it's supposed to print a carriage return ("~%") , then it's going to print something that's going to 
 be defined later ("~A") then another carriage return ("~%"), the placeholder we put in earlier ("~A") turns out to be our random dice throw, which prints 5 times.
 
