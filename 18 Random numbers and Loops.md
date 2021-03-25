@@ -65,7 +65,7 @@ rather than as just "random-state" so that I can call this from anywhere in the 
 to create that randomness as well.
 
   The (make-random-state t) is a *boolean* function, that is, it's value can either be true or false (in Common Lisp, the word *nil* is sometimes used for false) only.
-By telling make-random-state that it's value is true that means that it's making a random state of a random state. Had we set it to nil it  would have run and the numbers
+By telling make-random-state that it's value is true it means that it's making a random state of a random state. Had we set it to nil it would have run and the numbers
 would have appeared to be random, however, this pattern would then repeat, with exactly the same numbers, so it wouldn't be truly random.
 
   The (defun dice ()  statement  creates the function (dice) and sets it up without any input. Notice that the statement (defun dice () isn't closed yet? That's because even
@@ -94,4 +94,5 @@ code it once.  In this example, we'll roll our die 5 times:
 
 ```
 
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/dice_throw.jpg" ></a>
 
