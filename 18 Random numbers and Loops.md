@@ -99,7 +99,7 @@ This produces:
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/dice_throw.jpg" ></a>
 
   We still start off with setting up "\*random-state\*" and  we still tell it to "make-random-state t" just as before and we still define our function "dice". Now we can call it
-something else if we wanted, but because this is a dice thow, it's easier to call it a name that make it easy for us to remember why we're using this. We *do* change the random
+something else if we wanted, but because this is a dice thow, it's easier to call it a name that makes it easy for us to remember why we're using this. We *do* change the random
 number we want to produce to be anything from 1 to 20. At this point, we set up our loop.
 
   Common Lisp loops start off by declaring the loop function right away, it also does one other thing, it takes a shortcut in the syntax. Most other coding language would
