@@ -119,7 +119,7 @@ don't have to code the "next x" portion either, Common Lisp undertands that both
 
   The **"do"** statement on the next line *absolutely has to be there* otherwise, Common Lisp won't run, even if everything else if coded correctly. This statement tells
 Common Lisp what it's supposed to be **do**ing for 5 times, that is, it's supposed to print a carriage return ("~%") , then it's going to print something that's going to 
-be defined later ("~A") then another carriage return ("~%"), the placeholder we put in earlier ("~A") turns out to be our random dice throw, which prints 5 times.
+be defined later ("\~A") then another carriage return ("\~%"), the placeholder we put in earlier ("\~A") turns out to be our random dice throw, which prints 5 times.
 
 
   
