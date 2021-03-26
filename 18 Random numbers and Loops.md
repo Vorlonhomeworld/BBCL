@@ -32,7 +32,8 @@ There's one little *gotcha* that you *do* have to be aware of with this, the fir
  won't work, even though it's *technically* a positive number. The only thing you'll get out of it is an error:
  
  
- a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/random_error.jpg" ></a>
+ 
+ <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/random_error.jpg" ></a>
  
  You absolutely *have* to include the plus or minus next to the number in order for this to work.
 
