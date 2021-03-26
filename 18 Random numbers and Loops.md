@@ -20,6 +20,22 @@ will produce random numbers from 1 to 80 in the REPL.  If you just enter in:
 You'll still get random numbers, but one of them will be zero. If you're okay with zero being one of the random numbers, no problem, you can write (random 80), 
 otherwise, use ( + 1 (random 80)) to rule out getting zero ever.
 
+There's one little *gotcha* that you *do* have to be aware of with this, the first number that you use can't just be a number, it has to be either a positive number ( + 1
+, + 2  ...etc...) or a negative number ( -1, -2, ...etc...).  Putting in *just* the number, for example:
+
+```
+
+( 1 ( random 80)) 
+
+```
+ 
+ won't work, even though it's *technically* a positive number. The only thing you'll get out of it is an error:
+ 
+ 
+ a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/random_error.jpg" ></a>
+ 
+ You absolutely *have* to include the plus or minus next to the number in order for this to work.
+
   It works that way even outside the REPL, for example, if I were to code a simple Common Lisp script that threw a die (single dice) that could roll anything from 1 to 80,
 I would code it like:  
 
