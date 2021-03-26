@@ -140,7 +140,7 @@ don't have to code the "next x" portion either, Common Lisp undertands that both
   
   
   
- <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/loop_error.jpg" ></a>
+ <img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/loop_error.jpg" >
   
   
   
