@@ -82,8 +82,9 @@ be to count "2".  With \*random-state\* used, it changes that first step every t
 (make-random-state) what to use to create that randomness as well.
 
   The (make-random-state t) is a *boolean* function, that is, it's value can either be true or false (in Common Lisp, the word *nil* is sometimes used for false) only.
-By telling make-random-state that it's value is true it means that it's making a random state of a random state. Had we set it to nil it would have run and the numbers
-would have appeared to be random, however, this pattern would then repeat, with exactly the same numbers, so it wouldn't be truly random.
+In this case, I've set (make-random-state) to true by including the letter "t" on the end. If I wanted it to be false I would use "nil" on the end of it , which would 
+be displayed as (make-random-state nil). By telling make-random-state that it's value is true it means that it's making a random state of a random state. Had we set it to nil 
+it would have run and the numbers would have appeared to be random, however, this pattern would then repeat, with exactly the same numbers, so it wouldn't be truly random.
 
   The (defun dice ()  statement  creates the function (dice) and sets it up without any input. Notice that the statement (defun dice () isn't closed yet? That's because even
 though we're not giving it an input, we *will* be giving it an operation to perform on the next line, the (+ 1 (random 80 ))) operation I mentioned at the top where
