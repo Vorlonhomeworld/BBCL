@@ -75,11 +75,11 @@ For example, if I comment out the second line of this code like this:
 
 ```
 
-  The (setf \*random-state\*....) won't be seen or run, so this will give me the same value every time I run it. The reason for this is that computers are *deterministic* , that
-is, the first step determines the next step. For example if we tell the computer we're counting and start with "1", it would likely determine the next step would be to 
-count "2".  With \*random-state\* used, it changes that first step every time based an algorithm  that's part of that function. I also call random state as "\*random-state\*"
-rather than as just "random-state" so that I can call this from anywhere in the program. I'm also using the \*random-state\* function to tell (make-random-state) what to use 
-to create that randomness as well.
+  The (setf \*random-state\*....) won't be seen or run, so this will give me the same value every time I run it. The reason for this is that computers are *deterministic* by 
+nature, that is, the first step determines the next step. For example if we tell the computer we're counting and start with "1", it would likely determine the next step would 
+be to count "2".  With \*random-state\* used, it changes that first step every time based an algorithm  that's part of that function. I also call random state as 
+"\*random-state\*" rather than as just "random-state" so that I can call this from anywhere in the program. I'm also using the \*random-state\* function to tell 
+(make-random-state) what to use to create that randomness as well.
 
   The (make-random-state t) is a *boolean* function, that is, it's value can either be true or false (in Common Lisp, the word *nil* is sometimes used for false) only.
 By telling make-random-state that it's value is true it means that it's making a random state of a random state. Had we set it to nil it would have run and the numbers
