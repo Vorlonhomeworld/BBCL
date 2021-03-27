@@ -150,4 +150,46 @@ which prints 5 times.
 
 
   
+## Just for fun 
+
+We'll do one more random dice throw - just for fun.  Let's say you and two other friends get together to play DND and *every one of you* forgets their dice (yes, I know, 
+it would *never* happen, everyone *always* brings dice, that's just how that is, but for the sake of this code, let's just say everyone forgets their dice!)  No problem, 
+Common Lisp is happy to roll stats for you:
+
+```
+
+#| DND Dice Roller in Common Lisp
+ This rolls one d20 for the following stats
+ Strength
+ Intelligence
+ Dexterity
+ Wisdom
+ Charisma |#
+
+(setf  *random-state* (make-random-state t))
+
+(defun dice ( )
+  (+ 1 (random 20)))
+
+(loop for x from 1 to 3
+   do (format t "~%~%Str: ~A~%Int: ~A~%Dex: ~A~%Wis: ~A~%Cha: ~A~%~%" (dice)(dice)(dice)(dice)(dice)))
+
+```
+
+The "#|   |#" characters are for multi-line comments.   We'll discuss comments in more detail shortly, but the quick answer is, you *really* want to 
+comment your code so that you know what it does, and to be really honest, there should be more comments and we'll take care of that a chapter or two on.
+
+We start off with setting a random state and making random-state true, then we define the function called dice (and yes, we can call it anything, it really doesn't matter,
+but it's really a lot easier to call it dice, because that's really what it is, this is our random dice throw!)   We then set up a look to run 3 times. This is because we're 
+doing three sets of dice throws, each one will throw for strength, intelligence, dexterity, widsom and charisma.
+
+That last line is where we change the print statement (format t). Instead of telling it to just print the number, we tell it to start with two carriage returns ("~%~%"),
+then print "Str: " followed by the dice roll we have for strength ("~A" is our place holder for it), we then end the line with another cariage return, then 
+do the same things for Int, Dex, Wis, Cha and end with two carriage returns ("~%~%"). Anytime we use a place holder, we have to tell Common Lisp what that place holder
+is for, and we do this right after the carriage return by inserting "(dice)"  five times, once for each stat. In case you're wondering, yes, that can be looped too!
+
+All of that code results in:
+
+
+<a href="rel"> <img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/dnd_dice.jpg" > </a>
 
