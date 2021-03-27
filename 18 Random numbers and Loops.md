@@ -91,7 +91,7 @@ though we're not giving it an input, we *will* be giving it an operation to perf
 we tell it to give us a number from 1 to 80 randomly. 
 
   What follows that line are three print statements - admittedly, this is a bit fancy, but why not?  The top line prints out  "Dice 1: " with a carriage return added to the
-end (that's the "~%" at the end of the line). The second prints out "+----------------------------------------------------------------------+ " with two carriages returns at 
+end (that's the "~%" at the end of the line). The second prints out "+----------------------------------------------------------------------+ " with two carriage returns at 
 the end. Finally, the last line prints out the randomly generated number for the dice and prints it, the "~A" is the placeholder where we want the number to print. We 
 follow that up with a carriage return and once we've closed the quote we add in "(dice)" to tell "~A" what value it's printing.
 
