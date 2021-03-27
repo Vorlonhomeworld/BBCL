@@ -180,7 +180,7 @@ The "#|   |#" characters are for multi-line comments.   We'll discuss comments i
 comment your code so that you know what it does, and to be really honest, there should be more comments and we'll take care of that a chapter or two on.
 
 We start off with setting a random state and making random-state true, then we define the function called dice (and yes, we can call it anything, it really doesn't matter,
-but it's really a lot easier to call it dice, because that's really what it is, this is our random dice throw!)   We then set up a look to run 3 times. This is because we're 
+but it's really a lot easier to call it dice, because that's really what it is, this is our random dice throw!)   We then set up a loop to run 3 times. This is because we're 
 doing three sets of dice throws, each one will throw for strength, intelligence, dexterity, widsom and charisma.
 
 That last line is where we change the print statement (format t). Instead of telling it to just print the number, we tell it to start with two carriage returns ("\~%\~%"),
