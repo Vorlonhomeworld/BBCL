@@ -98,6 +98,12 @@ end (that's the "~%" at the end of the line). The second prints out "+----------
 the end. Finally, the last line prints out the randomly generated number for the dice and prints it, the "~A" is the placeholder where we want the number to print. We 
 follow that up with a carriage return and once we've closed the quote we add in "(dice)" to tell "~A" what value it's printing.
 
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/fancy_dice.png" ></a>
+
+
+
   We can make our dice roller roll a die 5 times in a row easily and with very few lines of code if we incorporate a loop within it.  A loop is a set of instructions that tell
 Common Lisp to repeat an instruction a set amount of times. Without the loop, we'd have to code five repeating lines of format t statements, but with a loop, we only have to 
 code it once.  In this example, we'll roll our die 5 times:
