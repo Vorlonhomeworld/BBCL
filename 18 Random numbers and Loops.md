@@ -56,7 +56,7 @@ I would code it like:
 
 Notice that (+ 1 (random 80) is still there, but we've had to add more to it.
 
-First we had to call **setf**. Setf is shortened form of the word **set f**unction. We're using this to get the function /*random-state*/ and change the value (which ever
+First we had to call **setf**. Setf is shortened form of the word **set f**unction. We're using this to get the function \*random-state*\ and change the value (which ever
 number that happens to be ) to a random state.  
 
   [Random-state](https://quickref.common-lisp.net/random-state.html#Introduction) is a set of somewhat random number generators. This part of the code is critical, without it
