@@ -71,7 +71,7 @@ For example, if I comment out the second line of this code like this:
 
 (defun dice ()
   (+ 1 (random 80 )))
-(format t "Dice 1:~%")
+(format t "~%Dice 1:~%")
 (format t "+-------------------------------+~%~%")
 (format t "~A~%" (dice))
 
@@ -93,14 +93,14 @@ it would have run and the numbers would have appeared to be random, however, thi
 though we're not giving it an input, we *will* be giving it an operation to perform on the next line, the (+ 1 (random 80 ))) operation I mentioned at the top where
 we tell it to give us a number from 1 to 80 randomly. 
 
-  What follows that line are three print statements - admittedly, this is a bit fancy, but why not?  The top line prints out  "Dice 1: " with a carriage return added to the
-end (that's the "~%" at the end of the line). The second prints out "+----------------------------------------------------------------------+ " with two carriage returns at 
-the end. Finally, the last line prints out the randomly generated number for the dice and prints it, the "~A" is the placeholder where we want the number to print. We 
-follow that up with a carriage return and once we've closed the quote we add in "(dice)" to tell "~A" what value it's printing.
+  What follows that line are three print statements - admittedly, this is a bit fancy, but why not?  The top line prints out a carriage return then "Dice 1: " with a carriage
+return added to the end (that's the "~%" at the begging and end of the line). The second prints out "+----------------------------------------------------------------------+ "
+with two carriage returns at the end. Finally, the last line prints out the randomly generated number for the dice and prints it, the "~A" is the placeholder where we want the
+number to print. We follow that up with a carriage return and once we've closed the quote we add in "(dice)" to tell "~A" what value it's printing.
 
 
 
-<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/fancy_dice.png" ></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/fancy_dice.jpg" ></a>
 
 
 
