@@ -144,7 +144,7 @@ don't have to code the "next x" portion either, Common Lisp undertands that both
 "x" is a variable that we hadn't delcared up to this point, and that's perfectly ok within the loop, it serves as a place holder for a variable we'll call shortly.
 
 
-  The **"do"** statement on the next line *absolutely has to be there* otherwise, Common Lisp won't run, even if everything else is coded correctly:
+  The **"do"** statement on the next line *absolutely has to be there* otherwise, Common Lisp won't run the loop, even if everything else is coded correctly:
   
   
   
