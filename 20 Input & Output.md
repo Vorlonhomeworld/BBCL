@@ -59,8 +59,9 @@ it does with the ":if-does-not-exist" code, the next 3 lines read through the co
 lines of input up to an empty section, that section is treated as the end of the file.  It won't treat a blank space (space after a line of text) as the end of the file, it
 has to encounter a line with nothing on it for that to occur.
 
-The fourth line tells it while it's reading the line, it needs to print out the characters (the "~a" is Common Lisp's way of stating that it's looking to print ascii characters.
-Once it runs into an empty line, it's to consider it the end of the file and then , on the fifth line, it's to close that input.
+The fourth line tells it while it's reading the line, it needs to print out the characters while it's seeing them, up to the end of the file (the "~a" is Common Lisp's way of
+stating that it's looking to print ascii characters). Once it runs into an empty line, it's to consider it the end of the file and then , on the fifth line, it's to close 
+that file.
 
 Running this code produces:
 
