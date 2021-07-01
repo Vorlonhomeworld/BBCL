@@ -1,7 +1,7 @@
 
 # Input & Output
 
-Common Lisp has built in commands for reading and writing files.   For example, if I wanted to open a file and write a list of names, for example, I could do
+Common Lisp has built in commands for reading and writing files.   For example, if I wanted to open a file and write a list of names into that file, for example, I could do
 that fairly easily in Common Lisp with the following code:
 
 ```
