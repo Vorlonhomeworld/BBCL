@@ -98,4 +98,28 @@ However, when you go to read it back out, you'll notice that all entries run tog
 
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/read1.jpg" height="600" width="950"></a>
 
+You need to have line breaks inserted into the text if you want to view them with line breaks, so (terpri stream) can be used, but if you recall I said this wasn't the only 
+way to get line breaks, right?  You can actually insert line breaks using "~%" as we did before with the (format t "this text~%") before.  If we use the same program we used 
+before but add the "~%" after each word we want to have on it's own line, it would look like this:
+
+```
+
+#| Writes a file in Common Lisp |#
+
+(with-open-file (stream "C:/users/micha/common_lisp/my_database2.db" :direction :output)
+  (format stream "Eisner, Michael  alias King Farqhad~%")
+;  (terpri stream)
+  (format stream "Torvalds, Linus alias Linux Emperor~%")
+;  (terpri stream)
+  (format stream "You can even use a straight text format and store it this way too!~% ")
+  )
+  
+  ```
+  
+  Notice that (terpri stream) is still commented out, *but* at the end of each printed statement, we have the "~%" character. This is going to force a line break between 
+  each line we're asking the file to stream. Now, it still runs the same way, with nothing printed to the screen, just as before. When we ask for it to be printed back out
+  it will do so and it will add the line breaks right back in:
+  
+  <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/read2.jpg" height="600" width="950"></a>
+
 
