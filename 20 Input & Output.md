@@ -70,3 +70,32 @@ Running this code produces:
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/read.jpg" height="600" width="950"></a>
 
 
+Just in case you're wondering, **yes** you can run this code without the terpri function. Common Lisp will totally let you run the code like this:
+
+```
+
+#| Writes a file in Common Lisp |#
+
+(with-open-file (stream "C:/users/micha/common_lisp/my_database1.db" :direction :output)
+  (format stream "Eisner, Michael  alias King Farqhad")
+;  (terpri stream)
+  (format stream "Torvalds, Linus alias Linux Emperor")
+;  (terpri stream)
+  (format stream "You can even use a straight text format and store it this way too! ")
+  )
+
+```
+
+With the (terpri stream) command commented out, Common Lisp doesn't see it and therefore won't run that command.  Common Lisp will still run just as before, with no output to
+the screen:
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/write1.jpg" height="600" width="950"></a>
+
+
+However, when you go to read it back out, you'll notice that all entries run together and aren't seperated by line breaks at all:
+
+
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/read1.jpg" height="600" width="950"></a>
+
+
