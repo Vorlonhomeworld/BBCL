@@ -26,7 +26,7 @@ because we just told Common Lisp that we want to stream data to it. The command 
 Once we establish that this is the stream that we want our file to capture, we have to tell it **what** we want it to capture, so we print that data
 in quotes.
 
-The next line, *(terpri stream)* literally is a command to insert a carriage return into the stream.  **Terpri** is a concatenation of  "**Ter**minal **pri**nt".
+The next line, *(terpri stream)* is a command to insert a carriage return into the stream.  **Terpri** is a concatenation of  "**Ter**minal **pri**nt".
 Now, we're using it for *this* example, but to be honest, there are other ways to do this and I'll show you that in a second!  
 
 The remaining lines are a repeat of the two lines above, then we end this file.   
