@@ -99,8 +99,8 @@ However, when you go to read it back out, you'll notice that all entries run tog
 <a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/read1.jpg" height="600" width="950"></a>
 
 You need to have line breaks inserted into the text if you want to view them with line breaks, so (terpri stream) can be used, but if you recall I said this wasn't the only 
-way to get line breaks, right?  You can actually insert line breaks using "~%" as we did before with the (format t "this text~%") before.  If we use the same program we used 
-before but add the "~%" after each word we want to have on it's own line, it would look like this:
+way to get line breaks, right?  You can actually insert line breaks using "\~%" as we did before with the (format t "this text~%") before.  If we use the same program we used 
+before but add the "\~%" after each word we want to have on it's own line, it would look like this:
 
 ```
 
