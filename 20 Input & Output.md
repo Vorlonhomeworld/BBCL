@@ -67,7 +67,7 @@ Running this code produces:
 
 
 
-<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/read.jpg" height="600" width="950"></a>
+<a href="rel"><img src="https://github.com/Vorlonhomeworld/BBCL/blob/main/images/read.jpg" height="600" width="950"></a>
 
 
 Just in case you're wondering, **yes** you can run this code without the terpri function. Common Lisp will totally let you run the code like this:
