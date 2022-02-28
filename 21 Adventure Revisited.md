@@ -18,3 +18,6 @@ created , what version of the game this is and list a keyword to assist in findi
 Lines 26 through 31 are the start of the global variables - these lines are comments to let.   Line 33 is a line of code specifically for sbcl only, any other type of 
 Common Lisp would ignore this. Essentially, it's telling sbcl to not print (muffle-conditions) any kind of style warnings.  The "#+" portion specficially tell Common 
 Lisp that a function is coming up, and writing it that way is an acceptable shorthand for the word "function".
+
+Lines 35 through 37 are a macro that helps us set up our parser. It's job is to look at anything we type in 
+and specifically look for [predicates](https://www.thoughtco.com/what-is-a-predicate-1691010) 
